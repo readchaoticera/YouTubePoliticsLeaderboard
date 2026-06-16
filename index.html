@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Political YouTube Leaderboard · Chaotic Era</title>
+    <script>
+      /* ?embed=1 -> hide masthead/footer so the page blends inside an iframe */
+      try {
+        if (new URLSearchParams(location.search).has("embed"))
+          document.documentElement.classList.add("embed");
+      } catch (e) {}
+    </script>
+    <link rel="icon" type="image/png" href="assets/logo.png" />
+    <link rel="apple-touch-icon" href="assets/logo.png" />
+    <meta
+      name="description"
+      content="A sortable leaderboard of the biggest political YouTube channels — ranked by subscribers, growth, and views. Built by Chaotic Era."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="masthead-inner">
+        <a class="brand" href="https://chaoticera.news" target="_blank" rel="noopener">
+          <img class="brand-logo" src="assets/logo.png" alt="Chaotic Era logo" width="40" height="40" />
+          <span class="brand-name">Chaotic Era</span>
+        </a>
+        <a class="subscribe-btn" href="https://chaoticera.news/subscribe" target="_blank" rel="noopener">
+          Subscribe
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="kicker">The Chaotic Era Leaderboard</p>
+        <h1>The Political Ecosystem on YouTube</h1>
+        <p class="dek">
+          The biggest political channels on <strong>YouTube</strong>, ranked by total subscribers,
+          subscriber growth, and views. Spanning news, commentary, podcasts, and creators across the
+          spectrum. Created by Kyle Tharp.
+        </p>
+      </section>
+
+      <section class="chart-section" aria-label="Subscriber bubble chart">
+        <div class="chart-legend">
+          <span class="lg"><i class="dot" style="background:#419eff"></i>Left</span>
+          <span class="lg"><i class="dot" style="background:#fa2c5d"></i>Right</span>
+          <span class="lg"><i class="dot" style="background:#9aa6b2"></i>Unrated</span>
+        </div>
+        <div id="bubble-chart"></div>
+      </section>
+
+      <aside class="cta">
+        <p>
+          Join <strong>16,000+</strong> political and media insiders for data-driven insights you
+          can't get anywhere else.
+          <a href="https://www.chaoticera.news" target="_blank" rel="noopener">Subscribe to Chaotic Era here &raquo;</a>
+        </p>
+      </aside>
+
+      <div class="controls">
+        <div class="tools">
+          <input
+            id="search"
+            type="search"
+            class="search"
+            placeholder="Filter by channel name or lean…"
+            aria-label="Filter channels"
+          />
+          <span id="meta" class="meta"></span>
+        </div>
+      </div>
+
+      <div id="banner" class="banner" hidden></div>
+
+      <div class="table-wrap">
+        <table id="leaderboard">
+          <thead>
+            <tr>
+              <th class="sortable" data-key="channel">Channel</th>
+              <th class="sortable" data-key="lean">
+                Lean<span class="hint" title="Subjective, editorial partisan-lean judgment by Chaotic Era — see notes below. Sort or filter by it.">ⓘ</span>
+              </th>
+              <th class="num sortable" data-key="subscribers">
+                Subscribers<span class="hint" title="Total channel subscribers.">ⓘ</span>
+              </th>
+              <th class="num sortable" data-key="growth90">
+                90-Day Growth<span class="hint" title="Subscribers added over the trailing 90 days. N/A where unavailable.">ⓘ</span>
+              </th>
+              <th class="num sortable" data-key="views">
+                Total Views<span class="hint" title="All-time video views for the channel.">ⓘ</span>
+              </th>
+              <th class="num sortable" data-key="views90">
+                90-Day Views<span class="hint" title="Video views added over the trailing 90 days. N/A where unavailable.">ⓘ</span>
+              </th>
+              <th>URL</th>
+            </tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+        <p id="empty" class="empty" hidden>No channels match your filter.</p>
+      </div>
+
+      <section class="methodology">
+        <h2>About this leaderboard</h2>
+        <ul>
+          <li>
+            This board tracks leading <strong>political YouTube channels</strong> — including news
+            outlets, commentary shows, podcasts, advocacy organizations, and independent creators
+            whose primary focus is U.S. politics and current affairs.
+          </li>
+          <li>
+            <strong>Subscribers</strong> is the channel's total subscriber count.
+            <strong>Total Views</strong> is all-time cumulative video views.
+          </li>
+          <li>
+            <strong>90-Day Growth</strong> and <strong>90-Day Views</strong> measure subscribers and
+            views added over the trailing 90 days. A few channels don't report a trailing figure and
+            show <span class="na">N/A</span>; negative values reflect reported corrections.
+          </li>
+          <li>
+            <strong>Lean</strong> is a <em>subjective editorial judgment</em> by Chaotic Era, not a
+            scientific measure — reasonable people will disagree. We use two buckets:
+            <span class="lean lean-left">Left</span> (left-leaning, progressive, or Democrat) and
+            <span class="lean lean-right">Right</span> (right-leaning, conservative, or Republican).
+            Channels we haven't assessed (or that don't fit cleanly) show as
+            <span class="lean lean-unrated">Unrated</span>. Spot one you'd label differently?
+            <a href="https://chaoticera.news" target="_blank" rel="noopener">Let us know.</a>
+          </li>
+          <li>
+            <strong>URL</strong> links to each channel on YouTube. Where we have a verified channel
+            handle it links directly; otherwise it opens a YouTube search that resolves to the channel.
+          </li>
+          <li>
+            Click any column header to re-sort. Use the search box to filter by channel or lean. Data
+            is refreshed periodically.
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        Built by <a href="https://chaoticera.news" target="_blank" rel="noopener">Chaotic Era</a> ·
+        Politics, media &amp; online influence by Kyle Tharp.
+      </p>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+    <script src="chart.js"></script>
+  </body>
+</html>

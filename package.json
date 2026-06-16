@@ -1,0 +1,14 @@
+{
+  "name": "youtube-politics-leaderboard",
+  "version": "1.0.0",
+  "description": "A sortable leaderboard of the biggest political YouTube channels, branded for Chaotic Era.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-data.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
