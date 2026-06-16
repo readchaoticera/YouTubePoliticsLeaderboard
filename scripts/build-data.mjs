@@ -51,22 +51,25 @@ async function main() {
     .filter((cols) => cols.length >= 7 && cols[0] && norm(cols[0]) !== "channel");
 
   let withRealUrl = 0;
-  const channels = rows.map((cols) => {
-    const channel = cols[0];
-    const realUrl = handleToUrl(handles[norm(channel)]);
-    if (realUrl) withRealUrl++;
-    return {
-      channel,
-      subscribers: parseNum(cols[1]),
-      growth30: parseNum(cols[2]),
-      growth90: parseNum(cols[3]),
-      views: parseNum(cols[4]),
-      views30: parseNum(cols[5]),
-      views90: parseNum(cols[6]),
-      url: realUrl || `https://www.youtube.com/results?search_query=${encodeURIComponent(channel)}`,
-      hasRealUrl: !!realUrl,
-    };
-  });
+  const MIN_SUBS = 100000; // only publish channels with at least this many subscribers
+  const channels = rows
+    .map((cols) => {
+      const channel = cols[0];
+      const realUrl = handleToUrl(handles[norm(channel)]);
+      return {
+        channel,
+        subscribers: parseNum(cols[1]),
+        growth30: parseNum(cols[2]),
+        growth90: parseNum(cols[3]),
+        views: parseNum(cols[4]),
+        views30: parseNum(cols[5]),
+        views90: parseNum(cols[6]),
+        url: realUrl || `https://www.youtube.com/results?search_query=${encodeURIComponent(channel)}`,
+        hasRealUrl: !!realUrl,
+      };
+    })
+    .filter((c) => c.subscribers >= MIN_SUBS);
+  for (const c of channels) if (c.hasRealUrl) withRealUrl++;
 
   const out = {
     title: "The Biggest Political YouTube Channels",

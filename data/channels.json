@@ -1,8 +1,8 @@
 {
   "title": "The Biggest Political YouTube Channels",
   "source": "live",
-  "generatedAt": "2026-06-16T17:02:19.500Z",
-  "count": 353,
+  "generatedAt": "2026-06-16T17:40:15.581Z",
+  "count": 318,
   "notes": {
     "growth90": "Subscribers added over the trailing 90 days.",
     "views90": "Video views added over the trailing 90 days.",
@@ -1242,17 +1242,6 @@
       "hasRealUrl": false
     },
     {
-      "channel": "Josh Greene",
-      "subscribers": 67000,
-      "growth30": 8600,
-      "growth90": 36000,
-      "views": 59000000,
-      "views30": 10000000,
-      "views90": 33000000,
-      "url": "https://www.youtube.com/results?search_query=Josh%20Greene",
-      "hasRealUrl": false
-    },
-    {
       "channel": "Mother Jones",
       "subscribers": 355000,
       "growth30": 19000,
@@ -1429,28 +1418,6 @@
       "hasRealUrl": false
     },
     {
-      "channel": "Jeremy Boreing",
-      "subscribers": 41000,
-      "growth30": 5700,
-      "growth90": 29000,
-      "views": 1500000,
-      "views30": 520000,
-      "views90": 1400000,
-      "url": "https://www.youtube.com/results?search_query=Jeremy%20Boreing",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "Senator Reverend Raphael Warnock",
-      "subscribers": 37000,
-      "growth30": 5600,
-      "growth90": 29000,
-      "views": 7800000,
-      "views30": 1500000,
-      "views90": 6400000,
-      "url": "https://www.youtube.com/results?search_query=Senator%20Reverend%20Raphael%20Warnock",
-      "hasRealUrl": false
-    },
-    {
       "channel": "Carlos Eduardo Espina",
       "subscribers": 564000,
       "growth30": 2000,
@@ -1514,17 +1481,6 @@
       "views30": 7400000,
       "views90": 27000000,
       "url": "https://www.youtube.com/results?search_query=Anthony%20Scaramucci",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "Queer Collective",
-      "subscribers": 88000,
-      "growth30": 16000,
-      "growth90": 28000,
-      "views": 5900000,
-      "views30": 1600000,
-      "views90": 2700000,
-      "url": "https://www.youtube.com/results?search_query=Queer%20Collective",
       "hasRealUrl": false
     },
     {
@@ -1690,17 +1646,6 @@
       "views30": 2300000,
       "views90": 5700000,
       "url": "https://www.youtube.com/results?search_query=Dave%20Smith",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "The Moderate Case",
-      "subscribers": 49000,
-      "growth30": 3700,
-      "growth90": 23000,
-      "views": 1400000,
-      "views30": 206000,
-      "views90": 768000,
-      "url": "https://www.youtube.com/results?search_query=The%20Moderate%20Case",
       "hasRealUrl": false
     },
     {
@@ -2056,39 +2001,6 @@
       "hasRealUrl": false
     },
     {
-      "channel": "COURIER",
-      "subscribers": 55000,
-      "growth30": 3900,
-      "growth90": 16000,
-      "views": 8000000,
-      "views30": 408000,
-      "views90": 2000000,
-      "url": "https://www.youtube.com/results?search_query=COURIER",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "Jobob",
-      "subscribers": 53000,
-      "growth30": 4400,
-      "growth90": 15000,
-      "views": 64000000,
-      "views30": 13000000,
-      "views90": 37000000,
-      "url": "https://www.youtube.com/results?search_query=Jobob",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "Johnny Palmadessa",
-      "subscribers": 67000,
-      "growth30": 1400,
-      "growth90": 15000,
-      "views": 43000000,
-      "views30": 1600000,
-      "views90": 14000000,
-      "url": "https://www.youtube.com/results?search_query=Johnny%20Palmadessa",
-      "hasRealUrl": false
-    },
-    {
       "channel": "Spot On with Link Lauren",
       "subscribers": 231000,
       "growth30": 5000,
@@ -2265,17 +2177,6 @@
       "hasRealUrl": false
     },
     {
-      "channel": "The Luncheon Lawyer",
-      "subscribers": 46000,
-      "growth30": 1300,
-      "growth90": 12000,
-      "views": 18000000,
-      "views30": 907000,
-      "views90": 6000000,
-      "url": "https://www.youtube.com/results?search_query=The%20Luncheon%20Lawyer",
-      "hasRealUrl": false
-    },
-    {
       "channel": "Black Conservative Perspective",
       "subscribers": 1000000,
       "growth30": 4000,
@@ -2394,28 +2295,6 @@
       "views30": 4000000,
       "views90": 12000000,
       "url": "https://www.youtube.com/results?search_query=Talking%20Feds%20with%20Harry%20Litman",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "Crashing Out with Philip DeFranco & Alex Pearlman",
-      "subscribers": 87000,
-      "growth30": 2500,
-      "growth90": 11000,
-      "views": 6300000,
-      "views30": 679000,
-      "views90": 2500000,
-      "url": "https://www.youtube.com/results?search_query=Crashing%20Out%20with%20Philip%20DeFranco%20%26%20Alex%20Pearlman",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "Fast Politics w/ Molly Jong-Fast",
-      "subscribers": 83000,
-      "growth30": 4200,
-      "growth90": 11000,
-      "views": 14000000,
-      "views30": 1200000,
-      "views90": 3700000,
-      "url": "https://www.youtube.com/results?search_query=Fast%20Politics%20w%2F%20Molly%20Jong-Fast",
       "hasRealUrl": false
     },
     {
@@ -2727,17 +2606,6 @@
       "hasRealUrl": false
     },
     {
-      "channel": "Jason Salmon",
-      "subscribers": 93000,
-      "growth30": 2300,
-      "growth90": 9800,
-      "views": 23000000,
-      "views30": 1100000,
-      "views90": 4600000,
-      "url": "https://www.youtube.com/results?search_query=Jason%20Salmon",
-      "hasRealUrl": false
-    },
-    {
       "channel": "OfficialACLJ",
       "subscribers": 573000,
       "growth30": 2000,
@@ -2790,17 +2658,6 @@
       "views30": 1700000,
       "views90": 4900000,
       "url": "https://www.youtube.com/results?search_query=Fear%26",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "Maggie Reed",
-      "subscribers": 36000,
-      "growth30": 4800,
-      "growth90": 7100,
-      "views": 17000000,
-      "views30": 2200000,
-      "views90": 5700000,
-      "url": "https://www.youtube.com/results?search_query=Maggie%20Reed",
       "hasRealUrl": false
     },
     {
@@ -2870,39 +2727,6 @@
       "hasRealUrl": false
     },
     {
-      "channel": "LIBERTY'S VOICE WITH MARK LEVIN",
-      "subscribers": 75000,
-      "growth30": 500,
-      "growth90": 6800,
-      "views": 7900000,
-      "views30": 100000,
-      "views90": 681000,
-      "url": "https://www.youtube.com/results?search_query=LIBERTY'S%20VOICE%20WITH%20MARK%20LEVIN",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "The Mark Levin Show",
-      "subscribers": 99000,
-      "growth30": 1400,
-      "growth90": 6500,
-      "views": 8600000,
-      "views30": 251000,
-      "views90": 797000,
-      "url": "https://www.youtube.com/results?search_query=The%20Mark%20Levin%20Show",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "Wesley Hunt",
-      "subscribers": 32000,
-      "growth30": 5200,
-      "growth90": 6400,
-      "views": 20000000,
-      "views30": 2300000,
-      "views90": 3000000,
-      "url": "https://www.youtube.com/results?search_query=Wesley%20Hunt",
-      "hasRealUrl": false
-    },
-    {
       "channel": "Chicks on the Right",
       "subscribers": 185000,
       "growth30": 3000,
@@ -2955,28 +2779,6 @@
       "views30": 1400000,
       "views90": 4600000,
       "url": "https://www.youtube.com/results?search_query=Political%20Voices%20Network",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "It's Open with Ilana Glazer",
-      "subscribers": 17000,
-      "growth30": 3100,
-      "growth90": 5500,
-      "views": 2800000,
-      "views30": 741000,
-      "views90": 1400000,
-      "url": "https://www.youtube.com/results?search_query=It's%20Open%20with%20Ilana%20Glazer",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "Progressive News Network",
-      "subscribers": 13000,
-      "growth30": 100,
-      "growth90": 5300,
-      "views": 786000,
-      "views30": -449000,
-      "views90": 629000,
-      "url": "https://www.youtube.com/results?search_query=Progressive%20News%20Network",
       "hasRealUrl": false
     },
     {
@@ -3054,28 +2856,6 @@
       "views30": 549000,
       "views90": 3100000,
       "url": "https://www.youtube.com/results?search_query=Senator%20Chris%20Murphy",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "Heidytorr",
-      "subscribers": 25000,
-      "growth30": 1900,
-      "growth90": 4600,
-      "views": 9000000,
-      "views30": 454000,
-      "views90": 1900000,
-      "url": "https://www.youtube.com/results?search_query=Heidytorr",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "Salon",
-      "subscribers": 71000,
-      "growth30": 400,
-      "growth90": 4400,
-      "views": 19000000,
-      "views30": 318000,
-      "views90": 1300000,
-      "url": "https://www.youtube.com/results?search_query=Salon",
       "hasRealUrl": false
     },
     {
@@ -3200,39 +2980,6 @@
       "hasRealUrl": false
     },
     {
-      "channel": "What A Day",
-      "subscribers": 81000,
-      "growth30": 500,
-      "growth90": 3900,
-      "views": 7900000,
-      "views30": 192000,
-      "views90": 863000,
-      "url": "https://www.youtube.com/results?search_query=What%20A%20Day",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "Qasim Rashid",
-      "subscribers": 29000,
-      "growth30": 200,
-      "growth90": 3600,
-      "views": 2800000,
-      "views30": 93000,
-      "views90": 797000,
-      "url": "https://www.youtube.com/results?search_query=Qasim%20Rashid",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "Offline with Jon Favreau",
-      "subscribers": 49000,
-      "growth30": 300,
-      "growth90": 3400,
-      "views": 20000000,
-      "views30": 129000,
-      "views90": 624000,
-      "url": "https://www.youtube.com/results?search_query=Offline%20with%20Jon%20Favreau",
-      "hasRealUrl": false
-    },
-    {
       "channel": "The Speech Prof",
       "subscribers": 388000,
       "growth30": null,
@@ -3329,17 +3076,6 @@
       "views30": 731000,
       "views90": 2200000,
       "url": "https://www.youtube.com/results?search_query=Next%20Up%20with%20Mark%20Halperin",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "Texas Scorecard",
-      "subscribers": 48000,
-      "growth30": 700,
-      "growth90": 2200,
-      "views": 22000000,
-      "views30": 312000,
-      "views90": 1600000,
-      "url": "https://www.youtube.com/results?search_query=Texas%20Scorecard",
       "hasRealUrl": false
     },
     {
@@ -3453,50 +3189,6 @@
       "hasRealUrl": false
     },
     {
-      "channel": "Bakari Sellers",
-      "subscribers": 39000,
-      "growth30": 200,
-      "growth90": 1700,
-      "views": 11000000,
-      "views30": 257000,
-      "views90": 1500000,
-      "url": "https://www.youtube.com/results?search_query=Bakari%20Sellers",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "Bongino Report",
-      "subscribers": 57000,
-      "growth30": 1300,
-      "growth90": 1600,
-      "views": 7900000,
-      "views30": 1500000,
-      "views90": 2000000,
-      "url": "https://www.youtube.com/results?search_query=Bongino%20Report",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "endeavorance",
-      "subscribers": 60000,
-      "growth30": 200,
-      "growth90": 1500,
-      "views": 3400000,
-      "views30": 96000,
-      "views90": 344000,
-      "url": "https://www.youtube.com/results?search_query=endeavorance",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "Suris",
-      "subscribers": 67000,
-      "growth30": 100,
-      "growth90": 1400,
-      "views": 22000000,
-      "views30": 178000,
-      "views90": 536000,
-      "url": "https://www.youtube.com/results?search_query=Suris",
-      "hasRealUrl": false
-    },
-    {
       "channel": "Belle of the Ranch",
       "subscribers": 878000,
       "growth30": null,
@@ -3582,83 +3274,6 @@
       "views30": 235000,
       "views90": 1300000,
       "url": "https://www.youtube.com/results?search_query=Whatifalthist",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "Dave Bondy",
-      "subscribers": 21000,
-      "growth30": 200,
-      "growth90": 900,
-      "views": 4900000,
-      "views30": 158000,
-      "views90": 805000,
-      "url": "https://www.youtube.com/results?search_query=Dave%20Bondy",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "The Mike Malloy Youtube Channel",
-      "subscribers": 54000,
-      "growth30": 400,
-      "growth90": 800,
-      "views": 14000000,
-      "views30": 20000,
-      "views90": 79000,
-      "url": "https://www.youtube.com/results?search_query=The%20Mike%20Malloy%20Youtube%20Channel",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "The Hometown Holler",
-      "subscribers": 8000,
-      "growth30": 190,
-      "growth90": 740,
-      "views": 861000,
-      "views30": 36000,
-      "views90": 159000,
-      "url": "https://www.youtube.com/results?search_query=The%20Hometown%20Holler",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "PushBlack",
-      "subscribers": 85000,
-      "growth30": 200,
-      "growth90": 700,
-      "views": 15000,
-      "views30": 11000,
-      "views90": -3600000,
-      "url": "https://www.youtube.com/results?search_query=PushBlack",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "Senator Chuck Schumer",
-      "subscribers": 19000,
-      "growth30": 100,
-      "growth90": 300,
-      "views": 10000000,
-      "views30": 156000,
-      "views90": 392000,
-      "url": "https://www.youtube.com/results?search_query=Senator%20Chuck%20Schumer",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "Egberto Willies (Politics Done Right)",
-      "subscribers": 44000,
-      "growth30": null,
-      "growth90": 200,
-      "views": 23000000,
-      "views30": 50000,
-      "views90": 272000,
-      "url": "https://www.youtube.com/results?search_query=Egberto%20Willies%20(Politics%20Done%20Right)",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "Slick & Thick Podcast",
-      "subscribers": 16000,
-      "growth30": null,
-      "growth90": 200,
-      "views": 15000000,
-      "views30": 15000,
-      "views90": 68000,
-      "url": "https://www.youtube.com/results?search_query=Slick%20%26%20Thick%20Podcast",
       "hasRealUrl": false
     },
     {
