@@ -324,8 +324,10 @@ tbody tr:hover { background: #f4f9ff; }
   border: 1px solid transparent;
   white-space: nowrap;
 }
-.lean-left { background: #e7f0ff; color: #2563eb; border-color: #c7dbff; }
-.lean-right { background: #fdeaea; color: #dc2626; border-color: #f6cccc; }
+.lean-left { background: #dbe9ff; color: #1d4ed8; border-color: #b8d4ff; }
+.lean-leanleft { background: #eef5ff; color: #4a93e0; border-color: #d3e6fb; }
+.lean-leanright { background: #ffeef3; color: #df6b8a; border-color: #fbd2de; }
+.lean-right { background: #ffe1e1; color: #dc2626; border-color: #f6c4c4; }
 .lean-neutral { background: #eef1f5; color: #5b6675; border-color: #dbe2ea; }
 .lean-unrated { background: transparent; color: #9aa6b2; border-color: #e6ecf3; }
 

@@ -7,8 +7,20 @@
 (() => {
   "use strict";
 
-  const COLORS = { left: "#419eff", right: "#fa2c5d", neutral: "#9aa6b2", unrated: "#9aa6b2" };
-  const LEAN_LABEL = { left: "Left", right: "Right", neutral: "Neutral", unrated: "Unrated" };
+  const COLORS = {
+    left: "#419eff",
+    "leans-left": "#8fc4ff",
+    "leans-right": "#ff9bb3",
+    right: "#fa2c5d",
+    unrated: "#9aa6b2",
+  };
+  const LEAN_LABEL = {
+    left: "Left",
+    "leans-left": "Leans Left",
+    "leans-right": "Leans Right",
+    right: "Right",
+    unrated: "Unrated",
+  };
   const NF = new Intl.NumberFormat("en-US");
   const CHART_LIMIT = 100; // top N channels by subscribers (keeps the cluster readable)
 

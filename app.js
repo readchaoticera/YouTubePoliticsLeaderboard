@@ -8,11 +8,14 @@
 
   // Subjective partisan-lean buckets (data/lean.json maps channel name -> key).
   const LEAN_META = {
-    left: { label: "Left", cls: "lean-left", full: "Left-leaning, Progressive, or Democrat" },
-    right: { label: "Right", cls: "lean-right", full: "Right-leaning, Conservative, or Republican" },
-    neutral: { label: "Neutral", cls: "lean-neutral", full: "Neutral or Nonpartisan" },
+    left: { label: "Left", cls: "lean-left", full: "Left — left-leaning, progressive, or Democrat" },
+    "leans-left": { label: "Leans Left", cls: "lean-leanleft", full: "Leans Left — center-left or a soft Democratic lean" },
+    "leans-right": { label: "Leans Right", cls: "lean-leanright", full: "Leans Right — center-right or a soft Republican lean" },
+    right: { label: "Right", cls: "lean-right", full: "Right — right-leaning, conservative, or Republican" },
     unrated: { label: "Unrated", cls: "lean-unrated", full: "Not yet classified — suggestions welcome" },
   };
+  // Sort order across the spectrum (left → right), with Unrated last.
+  const LEAN_ORDER = { left: 0, "leans-left": 1, "leans-right": 2, right: 3, unrated: 4 };
 
   const state = {
     rows: [], // enriched channel records
@@ -102,9 +105,14 @@
     }
     let va = a[k];
     let vb = b[k];
-    if (k === "channel" || k === "lean") {
-      va = String(k === "lean" ? (LEAN_META[a.lean] || {}).label : va || "").toLowerCase();
-      vb = String(k === "lean" ? (LEAN_META[b.lean] || {}).label : vb || "").toLowerCase();
+    if (k === "lean") {
+      const ra = LEAN_ORDER[a.lean] ?? 99;
+      const rb = LEAN_ORDER[b.lean] ?? 99;
+      return (ra - rb) * state.sortDir;
+    }
+    if (k === "channel") {
+      va = String(va || "").toLowerCase();
+      vb = String(vb || "").toLowerCase();
       return va < vb ? -state.sortDir : va > vb ? state.sortDir : 0;
     }
     va = Number(va) || 0;
