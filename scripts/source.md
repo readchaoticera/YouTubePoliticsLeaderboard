@@ -116,7 +116,6 @@ Mother Jones | 355K | 19K | 36K | 74M | 3.8M | 12M
 The Ezra Klein Show | 521K | 13K | 35K | 78M | 4.5M | 12M
 Raging Moderates | 281K | 4K | 35K | 45M | 3.2M | 15M
 Ohh that's RICH | 404K | 18K | 34K | 181M | 9.2M | 25M
-Politicon | 481K | 4K | 32K | 120M | 2.9M | 16M
 PoliticsGirl | 484K | 6K | 31K | 72M | 3.4M | 13M
 JayDee Milo | 367K | 2K | 31K | 486M | 16M | 47M
 Valuetainment | 7.2M | -- | 30K | 3.4B | 22M | 85M
@@ -128,7 +127,6 @@ Young America's Foundation | 2M | 10K | 30K | 1.6B | 4.2M | 11M
 The Joy Reid Show | 462K | 5K | 30K | 29M | 1.3M | 6.7M
 F.D Signifier | 1.2M | 10K | 30K | 86M | 828K | 2M
 Newsmax | 2.6M | 10K | 30K | 961M | 12M | 36M
-ALL THE SMOKE | 1.3M | 10K | 30K | 699M | 15M | 43M
 Dr. Josh Axe | 2.6M | 10K | 30K | 260M | 1.9M | 6M
 Jeremy Boreing | 41K | 5.7K | 29K | 1.5M | 520K | 1.4M
 Senator Reverend Raphael Warnock | 37K | 5.6K | 29K | 7.8M | 1.5M | 6.4M
@@ -172,7 +170,6 @@ VICE News | 9.3M | 10K | 20K | 3.5B | 9M | 22M
 Digital Social Hour Podcast by Sean Kelly | 1.3M | -- | 20K | 98M | 1.4M | 9.1M
 Second Thought | 1.9M | 10K | 20K | 210M | 1.1M | 2.8M
 ReasonTV | 1.4M | 10K | 20K | 527M | 4.5M | 20M
-Joe Budden TV | 1.6M | 10K | 20K | 921M | 9.8M | 30M
 Representative Pramila Jayapal | 139K | 1K | 20K | 83M | 939K | 10M
 Amala Ekpunobi | 2.5M | 10K | 20K | 1.6B | 11M | 32M
 Cyrus Janssen | 1M | -- | 20K | 218M | 2.2M | 9.8M

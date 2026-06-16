@@ -1,8 +1,8 @@
 {
   "title": "The Biggest Political YouTube Channels",
   "source": "live",
-  "generatedAt": "2026-06-16T16:54:06.230Z",
-  "count": 356,
+  "generatedAt": "2026-06-16T17:02:19.500Z",
+  "count": 353,
   "notes": {
     "growth90": "Subscribers added over the trailing 90 days.",
     "views90": "Video views added over the trailing 90 days.",
@@ -1297,17 +1297,6 @@
       "hasRealUrl": false
     },
     {
-      "channel": "Politicon",
-      "subscribers": 481000,
-      "growth30": 4000,
-      "growth90": 32000,
-      "views": 120000000,
-      "views30": 2900000,
-      "views90": 16000000,
-      "url": "https://www.youtube.com/results?search_query=Politicon",
-      "hasRealUrl": false
-    },
-    {
       "channel": "PoliticsGirl",
       "subscribers": 484000,
       "growth30": 6000,
@@ -1426,17 +1415,6 @@
       "views30": 12000000,
       "views90": 36000000,
       "url": "https://www.youtube.com/results?search_query=Newsmax",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "ALL THE SMOKE",
-      "subscribers": 1300000,
-      "growth30": 10000,
-      "growth90": 30000,
-      "views": 699000000,
-      "views30": 15000000,
-      "views90": 43000000,
-      "url": "https://www.youtube.com/results?search_query=ALL%20THE%20SMOKE",
       "hasRealUrl": false
     },
     {
@@ -1911,17 +1889,6 @@
       "views90": 20000000,
       "url": "https://www.youtube.com/@ReasonTV",
       "hasRealUrl": true
-    },
-    {
-      "channel": "Joe Budden TV",
-      "subscribers": 1600000,
-      "growth30": 10000,
-      "growth90": 20000,
-      "views": 921000000,
-      "views30": 9800000,
-      "views90": 30000000,
-      "url": "https://www.youtube.com/results?search_query=Joe%20Budden%20TV",
-      "hasRealUrl": false
     },
     {
       "channel": "Representative Pramila Jayapal",
