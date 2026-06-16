@@ -22,7 +22,7 @@
     unrated: "Unrated",
   };
   const NF = new Intl.NumberFormat("en-US");
-  const CHART_LIMIT = 100; // top N channels by subscribers (keeps the cluster readable)
+  const MIN_SUBS = 100000; // only chart channels with at least this many subscribers
 
   const nameKey = (s) => String(s || "").toLowerCase().replace(/\s+/g, " ").trim();
 
@@ -47,9 +47,8 @@
       for (const [n, v] of Object.entries(leanDoc.leans)) leans[nameKey(n)] = v;
 
     const items = doc.channels
-      .filter((c) => c.subscribers > 0)
+      .filter((c) => c.subscribers >= MIN_SUBS)
       .sort((a, b) => b.subscribers - a.subscribers)
-      .slice(0, CHART_LIMIT)
       .map((c) => ({
         name: String(c.channel || "").trim(),
         url: c.url,
