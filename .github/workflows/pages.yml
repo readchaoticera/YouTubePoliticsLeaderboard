@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["claude/charming-faraday-r0e2ll"]
   workflow_dispatch:
 
 permissions:
