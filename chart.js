@@ -1,9 +1,9 @@
 /* Chaotic Era — political-YouTube charts.
-   Three lean-coloured, interactive charts driven by data/channels.json + data/lean.json:
+   Three lean-colored, interactive charts driven by data/channels.json + data/lean.json:
      1. Total subscribers  -> packed-bubble chart (D3 force layout)
      2. Q2 subscriber growth -> horizontal row chart (top N)
      3. Q2 video views       -> horizontal row chart (top N)
-   Colour encodes partisan lean (blue = Left … red = Right). */
+   Color encodes partisan lean (blue = Left … red = Right). */
 (() => {
   "use strict";
 
@@ -121,7 +121,7 @@
       .attr("viewBox", `${minX - m} ${minY - m} ${maxX - minX + 2 * m} ${maxY - minY + 2 * m}`)
       .attr("class", "bubbles-svg")
       .attr("role", "img")
-      .attr("aria-label", "Packed bubbles of political YouTube channels, sized by subscribers and coloured by partisan lean");
+      .attr("aria-label", "Packed bubbles of political YouTube channels, sized by subscribers and colored by partisan lean");
 
     const tip = d3.select(el).append("div").attr("class", "bubble-tip").style("opacity", 0);
 

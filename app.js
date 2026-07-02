@@ -63,7 +63,7 @@
     return `<span title="${NF.format(v)}">${abbr(Math.abs(v))}</span>`;
   }
 
-  // Signed, colour-coded delta (used for Q2 subscriber growth & Q2 views).
+  // Signed, color-coded delta (used for Q2 subscriber growth & Q2 views).
   function deltaHTML(v) {
     if (v == null) v = 0;
     const sign = v > 0 ? "+" : v < 0 ? "−" : "";

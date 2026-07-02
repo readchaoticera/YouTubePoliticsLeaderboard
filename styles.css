@@ -6,7 +6,7 @@
    ============================================================ */
 :root {
   --ink: #0d1117;          /* near-black text */
-  --ink-soft: #5b6675;     /* muted cool grey */
+  --ink-soft: #5b6675;     /* muted cool gray */
   --paper: #fafcff;        /* Chaotic Era background */
   --paper-card: #ffffff;
   --line: #e6edf6;
@@ -190,6 +190,7 @@ main {
   margin: 0;
 }
 .chart-sub { font-size: 0.82rem; color: var(--ink-soft); }
+.chart-note { margin: 8px 2px 0; font-size: 0.78rem; color: var(--ink-soft); }
 
 /* ---------- Row (bar) charts ---------- */
 .row-chart {

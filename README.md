@@ -5,7 +5,7 @@ branded for [Chaotic Era](https://chaoticera.news) (Kyle Tharp's newsletter on
 politics, media, and online influence).
 
 It mirrors the design of the Chaotic Era **Substack Politics Leaderboard**, with
-three lean-coloured, interactive charts above a sortable table:
+three lean-colored, interactive charts above a sortable table:
 
 1. **Total Subscribers** — packed-bubble "map", every channel sized by subscribers.
 2. **Q2 Subscriber Growth** — horizontal row chart, top 25 by net subs gained in Q2.
@@ -67,7 +67,7 @@ upgrade a search link, add the exact handle to `data/handles.json` and re-run
 
 ## Branding
 
-All brand tokens (colours, fonts) live at the top of `styles.css` under `:root`,
+All brand tokens (colors, fonts) live at the top of `styles.css` under `:root`,
 matching the Chaotic Era Substack leaderboard. Append `?embed=1` to the URL to
 hide the masthead/footer for embedding in an iframe.
 

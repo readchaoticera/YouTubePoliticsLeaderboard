@@ -23,7 +23,7 @@
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=5b9f16c3" />
+    <link rel="stylesheet" href="styles.css?v=eca57b68" />
   </head>
   <body>
     <header class="masthead">
@@ -81,6 +81,7 @@
               <span class="chart-sub">Top 50 · scroll for more</span>
             </div>
             <div id="views-chart" class="row-chart"></div>
+            <p class="chart-note">Includes views from YouTube Shorts.</p>
           </div>
         </div>
       </section>
@@ -120,10 +121,10 @@
                 Total Subscribers<span class="hint" title="Total channel subscribers.">ⓘ</span>
               </th>
               <th class="num sortable" data-key="q2Growth">
-                Q2 Sub Growth<span class="hint" title="Net subscribers gained (or lost) during Q2. N/A where unavailable.">ⓘ</span>
+                Q2 Sub Growth<span class="hint" title="Net subscribers gained (or lost) during Q2. Shown as 0 where unavailable.">ⓘ</span>
               </th>
               <th class="num sortable" data-key="q2Views">
-                Q2 Views<span class="hint" title="Video views during Q2. N/A where unavailable.">ⓘ</span>
+                Q2 Views<span class="hint" title="Video views during Q2, including YouTube Shorts. Shown as 0 where unavailable.">ⓘ</span>
               </th>
               <th>URL</th>
             </tr>
@@ -144,12 +145,12 @@
           <li>
             <strong>Total Subscribers</strong> is the channel's total subscriber count.
             <strong>Q2 Sub Growth</strong> is net subscribers gained (or lost) during Q2, and
-            <strong>Q2 Views</strong> is video views during Q2. Channels without a reported Q2
-            figure are shown as <strong>0</strong>; negative values reflect losses or reported
-            corrections.
+            <strong>Q2 Views</strong> is video views during Q2, and <strong>includes views from
+            YouTube Shorts</strong>. Channels without a reported Q2 figure are shown as
+            <strong>0</strong>; negative values reflect losses or reported corrections.
           </li>
           <li>
-            The charts are colour-coded by lean: the <strong>bubble chart</strong> plots every channel
+            The charts are color-coded by lean: the <strong>bubble chart</strong> plots every channel
             sized by total subscribers, and the two <strong>row charts</strong> rank the top 50 by Q2
             subscriber growth and Q2 views (about 25 visible; scroll within a chart for the rest). Hover any mark for detail; click to open the channel.
           </li>
@@ -183,8 +184,8 @@
       </p>
     </footer>
 
-    <script src="app.js?v=bf16589f"></script>
+    <script src="app.js?v=c2ef505c"></script>
     <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
-    <script src="chart.js?v=55e282e0"></script>
+    <script src="chart.js?v=3865fcb4"></script>
   </body>
 </html>
