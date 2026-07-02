@@ -172,6 +172,9 @@ main {
 .chart-block { margin: 8px 0 26px; }
 .chart-row { display: flex; gap: 20px; align-items: flex-start; }
 .chart-row > .chart-block { flex: 1 1 0; min-width: 0; }
+/* Keep both column headers a single line so the charts start at the same height. */
+.chart-row .chart-head { flex-wrap: nowrap; }
+.chart-row .chart-sub { min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .chart-head {
   display: flex;
   align-items: baseline;
