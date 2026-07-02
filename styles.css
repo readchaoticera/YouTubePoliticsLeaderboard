@@ -170,6 +170,8 @@ main {
 
 /* ---------- Chart panels & headings ---------- */
 .chart-block { margin: 8px 0 26px; }
+.chart-row { display: flex; gap: 20px; align-items: flex-start; }
+.chart-row > .chart-block { flex: 1 1 0; min-width: 0; }
 .chart-head {
   display: flex;
   align-items: baseline;
@@ -502,4 +504,5 @@ tbody tr:hover { background: #f4f9ff; }
   .rowbar-label { flex-basis: 104px; width: 104px; font-size: 0.76rem; }
   .rowbar-val { min-width: 44px; font-size: 0.76rem; }
   .rowbar { gap: 8px; }
+  .chart-row { flex-direction: column; gap: 0; }
 }

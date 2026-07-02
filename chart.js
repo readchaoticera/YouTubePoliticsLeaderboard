@@ -185,11 +185,12 @@
       .map((d) => {
         const color = COLORS[d.lean] || COLORS.unrated;
         const pct = Math.max(0, (d[key] / max) * 100);
-        const title = `${d.name} · ${abbr(d[key])} · ${LEAN_LABEL[d.lean]}`;
+        const valLabel = (d[key] > 0 ? "+" : "") + abbr(d[key]);
+        const title = `${d.name} · ${valLabel} · ${LEAN_LABEL[d.lean]}`;
         return `<a class="rowbar" href="${escapeHTML(d.url)}" target="_blank" rel="noopener" title="${escapeHTML(title)}">
           <span class="rowbar-label">${escapeHTML(d.name)}</span>
           <span class="rowbar-track"><span class="rowbar-fill" style="width:${pct.toFixed(2)}%;background:${color}"></span></span>
-          <span class="rowbar-val">${abbr(d[key])}</span>
+          <span class="rowbar-val">${valLabel}</span>
         </a>`;
       })
       .join("");
