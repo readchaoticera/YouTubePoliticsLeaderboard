@@ -49,15 +49,38 @@
         </p>
       </section>
 
-      <section class="chart-section" aria-label="Subscriber bubble chart">
+      <section class="chart-section" aria-label="Charts">
         <div class="chart-legend">
           <span class="lg"><i class="dot" style="background:#419eff"></i>Left</span>
-          <span class="lg"><i class="dot" style="background:#8fc4ff"></i>Leans Left</span>
-          <span class="lg"><i class="dot" style="background:#ff9bb3"></i>Leans Right</span>
+          <span class="lg"><i class="dot" style="background:#8fc4ff"></i>Left Adjacent</span>
+          <span class="lg"><i class="dot" style="background:#ff9bb3"></i>Right Adjacent</span>
           <span class="lg"><i class="dot" style="background:#fa2c5d"></i>Right</span>
           <span class="lg"><i class="dot" style="background:#9aa6b2"></i>Unrated</span>
         </div>
-        <div id="bubble-chart"></div>
+
+        <div class="chart-block" aria-label="Total subscribers bubble chart">
+          <div class="chart-head">
+            <h2 class="chart-title">Total Subscribers</h2>
+            <span class="chart-sub">Every channel, sized by subscribers · hover for detail, click to open</span>
+          </div>
+          <div id="bubble-chart"></div>
+        </div>
+
+        <div class="chart-block" aria-label="Q2 subscriber growth chart">
+          <div class="chart-head">
+            <h2 class="chart-title">Q2 Subscriber Growth</h2>
+            <span class="chart-sub">Top 25 by net subscribers gained in Q2</span>
+          </div>
+          <div id="growth-chart" class="row-chart"></div>
+        </div>
+
+        <div class="chart-block" aria-label="Q2 video views chart">
+          <div class="chart-head">
+            <h2 class="chart-title">Q2 Video Views</h2>
+            <span class="chart-sub">Top 25 by video views in Q2</span>
+          </div>
+          <div id="views-chart" class="row-chart"></div>
+        </div>
       </section>
 
       <aside class="cta">
@@ -92,16 +115,13 @@
                 Lean<span class="hint" title="Subjective, editorial partisan-lean judgment by Chaotic Era — see notes below. Sort or filter by it.">ⓘ</span>
               </th>
               <th class="num sortable" data-key="subscribers">
-                Subscribers<span class="hint" title="Total channel subscribers.">ⓘ</span>
+                Total Subscribers<span class="hint" title="Total channel subscribers.">ⓘ</span>
               </th>
-              <th class="num sortable" data-key="growth90">
-                90-Day Growth<span class="hint" title="Subscribers added over the trailing 90 days. N/A where unavailable.">ⓘ</span>
+              <th class="num sortable" data-key="q2Growth">
+                Q2 Sub Growth<span class="hint" title="Net subscribers gained (or lost) during Q2. N/A where unavailable.">ⓘ</span>
               </th>
-              <th class="num sortable" data-key="views">
-                Total Views<span class="hint" title="All-time video views for the channel.">ⓘ</span>
-              </th>
-              <th class="num sortable" data-key="views90">
-                90-Day Views<span class="hint" title="Video views added over the trailing 90 days. N/A where unavailable.">ⓘ</span>
+              <th class="num sortable" data-key="q2Views">
+                Q2 Views<span class="hint" title="Video views during Q2. N/A where unavailable.">ⓘ</span>
               </th>
               <th>URL</th>
             </tr>
@@ -120,21 +140,24 @@
             whose primary focus is U.S. politics and current affairs.
           </li>
           <li>
-            <strong>Subscribers</strong> is the channel's total subscriber count.
-            <strong>Total Views</strong> is all-time cumulative video views.
+            <strong>Total Subscribers</strong> is the channel's total subscriber count.
+            <strong>Q2 Sub Growth</strong> is net subscribers gained (or lost) during Q2, and
+            <strong>Q2 Views</strong> is video views during Q2. A few channels don't report a Q2
+            figure and show <span class="na">N/A</span>; negative values reflect losses or reported
+            corrections.
           </li>
           <li>
-            <strong>90-Day Growth</strong> and <strong>90-Day Views</strong> measure subscribers and
-            views added over the trailing 90 days. A few channels don't report a trailing figure and
-            show <span class="na">N/A</span>; negative values reflect reported corrections.
+            The charts are colour-coded by lean: the <strong>bubble chart</strong> plots every channel
+            sized by total subscribers, and the two <strong>row charts</strong> rank the top 25 by Q2
+            subscriber growth and Q2 views. Hover any mark for detail; click to open the channel.
           </li>
           <li>
             <strong>Lean</strong> is a <em>subjective editorial judgment</em> by Chaotic Era, not a
             scientific measure — reasonable people will disagree. We use four buckets:
             <span class="lean lean-left">Left</span>,
-            <span class="lean lean-leanleft">Leans Left</span>,
-            <span class="lean lean-leanright">Leans Right</span>, and
-            <span class="lean lean-right">Right</span> — where the "Leans" buckets capture a softer,
+            <span class="lean lean-leftadj">Left Adjacent</span>,
+            <span class="lean lean-rightadj">Right Adjacent</span>, and
+            <span class="lean lean-right">Right</span> — where the "Adjacent" buckets capture a softer,
             center-of-spectrum tilt. Channels we haven't assessed (or that don't fit cleanly) show as
             <span class="lean lean-unrated">Unrated</span>. Spot one you'd label differently?
             <a href="https://chaoticera.news" target="_blank" rel="noopener">Let us know.</a>

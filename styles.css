@@ -168,6 +168,78 @@ main {
   transition: opacity 0.12s ease;
 }
 
+/* ---------- Chart panels & headings ---------- */
+.chart-block { margin: 8px 0 26px; }
+.chart-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0 0 10px;
+  flex-wrap: wrap;
+}
+.chart-title {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0;
+}
+.chart-sub { font-size: 0.82rem; color: var(--ink-soft); }
+
+/* ---------- Row (bar) charts ---------- */
+.row-chart {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  padding: 10px 14px;
+}
+.rowbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 4px 4px;
+  text-decoration: none;
+  color: var(--ink);
+  border-radius: 6px;
+  transition: background 0.12s ease;
+}
+.rowbar + .rowbar { border-top: 1px solid var(--line); }
+.rowbar:hover { background: #f4f9ff; }
+.rowbar-label {
+  flex: 0 0 168px;
+  width: 168px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.rowbar-track {
+  flex: 1 1 auto;
+  min-width: 40px;
+  background: #eef2f7;
+  border-radius: 999px;
+  height: 14px;
+  overflow: hidden;
+}
+.rowbar-fill {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  min-width: 2px;
+  transition: width 0.2s ease;
+}
+.rowbar-val {
+  flex: 0 0 auto;
+  font-size: 0.82rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-soft);
+  min-width: 52px;
+  text-align: right;
+}
+
 /* ---------- Marketing callout ---------- */
 .cta {
   background: #02101f;
@@ -325,8 +397,8 @@ tbody tr:hover { background: #f4f9ff; }
   white-space: nowrap;
 }
 .lean-left { background: #dbe9ff; color: #1d4ed8; border-color: #b8d4ff; }
-.lean-leanleft { background: #eef5ff; color: #4a93e0; border-color: #d3e6fb; }
-.lean-leanright { background: #ffeef3; color: #df6b8a; border-color: #fbd2de; }
+.lean-leftadj { background: #eef5ff; color: #4a93e0; border-color: #d3e6fb; }
+.lean-rightadj { background: #ffeef3; color: #df6b8a; border-color: #fbd2de; }
 .lean-right { background: #ffe1e1; color: #dc2626; border-color: #f6c4c4; }
 .lean-neutral { background: #eef1f5; color: #5b6675; border-color: #dbe2ea; }
 .lean-unrated { background: transparent; color: #9aa6b2; border-color: #e6ecf3; }
@@ -427,4 +499,7 @@ tbody tr:hover { background: #f4f9ff; }
     color: var(--ink-soft);
   }
   td.num { text-align: right; }
+  .rowbar-label { flex-basis: 104px; width: 104px; font-size: 0.76rem; }
+  .rowbar-val { min-width: 44px; font-size: 0.76rem; }
+  .rowbar { gap: 8px; }
 }

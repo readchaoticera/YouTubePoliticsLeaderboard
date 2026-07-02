@@ -15,7 +15,14 @@ import { dirname, resolve } from "node:path";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
-const norm = (s) => String(s || "").toLowerCase().replace(/\s+/g, " ").trim();
+const norm = (s) =>
+  String(s || "")
+    .toLowerCase()
+    .replace(/[‘’]/g, "'")
+    .replace(/[“”]/g, '"')
+    .replace(/[–—]/g, "-")
+    .replace(/\s+/g, " ")
+    .trim();
 
 function parseNum(raw) {
   const s = String(raw || "").trim();
@@ -48,7 +55,7 @@ async function main() {
     .map((l) => l.trim())
     .filter((l) => l.includes("|"))
     .map((l) => l.split("|").map((c) => c.trim()))
-    .filter((cols) => cols.length >= 7 && cols[0] && norm(cols[0]) !== "channel");
+    .filter((cols) => cols.length >= 4 && cols[0] && norm(cols[0]) !== "channel");
 
   let withRealUrl = 0;
   const MIN_SUBS = 100000; // only publish channels with at least this many subscribers
@@ -59,11 +66,8 @@ async function main() {
       return {
         channel,
         subscribers: parseNum(cols[1]),
-        growth30: parseNum(cols[2]),
-        growth90: parseNum(cols[3]),
-        views: parseNum(cols[4]),
-        views30: parseNum(cols[5]),
-        views90: parseNum(cols[6]),
+        q2Growth: parseNum(cols[2]),
+        q2Views: parseNum(cols[3]),
         url: realUrl || `https://www.youtube.com/results?search_query=${encodeURIComponent(channel)}`,
         hasRealUrl: !!realUrl,
       };
@@ -77,8 +81,9 @@ async function main() {
     generatedAt: new Date().toISOString(),
     count: channels.length,
     notes: {
-      growth90: "Subscribers added over the trailing 90 days.",
-      views90: "Video views added over the trailing 90 days.",
+      subscribers: "Total channel subscribers.",
+      q2Growth: "Net subscribers gained (or lost) during Q2.",
+      q2Views: "Video views during Q2.",
       url: "Real channel URL where known (data/handles.json); otherwise a YouTube search link that resolves to the channel.",
     },
     channels,

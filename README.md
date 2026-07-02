@@ -4,20 +4,22 @@ A sortable, filterable leaderboard of the **biggest political YouTube channels**
 branded for [Chaotic Era](https://chaoticera.news) (Kyle Tharp's newsletter on
 politics, media, and online influence).
 
-It mirrors the design of the Chaotic Era **Substack Politics Leaderboard**: a
-packed-bubble "map" (sized by subscribers, coloured by partisan lean) above a
-sortable table.
+It mirrors the design of the Chaotic Era **Substack Politics Leaderboard**, with
+three lean-coloured, interactive charts above a sortable table:
 
-For each channel the table shows: **Channel**, **Partisan Lean**,
-**Subscribers**, **90-Day Subscriber Growth**, **Total Views**, **90-Day Views**,
-and a **channel URL**. Click any column header to sort; use the search box to
-filter by channel or lean.
+1. **Total Subscribers** — packed-bubble "map", every channel sized by subscribers.
+2. **Q2 Subscriber Growth** — horizontal row chart, top 25 by net subs gained in Q2.
+3. **Q2 Video Views** — horizontal row chart, top 25 by Q2 views.
+
+For each channel the table shows: **Channel**, **Partisan Lean**, **Total
+Subscribers**, **Q2 Sub Growth**, **Q2 Views**, and a **channel URL**. Click any
+column header to sort; use the search box to filter by channel or lean.
 
 ## Project layout
 
 ```
 index.html / styles.css / app.js   # static, sortable front-end (no build step)
-chart.js                            # D3 packed-bubble chart
+chart.js                            # the three charts (D3 bubble + HTML row charts)
 scripts/source.md                   # the raw channel data (pipe-delimited, editable)
 scripts/build-data.mjs              # source.md + handles.json -> data/channels.json
 scripts/serve.mjs                   # tiny local preview server
@@ -31,8 +33,10 @@ can be hosted anywhere (GitHub Pages, Netlify, Vercel, …).
 
 ## Updating the data
 
-1. Edit `scripts/source.md` (one channel per line, pipe-delimited). Numbers may
-   use `K` / `M` / `B` suffixes; use `--` for unavailable values.
+1. Edit `scripts/source.md` (one channel per line, pipe-delimited:
+   `Channel | Total Subscribers | Q2 Net Subscriber Growth | Q2 Video Views`).
+   Numbers may use `K` / `M` / `B` suffixes and may be negative; use `--` for
+   unavailable values.
 2. Rebuild the JSON the front-end reads:
 
    ```bash
@@ -47,9 +51,11 @@ can be hosted anywhere (GitHub Pages, Netlify, Vercel, …).
 
 ## Curating partisan lean
 
-`data/lean.json` maps a channel name → `"left"` | `"right"` | `"neutral"`.
-Anything not listed shows as **Unrated**. The current file is a **first pass** —
-edit it freely; it is never overwritten by `npm run build`.
+`data/lean.json` maps a channel name → `"left"` | `"left-adjacent"` |
+`"right-adjacent"` | `"right"`. Anything not listed shows as **Unrated**. The
+current file is a **first pass** — edit it freely; it is never overwritten by
+`npm run build`. (Matching normalizes case, curly quotes, en/em dashes and
+whitespace, so straight apostrophes/hyphens in your edits still match.)
 
 ## Channel URLs
 

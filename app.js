@@ -9,13 +9,13 @@
   // Subjective partisan-lean buckets (data/lean.json maps channel name -> key).
   const LEAN_META = {
     left: { label: "Left", cls: "lean-left", full: "Left — left-leaning, progressive, or Democrat" },
-    "leans-left": { label: "Leans Left", cls: "lean-leanleft", full: "Leans Left — center-left or a soft Democratic lean" },
-    "leans-right": { label: "Leans Right", cls: "lean-leanright", full: "Leans Right — center-right or a soft Republican lean" },
+    "left-adjacent": { label: "Left Adjacent", cls: "lean-leftadj", full: "Left Adjacent — center-left or a soft Democratic lean" },
+    "right-adjacent": { label: "Right Adjacent", cls: "lean-rightadj", full: "Right Adjacent — center-right or a soft Republican lean" },
     right: { label: "Right", cls: "lean-right", full: "Right — right-leaning, conservative, or Republican" },
     unrated: { label: "Unrated", cls: "lean-unrated", full: "Not yet classified — suggestions welcome" },
   };
   // Sort order across the spectrum (left → right), with Unrated last.
-  const LEAN_ORDER = { left: 0, "leans-left": 1, "leans-right": 2, right: 3, unrated: 4 };
+  const LEAN_ORDER = { left: 0, "left-adjacent": 1, "right-adjacent": 2, right: 3, unrated: 4 };
 
   const state = {
     rows: [], // enriched channel records
@@ -38,7 +38,14 @@
   const NF = new Intl.NumberFormat("en-US");
 
   // Normalize a channel name for matching against data/lean.json keys.
-  const nameKey = (s) => String(s || "").toLowerCase().replace(/\s+/g, " ").trim();
+  const nameKey = (s) =>
+    String(s || "")
+      .toLowerCase()
+      .replace(/[‘’]/g, "'")
+      .replace(/[“”]/g, '"')
+      .replace(/[–—]/g, "-")
+      .replace(/\s+/g, " ")
+      .trim();
 
   // Abbreviate a non-negative number: 7.3M, 510K, 9K, 3.4B, 190.
   function abbr(n) {
@@ -56,7 +63,7 @@
     return `<span title="${NF.format(v)}">${abbr(Math.abs(v))}</span>`;
   }
 
-  // Signed, colour-coded delta (used for 90-day subscriber growth & 90-day views).
+  // Signed, colour-coded delta (used for Q2 subscriber growth & Q2 views).
   function deltaHTML(v) {
     if (v == null) return '<span class="na">N/A</span>';
     const sign = v > 0 ? "+" : v < 0 ? "−" : "";
@@ -91,7 +98,7 @@
   }
 
   // Columns whose null values always sort to the bottom regardless of direction.
-  const NULLS_LAST = new Set(["growth90", "views90"]);
+  const NULLS_LAST = new Set(["q2Growth", "q2Views"]);
 
   function compare(a, b) {
     const k = state.sortKey;
@@ -135,9 +142,8 @@
           <td data-label="Channel" class="pub-name">${escapeHTML(p.channel)}</td>
           <td data-label="Lean">${leanHTML(p)}</td>
           <td class="num" data-label="Subscribers">${numHTML(p.subscribers)}</td>
-          <td class="num" data-label="90-Day Growth">${deltaHTML(p.growth90)}</td>
-          <td class="num" data-label="Total Views">${numHTML(p.views)}</td>
-          <td class="num" data-label="90-Day Views">${deltaHTML(p.views90)}</td>
+          <td class="num" data-label="Q2 Sub Growth">${deltaHTML(p.q2Growth)}</td>
+          <td class="num" data-label="Q2 Views">${deltaHTML(p.q2Views)}</td>
           <td data-label="URL">${urlHTML(p)}</td>
         </tr>`
       )
