@@ -59,13 +59,13 @@
   }
 
   function numHTML(v) {
-    if (v == null) return '<span class="na">N/A</span>';
+    if (v == null) v = 0;
     return `<span title="${NF.format(v)}">${abbr(Math.abs(v))}</span>`;
   }
 
   // Signed, colour-coded delta (used for Q2 subscriber growth & Q2 views).
   function deltaHTML(v) {
-    if (v == null) return '<span class="na">N/A</span>';
+    if (v == null) v = 0;
     const sign = v > 0 ? "+" : v < 0 ? "−" : "";
     const cls = v > 0 ? "growth-up" : v < 0 ? "growth-down" : "growth-flat";
     return `<span class="growth ${cls}" title="${sign}${NF.format(Math.abs(v))}">${sign}${abbr(Math.abs(v))}</span>`;

@@ -66,8 +66,9 @@ async function main() {
       return {
         channel,
         subscribers: parseNum(cols[1]),
-        q2Growth: parseNum(cols[2]),
-        q2Views: parseNum(cols[3]),
+        // Unavailable ("--") Q2 figures are treated as 0 (shown as 0, not N/A).
+        q2Growth: parseNum(cols[2]) ?? 0,
+        q2Views: parseNum(cols[3]) ?? 0,
         url: realUrl || `https://www.youtube.com/results?search_query=${encodeURIComponent(channel)}`,
         hasRealUrl: !!realUrl,
       };
