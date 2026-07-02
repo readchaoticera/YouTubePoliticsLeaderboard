@@ -124,7 +124,6 @@ Don Lemon | 1.3M | 70K | 66M
 TheHodgetwins | 1.3M | -- | 72K
 Mike Rowe | 1.3M | 50K | 10M
 SNEAKO | 1.3M | 10K | 938K
-ALL THE SMOKE | 1.3M | 40K | 46M
 Julian Dorey | 1.3M | 90K | 19M
 Senator Bernie Sanders | 1.3M | 20K | 9.6M
 Trish Regan | 1.3M | 60K | 219M
