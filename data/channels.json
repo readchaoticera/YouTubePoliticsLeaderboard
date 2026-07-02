@@ -1,8 +1,8 @@
 {
   "title": "The Biggest Political YouTube Channels",
   "source": "live",
-  "generatedAt": "2026-07-02T15:56:30.529Z",
-  "count": 375,
+  "generatedAt": "2026-07-02T17:44:30.847Z",
+  "count": 373,
   "notes": {
     "subscribers": "Total channel subscribers.",
     "q2Growth": "Net subscribers gained (or lost) during Q2.",
@@ -331,14 +331,6 @@
       "hasRealUrl": true
     },
     {
-      "channel": "CRUX",
-      "subscribers": 3400000,
-      "q2Growth": 60000,
-      "q2Views": 61000000,
-      "url": "https://www.youtube.com/results?search_query=CRUX",
-      "hasRealUrl": false
-    },
-    {
       "channel": "Democracy Now!",
       "subscribers": 3300000,
       "q2Growth": 60000,
@@ -465,14 +457,6 @@
       "q2Views": 29000000,
       "url": "https://www.youtube.com/@MichaelKnowles",
       "hasRealUrl": true
-    },
-    {
-      "channel": "Dr. Josh Axe",
-      "subscribers": 2600000,
-      "q2Growth": 30000,
-      "q2Views": 5700000,
-      "url": "https://www.youtube.com/results?search_query=Dr.%20Josh%20Axe",
-      "hasRealUrl": false
     },
     {
       "channel": "Newsmax",

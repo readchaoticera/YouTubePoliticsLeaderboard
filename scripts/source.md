@@ -39,7 +39,6 @@ More Perfect Union | 3.6M | 400K | 116M
 Channel 5 with Andrew Callaghan | 3.6M | 80K | 44M
 PragerU | 3.5M | -- | 63M
 Matt Walsh | 3.4M | 80K | 72M
-CRUX | 3.4M | 60K | 61M
 Democracy Now! | 3.3M | 60K | 51M
 Colion Noir | 3.3M | 60K | 43M
 The Daily Wire | 3.2M | -30K | -28M
@@ -56,7 +55,6 @@ CBN News | 2.8M | 50K | 49M
 Timcast IRL | 2.7M | 20K | 30M
 Daily Dose Of Masculinity | 2.7M | -- | -321M
 Michael Knowles | 2.6M | 10K | 29M
-Dr. Josh Axe | 2.6M | 30K | 5.7M
 Newsmax | 2.6M | 20K | 36M
 Josh Johnson | 2.5M | 130K | 72M
 New York Post | 2.5M | 70K | 138M
