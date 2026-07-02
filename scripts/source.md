@@ -102,7 +102,6 @@ The Trump Report | 1.7M | -- | 20M
 Dr. Steve Turley | 1.6M | 70K | 54M
 Lex Clips | 1.6M | 20K | 10M
 TheDC Shorts | 1.6M | 10K | 64M
-The Iced Coffee Hour | 1.6M | 50K | 135M
 The Lincoln Project | 1.6M | 20K | 13M
 Jack Cocchiarella | 1.6M | 70K | 163M
 Luke Beasley | 1.6M | 40K | 61M
