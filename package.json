@@ -4,7 +4,8 @@
   "description": "A sortable leaderboard of the biggest political YouTube channels, branded for Chaotic Era.",
   "type": "module",
   "scripts": {
-    "build": "node scripts/build-data.mjs",
+    "build": "node scripts/build-data.mjs && node scripts/stamp-assets.mjs",
+    "stamp": "node scripts/stamp-assets.mjs",
     "serve": "node scripts/serve.mjs"
   },
   "engines": {
