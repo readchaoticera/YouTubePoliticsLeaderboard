@@ -22,7 +22,7 @@
     unrated: "Unrated",
   };
   const NF = new Intl.NumberFormat("en-US");
-  const ROW_LIMIT = 25; // rows shown in each bar chart (top N by the metric)
+  const ROW_LIMIT = 50; // rows built for each bar chart (top N by the metric; ~25 visible, rest scroll)
 
   const nameKey = (s) =>
     String(s || "")

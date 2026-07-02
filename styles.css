@@ -195,6 +195,9 @@ main {
   border-radius: 12px;
   box-shadow: var(--shadow);
   padding: 10px 14px;
+  max-height: 720px; /* ~25 rows visible; scroll within for the rest */
+  overflow-y: auto;
+  scrollbar-width: thin;
 }
 .rowbar {
   display: flex;
