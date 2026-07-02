@@ -90,7 +90,8 @@
 
     const PAD = 2;
     const maxT = d3.max(items, (d) => d.total) || 1;
-    const r = d3.scaleSqrt().domain([0, maxT]).range([3.5, 52]);
+    // Zero-anchored sqrt scale => bubble AREA is strictly proportional to subscribers.
+    const r = d3.scaleSqrt().domain([0, maxT]).range([0, 52]);
     items.forEach((d, i) => {
       d.r = r(d.total);
       const a = (i / items.length) * 2 * Math.PI;
