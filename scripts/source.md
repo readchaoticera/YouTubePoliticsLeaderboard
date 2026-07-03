@@ -124,7 +124,6 @@ Don Lemon | 1.3M | 70K | 66M
 TheHodgetwins | 1.3M | -- | 72K
 Mike Rowe | 1.3M | 50K | 10M
 SNEAKO | 1.3M | 10K | 938K
-Julian Dorey | 1.3M | 90K | 19M
 Senator Bernie Sanders | 1.3M | 20K | 9.6M
 Trish Regan | 1.3M | 60K | 219M
 Keith Edwards | 1.3M | 80K | 95M
@@ -151,7 +150,6 @@ Anthony Brian Logan | 1.1M | -10K | 4.7M
 decoy | 1.1M | 10K | 12M
 Lakepointe Church | 1.1M | 246K | 87M
 Heather Cox Richardson | 1M | 81K | 68M
-Cyrus Janssen | 1M | 20K | 7.7M
 Steve Hofstetter | 1M | 30K | 16M
 Black Conservative Perspective | 1M | 9K | 61M
 Dan Bongino | 997K | 66K | 43M
@@ -224,7 +222,6 @@ TizzyEnt | 495K | 78K | 48M
 Chad Prather | 495K | 2K | 6.7M
 Styxhexenhammer666 | 489K | -9K | 979K
 PoliticsGirl | 487K | 27K | 10M
-Politicon | 482K | 23K | 13M
 Parkrose Permaculture | 478K | 20K | 17M
 The Adam Friedland Show | 472K | 19K | 13M
 Glenn Greenwald | 472K | 11K | 5.9M
@@ -259,7 +256,6 @@ The Rageaholic | 384K | -1K | 1.4M
 Fear& | 381K | 9K | 4.8M
 Texas Paul | 378K | 23K | 16M
 JayDee Milo | 374K | 26K | 46M
-Christophe | 370K | 69K | 4.8M
 John Doyle | 365K | 4K | 1.3M
 Alexandria Ocasio-Cortez | 359K | 24K | 2M
 Barry Cunningham | 358K | -- | 5.3M
@@ -288,7 +284,6 @@ The Logical Leftist | 273K | 11K | 3.8M
 Brian Tyler Cohen News | 271K | 14K | 6.9M
 Dana Loesch | 270K | 28K | 11M
 Chris Mowrey | 270K | 54K | 4.9M
-Anthony Scaramucci | 269K | 25K | 25M
 In Good Faith with Philip DeFranco | 268K | -1K | -384K
 Isaiah Martin | 268K | 126K | 93M
 CerosTV | 259K | 19K | 5.8M
