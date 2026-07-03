@@ -1,7 +1,7 @@
 {
   "title": "The Biggest Political YouTube Channels",
   "source": "live",
-  "generatedAt": "2026-07-02T18:26:08.833Z",
+  "generatedAt": "2026-07-03T15:23:40.656Z",
   "count": 371,
   "notes": {
     "subscribers": "Total channel subscribers.",
@@ -11,12 +11,12 @@
   },
   "channels": [
     {
-      "channel": "PowerfulJRE",
+      "channel": "Joe Rogan",
       "subscribers": 21000000,
       "q2Growth": 200000,
       "q2Views": 109000000,
-      "url": "https://www.youtube.com/results?search_query=PowerfulJRE",
-      "hasRealUrl": false
+      "url": "https://www.youtube.com/@joerogan",
+      "hasRealUrl": true
     },
     {
       "channel": "Fox News",

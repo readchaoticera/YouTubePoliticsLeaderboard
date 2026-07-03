@@ -1,7 +1,7 @@
 {
   "_comment": "Subjective, editorial partisan-lean classifications curated by Chaotic Era. Keyed by channel name (matched case-insensitively; curly quotes, en/em dashes and extra whitespace are normalized). Values: 'left', 'left-adjacent', 'right-adjacent', 'right'. Any channel NOT listed here shows as 'Unrated'. Edit freely; it is never overwritten by the data build.",
   "leans": {
-    "PowerfulJRE": "right-adjacent",
+    "Joe Rogan": "right-adjacent",
     "Lex Fridman": "right-adjacent",
     "JustKiddingNews": "right-adjacent",
     "Lex Clips": "right-adjacent",

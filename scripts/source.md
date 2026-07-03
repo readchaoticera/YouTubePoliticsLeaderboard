@@ -1,5 +1,5 @@
 Channel | Total Subscribers | Q2 Net Subscriber Growth | Q2 Video Views
-PowerfulJRE | 21M | 200K | 109M
+Joe Rogan | 21M | 200K | 109M
 Fox News | 15M | 200K | 1.1B
 The Daily Show | 14M | 200K | 436M
 Vox | 13M | -- | 29M

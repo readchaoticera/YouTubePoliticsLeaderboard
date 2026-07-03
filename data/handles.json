@@ -1,6 +1,7 @@
 {
   "_comment": "Real YouTube channel handles/URLs, keyed by channel name (matched case-insensitively, whitespace collapsed). A value starting with '@' becomes https://www.youtube.com/<@handle>; a value starting with 'http' is used as-is. Channels NOT listed fall back to a YouTube search link that resolves to the channel. Add exact handles here to upgrade any search-fallback link — this file is never overwritten by the data build.",
   "handles": {
+    "Joe Rogan": "@joerogan",
     "MeidasTouch": "@MeidasTouch",
     "The Young Turks": "@TheYoungTurks",
     "David Pakman Show": "@thedavidpakmanshow",
