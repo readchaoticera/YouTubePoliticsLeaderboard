@@ -308,7 +308,6 @@ The Sage Steele Show | 218K | 16K | 3.5M
 PolitiBrawl | 216K | 9K | 6.9M
 FIVE MINUTE NEWS | 213K | 1K | 728K
 Jessica Denson | 208K | 1K | 501K
-Crain & Cone | 203K | 1K | 2.6M
 Senator Chris Murphy | 202K | 15K | 3.1M
 Scott MacFarlane Reports | 202K | 59K | 11M
 Jemele Hill | 200K | 26K | 5.6M
