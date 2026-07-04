@@ -192,6 +192,53 @@ main {
 .chart-sub { font-size: 0.82rem; color: var(--ink-soft); }
 .chart-note { margin: 8px 2px 0; font-size: 0.78rem; color: var(--ink-soft); }
 
+/* ---------- Summary (stacked composition bars) ---------- */
+.summary {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  padding: 8px 16px;
+}
+.sumrow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 0;
+}
+.sumrow + .sumrow { border-top: 1px solid var(--line); }
+.sumrow-label {
+  flex: 0 0 132px;
+  width: 132px;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+.sumrow-track {
+  flex: 1 1 auto;
+  display: flex;
+  height: 22px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #eef2f7;
+}
+.sumseg {
+  height: 100%;
+  border-right: 1.5px solid var(--paper-card);
+  transition: opacity 0.12s ease;
+  cursor: default;
+}
+.sumseg:last-child { border-right: 0; }
+.sumseg:hover { opacity: 0.82; }
+.sumrow-total {
+  flex: 0 0 auto;
+  min-width: 62px;
+  text-align: right;
+  font-size: 0.82rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-soft);
+}
+
 /* ---------- Row (bar) charts ---------- */
 .row-chart {
   background: var(--paper-card);
@@ -512,4 +559,7 @@ tbody tr:hover { background: #f4f9ff; }
   .rowbar-val { min-width: 44px; font-size: 0.76rem; }
   .rowbar { gap: 8px; }
   .chart-row { flex-direction: column; gap: 0; }
+  .sumrow-label { flex-basis: 92px; width: 92px; font-size: 0.76rem; }
+  .sumrow { gap: 10px; }
+  .sumrow-total { min-width: 50px; font-size: 0.76rem; }
 }

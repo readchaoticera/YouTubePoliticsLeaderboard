@@ -75,9 +75,50 @@
       lean: leans[nameKey(c.channel)] || "unrated",
     }));
 
+    buildSummary(document.getElementById("summary-chart"), items);
     buildBubble(document.getElementById("bubble-chart"), items);
     buildRows(document.getElementById("growth-chart"), items, "q2Growth");
     buildRows(document.getElementById("views-chart"), items, "q2Views");
+  }
+
+  /* ---------- Summary: 100%-stacked composition bars by lean ---------- */
+  function buildSummary(el, items) {
+    if (!el) return;
+    const order = ["left", "left-adjacent", "right-adjacent", "right", "unrated"];
+    const agg = {};
+    for (const k of order) agg[k] = { n: 0, subscribers: 0, q2Growth: 0, q2Views: 0 };
+    for (const d of items) {
+      const k = agg[d.lean] ? d.lean : "unrated";
+      agg[k].n += 1;
+      agg[k].subscribers += d.subscribers || 0;
+      agg[k].q2Growth += d.q2Growth || 0;
+      agg[k].q2Views += d.q2Views || 0;
+    }
+    const METRICS = [
+      { key: "n", label: "Channels", fmt: (v) => NF.format(v) },
+      { key: "subscribers", label: "Subscribers", fmt: (v) => abbr(v) },
+      { key: "q2Growth", label: "Q2 Sub Growth", fmt: (v) => abbr(v) },
+      { key: "q2Views", label: "Q2 Views", fmt: (v) => abbr(v) },
+    ];
+
+    el.innerHTML = METRICS.map((m) => {
+      const vals = order.map((k) => Math.max(0, agg[k][m.key]));
+      const total = vals.reduce((a, b) => a + b, 0) || 1;
+      const segs = order
+        .map((k, i) => {
+          const v = vals[i];
+          if (v <= 0) return "";
+          const pct = (v / total) * 100;
+          const title = `${LEAN_LABEL[k]} · ${m.fmt(v)} · ${Math.round(pct)}%`;
+          return `<span class="sumseg" style="width:${pct.toFixed(2)}%;background:${COLORS[k]}" title="${escapeHTML(title)}"></span>`;
+        })
+        .join("");
+      return `<div class="sumrow">
+        <span class="sumrow-label">${m.label}</span>
+        <span class="sumrow-track">${segs}</span>
+        <span class="sumrow-total">${m.fmt(total)}</span>
+      </div>`;
+    }).join("");
   }
 
   /* ---------- Chart 1: packed bubbles (subscribers) ---------- */
