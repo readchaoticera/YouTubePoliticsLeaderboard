@@ -97,28 +97,41 @@
     return agg;
   }
 
-  function stackedRow(agg, m) {
-    const vals = LEAN_STACK_ORDER.map((k) => Math.max(0, agg[k][m.key]));
+  // Single subscribers-by-lean stacked bar (under the bubble chart), with a
+  // hover tooltip showing each category's total subscribers and share.
+  function buildSubsSplit(el, items) {
+    if (!el) return;
+    const agg = aggregateByLean(items);
+    const vals = LEAN_STACK_ORDER.map((k) => Math.max(0, agg[k].subscribers));
     const total = vals.reduce((a, b) => a + b, 0) || 1;
     const segs = LEAN_STACK_ORDER.map((k, i) => {
       const v = vals[i];
       if (v <= 0) return "";
       const pct = (v / total) * 100;
-      const title = `${LEAN_LABEL[k]} · ${m.fmt(v)} · ${Math.round(pct)}%`;
-      return `<span class="sumseg" style="width:${pct.toFixed(2)}%;background:${COLORS[k]}" title="${escapeHTML(title)}"></span>`;
+      return `<span class="sumseg" style="width:${pct.toFixed(2)}%;background:${COLORS[k]}" data-lean="${k}" data-total="${NF.format(v)}" data-pct="${Math.round(pct)}"></span>`;
     }).join("");
-    return `<div class="sumrow">
-      <span class="sumrow-label">${m.label}</span>
+    el.innerHTML = `<div class="sumrow">
+      <span class="sumrow-label">Subscribers by lean</span>
       <span class="sumrow-track">${segs}</span>
-      <span class="sumrow-total">${m.fmt(total)}</span>
+      <span class="sumrow-total">${abbr(total)}</span>
     </div>`;
-  }
 
-  // Single subscribers-by-lean stacked bar (rendered under the bubble chart).
-  function buildSubsSplit(el, items) {
-    if (!el) return;
-    const agg = aggregateByLean(items);
-    el.innerHTML = stackedRow(agg, { key: "subscribers", label: "Subscribers by lean", fmt: (v) => abbr(v) });
+    el.style.position = "relative";
+    const tip = document.createElement("div");
+    tip.className = "bubble-tip";
+    tip.style.opacity = "0";
+    el.appendChild(tip);
+    el.querySelectorAll(".sumseg").forEach((seg) => {
+      seg.addEventListener("mousemove", (e) => {
+        const rect = el.getBoundingClientRect();
+        const k = seg.dataset.lean;
+        tip.innerHTML = `<strong>${LEAN_LABEL[k]}</strong><br>${seg.dataset.total} subscribers · ${seg.dataset.pct}%`;
+        tip.style.left = e.clientX - rect.left + 12 + "px";
+        tip.style.top = e.clientY - rect.top + 12 + "px";
+        tip.style.opacity = "1";
+      });
+      seg.addEventListener("mouseleave", () => (tip.style.opacity = "0"));
+    });
   }
 
   /* ---------- Chart 1: packed bubbles (subscribers) ---------- */
