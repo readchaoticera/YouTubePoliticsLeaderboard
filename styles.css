@@ -381,6 +381,9 @@ main {
   border-radius: 12px;
   box-shadow: var(--shadow);
   overflow: hidden;
+  /* Show ~50 rows; scroll within for the rest (header stays pinned). */
+  max-height: 2100px;
+  overflow-y: auto;
 }
 table { width: 100%; border-collapse: collapse; }
 thead th {
@@ -562,4 +565,5 @@ tbody tr:hover { background: #f4f9ff; }
   .sumrow-label { flex-basis: 92px; width: 92px; font-size: 0.76rem; }
   .sumrow { gap: 10px; }
   .sumrow-total { min-width: 50px; font-size: 0.76rem; }
+  .table-wrap { max-height: none; overflow-y: visible; }
 }
