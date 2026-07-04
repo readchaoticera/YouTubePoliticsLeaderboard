@@ -75,7 +75,6 @@
       lean: leans[nameKey(c.channel)] || "unrated",
     }));
 
-    buildSummary(document.getElementById("summary-chart"), items);
     buildBubble(document.getElementById("bubble-chart"), items);
     buildSubsSplit(document.getElementById("subs-split"), items);
     buildRows(document.getElementById("growth-chart"), items, "q2Growth");
@@ -113,18 +112,6 @@
       <span class="sumrow-track">${segs}</span>
       <span class="sumrow-total">${m.fmt(total)}</span>
     </div>`;
-  }
-
-  function buildSummary(el, items) {
-    if (!el) return;
-    const agg = aggregateByLean(items);
-    const METRICS = [
-      { key: "n", label: "Channels", fmt: (v) => NF.format(v) },
-      { key: "subscribers", label: "Subscribers", fmt: (v) => abbr(v) },
-      { key: "q2Growth", label: "Q2 Sub Growth", fmt: (v) => abbr(v) },
-      { key: "q2Views", label: "Q2 Views", fmt: (v) => abbr(v) },
-    ];
-    el.innerHTML = METRICS.map((m) => stackedRow(agg, m)).join("");
   }
 
   // Single subscribers-by-lean stacked bar (rendered under the bubble chart).
