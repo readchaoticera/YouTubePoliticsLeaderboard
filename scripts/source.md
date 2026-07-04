@@ -365,3 +365,24 @@ Lisandra Vazquez | 105K | 12K | 8.8M
 Find Out Media | 104K | 35K | 733K
 The Mark Levin Show | 100K | 5.3K | 783K
 Next Up with Mark Halperin | 100K | 2.4K | 2.3M
+Walter Hudson's 'Closing Argument' | 158K | -- | 438K
+TrueLife News | 258K | 5K | 5.3M
+Jeff Square | 238K | 55K | 175M
+Brandon Lehman | 688K | 40K | 16M
+Resist the Mainstream | 358K | 18K | 8.2M
+TYSON DELACRUZ | 141K | 2K | 1.5M
+Devin Gibson | 1.5M | -- | 6.9M
+The Vince Everett Ellison Show | 119K | 5K | 1.2M
+Hannibal Is Hungry | 186K | 10K | 5.9M
+Carl DeMaio / Reform California | 236K | 7K | 5.2M
+Robert Gouveia Esq. | 596K | 19K | 23M
+Respectfully, Xaviaer | 192K | 30K | 21M
+Victor Davis Hanson | 361K | 57K | 5.1M
+BlackConservative24 | 1.7M | 10K | 42M
+Nate The Lawyer | 754K | 15K | 15M
+Pod Force One with Miranda Devine | 110K | 16K | 2.3M
+Brian Maxwell - Real Politics Podcast | 350K | 15K | 5.4M
+The Free Press | 462K | 16K | 4.2M
+Jay Reed | 288K | 40K | 26M
+April Chapman | 185K | 14K | 3.2M
+Edwards Economics | 357K | 11K | 2.9M
