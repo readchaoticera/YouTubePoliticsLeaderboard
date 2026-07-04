@@ -1,8 +1,8 @@
 {
   "title": "The Biggest Political YouTube Channels",
   "source": "live",
-  "generatedAt": "2026-07-04T16:22:37.988Z",
-  "count": 387,
+  "generatedAt": "2026-07-04T16:34:10.308Z",
+  "count": 389,
   "notes": {
     "subscribers": "Total channel subscribers.",
     "q2Growth": "Net subscribers gained (or lost) during Q2.",
@@ -3104,6 +3104,22 @@
       "q2Growth": 11000,
       "q2Views": 2900000,
       "url": "https://www.youtube.com/results?search_query=Edwards%20Economics",
+      "hasRealUrl": false
+    },
+    {
+      "channel": "Hook Global",
+      "subscribers": 1000000,
+      "q2Growth": 109000,
+      "q2Views": 98000000,
+      "url": "https://www.youtube.com/results?search_query=Hook%20Global",
+      "hasRealUrl": false
+    },
+    {
+      "channel": "Michael Burns",
+      "subscribers": 209000,
+      "q2Growth": 11000,
+      "q2Views": 1400000,
+      "url": "https://www.youtube.com/results?search_query=Michael%20Burns",
       "hasRealUrl": false
     }
   ]

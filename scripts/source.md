@@ -386,3 +386,5 @@ The Free Press | 462K | 16K | 4.2M
 Jay Reed | 288K | 40K | 26M
 April Chapman | 185K | 14K | 3.2M
 Edwards Economics | 357K | 11K | 2.9M
+Hook Global | 1M | 109K | 98M
+Michael Burns | 209K | 11K | 1.4M
