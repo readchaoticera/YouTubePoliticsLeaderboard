@@ -228,6 +228,7 @@ main {
   cursor: default;
 }
 .sumseg:last-child { border-right: 0; }
+.summary-under { margin-top: 12px; }
 .sumseg:hover { opacity: 0.82; }
 .sumrow-total {
   flex: 0 0 auto;
