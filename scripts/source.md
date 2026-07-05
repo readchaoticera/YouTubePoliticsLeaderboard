@@ -30,7 +30,6 @@ Theo Von | 4.7M | 150K | 56M
 Asmongold TV | 4.6M | 140K | 352M
 Piers Morgan Uncensored | 4.4M | 40K | 50M
 Megyn Kelly | 4.1M | -50K | 127M
-vlogbrothers | 4.1M | 10K | 9.6M
 Donald J Trump | 4M | -- | 1.3M
 The Officer Tatum | 3.8M | 70K | 138M
 David Pakman Show | 3.6M | 100K | 149M
