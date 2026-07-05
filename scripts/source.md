@@ -232,11 +232,9 @@ The Heritage Foundation | 461K | 1K | 761K
 Katie Halper | 457K | 19K | 9.6M
 O’Keefe Media Group | 452K | 1K | 2.5M
 Talking Feds with Harry Litman | 449K | 13K | 12M
-Brilliant Idiots | 446K | 1K | 3.4M
 Liz Wheeler | 446K | 11K | 3.6M
 Kite & Key Media | 446K | 52K | 15M
 Abolitionists Rising | 445K | 73K | 109M
-The Iced Coffee Hour Clips | 431K | 17K | 13M
 matt bernstein | 426K | 51K | 16M
 Dialogue Works | 426K | 30K | 28M
 Fundie Fridays | 421K | 3K | 1.2M
