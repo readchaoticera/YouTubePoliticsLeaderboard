@@ -1,8 +1,8 @@
 {
   "title": "The Biggest Political YouTube Channels",
   "source": "live",
-  "generatedAt": "2026-07-05T18:14:34.661Z",
-  "count": 388,
+  "generatedAt": "2026-07-05T18:17:43.144Z",
+  "count": 389,
   "notes": {
     "subscribers": "Total channel subscribers.",
     "q2Growth": "Net subscribers gained (or lost) during Q2.",
@@ -3112,6 +3112,14 @@
       "q2Growth": 47000,
       "q2Views": 4200000,
       "url": "https://www.youtube.com/results?search_query=Tour%C3%A9",
+      "hasRealUrl": false
+    },
+    {
+      "channel": "Explain America",
+      "subscribers": 595000,
+      "q2Growth": 12000,
+      "q2Views": 31000000,
+      "url": "https://www.youtube.com/results?search_query=Explain%20America",
       "hasRealUrl": false
     }
   ]

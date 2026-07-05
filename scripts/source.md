@@ -387,3 +387,4 @@ Edwards Economics | 357K | 11K | 2.9M
 Hook Global | 1M | 109K | 98M
 Michael Burns | 209K | 11K | 1.4M
 Touré | 123K | 47K | 4.2M
+Explain America | 595K | 12K | 31M
