@@ -133,6 +133,7 @@ main {
   align-items: center;
   gap: 6px;
 }
+.lg-count { font-variant-numeric: tabular-nums; opacity: 0.75; }
 .chart-legend .dot {
   width: 11px;
   height: 11px;

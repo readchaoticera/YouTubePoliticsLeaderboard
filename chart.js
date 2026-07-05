@@ -75,10 +75,21 @@
       lean: leans[nameKey(c.channel)] || "unrated",
     }));
 
+    updateLegendCounts(items);
     buildBubble(document.getElementById("bubble-chart"), items);
     buildSubsSplit(document.getElementById("subs-split"), items);
     buildRows(document.getElementById("growth-chart"), items, "q2Growth");
     buildRows(document.getElementById("views-chart"), items, "q2Views");
+  }
+
+  // Fill the legend labels with the number of channels in each lean bucket.
+  function updateLegendCounts(items) {
+    const counts = {};
+    for (const d of items) counts[d.lean] = (counts[d.lean] || 0) + 1;
+    document.querySelectorAll(".chart-legend .lg[data-lean]").forEach((el) => {
+      const c = el.querySelector(".lg-count");
+      if (c) c.textContent = `(${NF.format(counts[el.dataset.lean] || 0)})`;
+    });
   }
 
   /* ---------- Summary: 100%-stacked composition bars by lean ---------- */
