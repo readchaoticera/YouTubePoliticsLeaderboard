@@ -217,7 +217,6 @@ Rep. Jasmine Crockett | 527K | 12K | 3.3M
 The Ezra Klein Show | 523K | 33K | 11M
 Dave Smith | 513K | 18K | 5.7M
 The Warning with Steve Schmidt | 512K | 25K | 14M
-KNIGHT TALK | 509K | -1K | 1.1M
 TizzyEnt | 495K | 78K | 48M
 Chad Prather | 495K | 2K | 6.7M
 Styxhexenhammer666 | 489K | -9K | 979K
