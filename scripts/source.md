@@ -385,3 +385,6 @@ Hook Global | 1M | 109K | 98M
 Michael Burns | 209K | 11K | 1.4M
 Touré | 123K | 47K | 4.2M
 Explain America | 595K | 12K | 31M
+America Uncovered | 547K | -1K | 1.3M
+Dr Russell Razzaque | 183K | -1K | 205K
+Daniel Schonbuch | 134K | 0 | 5M

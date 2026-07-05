@@ -1,8 +1,8 @@
 {
   "title": "The Biggest Political YouTube Channels",
   "source": "live",
-  "generatedAt": "2026-07-05T18:37:53.119Z",
-  "count": 386,
+  "generatedAt": "2026-07-05T18:46:20.321Z",
+  "count": 389,
   "notes": {
     "subscribers": "Total channel subscribers.",
     "q2Growth": "Net subscribers gained (or lost) during Q2.",
@@ -3096,6 +3096,30 @@
       "q2Growth": 12000,
       "q2Views": 31000000,
       "url": "https://www.youtube.com/results?search_query=Explain%20America",
+      "hasRealUrl": false
+    },
+    {
+      "channel": "America Uncovered",
+      "subscribers": 547000,
+      "q2Growth": -1000,
+      "q2Views": 1300000,
+      "url": "https://www.youtube.com/results?search_query=America%20Uncovered",
+      "hasRealUrl": false
+    },
+    {
+      "channel": "Dr Russell Razzaque",
+      "subscribers": 183000,
+      "q2Growth": -1000,
+      "q2Views": 205000,
+      "url": "https://www.youtube.com/results?search_query=Dr%20Russell%20Razzaque",
+      "hasRealUrl": false
+    },
+    {
+      "channel": "Daniel Schonbuch",
+      "subscribers": 134000,
+      "q2Growth": 0,
+      "q2Views": 5000000,
+      "url": "https://www.youtube.com/results?search_query=Daniel%20Schonbuch",
       "hasRealUrl": false
     }
   ]
