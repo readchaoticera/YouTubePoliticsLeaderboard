@@ -390,3 +390,4 @@ Dr Russell Razzaque | 183K | -1K | 205K
 Daniel Schonbuch | 134K | 0 | 5M
 Jason Whitlock | 585K | 4K | -101M
 Sara Gonzales Unfiltered | 218K | 25K | 2.4M
+Dr. Drew | 216K | 9K | 945K

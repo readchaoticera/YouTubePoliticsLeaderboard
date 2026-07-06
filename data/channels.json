@@ -1,8 +1,8 @@
 {
   "title": "The Biggest Political YouTube Channels",
   "source": "live",
-  "generatedAt": "2026-07-06T08:02:57.529Z",
-  "count": 391,
+  "generatedAt": "2026-07-06T08:21:29.361Z",
+  "count": 392,
   "notes": {
     "subscribers": "Total channel subscribers.",
     "q2Growth": "Net subscribers gained (or lost) during Q2.",
@@ -3136,6 +3136,14 @@
       "q2Growth": 25000,
       "q2Views": 2400000,
       "url": "https://www.youtube.com/results?search_query=Sara%20Gonzales%20Unfiltered",
+      "hasRealUrl": false
+    },
+    {
+      "channel": "Dr. Drew",
+      "subscribers": 216000,
+      "q2Growth": 9000,
+      "q2Views": 945000,
+      "url": "https://www.youtube.com/results?search_query=Dr.%20Drew",
       "hasRealUrl": false
     }
   ]
