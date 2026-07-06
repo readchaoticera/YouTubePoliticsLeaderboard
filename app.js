@@ -151,14 +151,8 @@
 
     els.empty.hidden = list.length > 0;
 
-    const when = state.doc && state.doc.generatedAt
-      ? `updated ${new Date(state.doc.generatedAt).toLocaleDateString("en-US", {
-          year: "numeric",
-          month: "short",
-          day: "numeric",
-        })}`
-      : "";
-    els.meta.textContent = `${list.length} channels${when ? " · " + when : ""}`;
+    const when = "Data as of Jul 1, 2026";
+    els.meta.textContent = `${list.length} channels · ${when}`;
     postHeight();
   }
 
