@@ -1,8 +1,8 @@
 {
   "title": "The Biggest Political YouTube Channels",
   "source": "live",
-  "generatedAt": "2026-07-06T08:21:29.361Z",
-  "count": 392,
+  "generatedAt": "2026-07-06T18:58:01.545Z",
+  "count": 393,
   "notes": {
     "subscribers": "Total channel subscribers.",
     "q2Growth": "Net subscribers gained (or lost) during Q2.",
@@ -3144,6 +3144,14 @@
       "q2Growth": 9000,
       "q2Views": 945000,
       "url": "https://www.youtube.com/results?search_query=Dr.%20Drew",
+      "hasRealUrl": false
+    },
+    {
+      "channel": "Hasan Minhaj",
+      "subscribers": 2200000,
+      "q2Growth": 40000,
+      "q2Views": 20000000,
+      "url": "https://www.youtube.com/results?search_query=Hasan%20Minhaj",
       "hasRealUrl": false
     }
   ]
