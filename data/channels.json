@@ -1,8 +1,8 @@
 {
   "title": "The Biggest Political YouTube Channels",
   "source": "live",
-  "generatedAt": "2026-07-05T18:47:50.115Z",
-  "count": 389,
+  "generatedAt": "2026-07-06T07:54:23.840Z",
+  "count": 391,
   "notes": {
     "subscribers": "Total channel subscribers.",
     "q2Growth": "Net subscribers gained (or lost) during Q2.",
@@ -3120,6 +3120,22 @@
       "q2Growth": 0,
       "q2Views": 5000000,
       "url": "https://www.youtube.com/results?search_query=Daniel%20Schonbuch",
+      "hasRealUrl": false
+    },
+    {
+      "channel": "Jason Whitlock",
+      "subscribers": 585000,
+      "q2Growth": 4000,
+      "q2Views": -101000000,
+      "url": "https://www.youtube.com/results?search_query=Jason%20Whitlock",
+      "hasRealUrl": false
+    },
+    {
+      "channel": "Sara Gonzales Unfiltered",
+      "subscribers": 218000,
+      "q2Growth": 25000,
+      "q2Views": 2400000,
+      "url": "https://www.youtube.com/results?search_query=Sara%20Gonzales%20Unfiltered",
       "hasRealUrl": false
     }
   ]
