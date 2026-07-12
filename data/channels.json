@@ -1,8 +1,8 @@
 {
   "title": "The Biggest Political YouTube Channels",
   "source": "live",
-  "generatedAt": "2026-07-06T18:58:01.545Z",
-  "count": 393,
+  "generatedAt": "2026-07-12T03:08:49.810Z",
+  "count": 394,
   "notes": {
     "subscribers": "Total channel subscribers.",
     "q2Growth": "Net subscribers gained (or lost) during Q2.",
@@ -3152,6 +3152,14 @@
       "q2Growth": 40000,
       "q2Views": 20000000,
       "url": "https://www.youtube.com/results?search_query=Hasan%20Minhaj",
+      "hasRealUrl": false
+    },
+    {
+      "channel": "Impaulsive",
+      "subscribers": 4800000,
+      "q2Growth": 0,
+      "q2Views": 29000000,
+      "url": "https://www.youtube.com/results?search_query=Impaulsive",
       "hasRealUrl": false
     }
   ]

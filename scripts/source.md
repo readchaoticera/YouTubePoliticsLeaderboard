@@ -392,3 +392,4 @@ Jason Whitlock | 585K | 4K | -101M
 Sara Gonzales Unfiltered | 218K | 25K | 2.4M
 Dr. Drew | 216K | 9K | 945K
 Hasan Minhaj | 2.2M | 40K | 20M
+Impaulsive | 4.8M | 0 | 29M
