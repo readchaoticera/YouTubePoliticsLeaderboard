@@ -23,7 +23,7 @@
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=77741270" />
+    <link rel="stylesheet" href="styles.css?v=63b55198" />
   </head>
   <body>
     <header class="masthead">
@@ -68,17 +68,17 @@
         </div>
 
         <div class="chart-row">
-          <div class="chart-block" aria-label="Q2 subscriber growth chart">
+          <div class="chart-block" aria-label="Q3 subscriber growth chart">
             <div class="chart-head">
-              <h2 class="chart-title">Subscriber Growth - Q2 2026</h2>
+              <h2 class="chart-title">Subscriber Growth - Q3 2026</h2>
               <span class="chart-sub">Top 50 · scroll for more</span>
             </div>
             <div id="growth-chart" class="row-chart"></div>
           </div>
 
-          <div class="chart-block" aria-label="Q2 video views chart">
+          <div class="chart-block" aria-label="Q3 video views chart">
             <div class="chart-head">
-              <h2 class="chart-title">Video Views - Q2 2026</h2>
+              <h2 class="chart-title">Video Views - Q3 2026</h2>
               <span class="chart-sub">Top 50 · scroll for more</span>
             </div>
             <div id="views-chart" class="row-chart"></div>
@@ -110,6 +110,11 @@
 
       <div id="banner" class="banner" hidden></div>
 
+      <div class="table-tabs" role="tablist" aria-label="Quarter">
+        <button class="ttab is-active" role="tab" data-quarter="q3" aria-selected="true">Q3 2026</button>
+        <button class="ttab" role="tab" data-quarter="q2" aria-selected="false">Q2 2026 <span class="ttab-tag">archive</span></button>
+      </div>
+
       <div class="table-wrap">
         <table id="leaderboard">
           <thead>
@@ -121,11 +126,11 @@
               <th class="num sortable" data-key="subscribers">
                 Total Subscribers<span class="hint" title="Total channel subscribers.">ⓘ</span>
               </th>
-              <th class="num sortable" data-key="q2Growth">
-                Q2 Sub Growth<span class="hint" title="Net subscribers gained (or lost) during Q2.">ⓘ</span>
+              <th class="num sortable" data-key="growth">
+                <span class="th-label">Q3 Sub Growth</span><span class="hint" title="Net subscribers gained (or lost) during Q3 2026.">ⓘ</span>
               </th>
-              <th class="num sortable" data-key="q2Views">
-                Q2 Views<span class="hint" title="Video views during Q2, including YouTube Shorts.">ⓘ</span>
+              <th class="num sortable" data-key="views">
+                <span class="th-label">Q3 Views</span><span class="hint" title="Video views during Q3 2026, including YouTube Shorts.">ⓘ</span>
               </th>
               <th>URL</th>
             </tr>
@@ -148,18 +153,23 @@
             tracking data.
           </li>
           <li>
-            <strong>Total Subscribers</strong> is the channel's total subscriber count.
-            <strong>Q2 Sub Growth</strong> is net subscribers gained (or lost) during Q2, and
-            <strong>Q2 Views</strong> is video views during Q2, and <strong>includes views from
+            <strong>Total Subscribers</strong> is the channel's current subscriber count.
+            <strong>Sub Growth</strong> is net subscribers gained (or lost) during the quarter, and
+            <strong>Views</strong> is video views during the quarter, and <strong>includes views from
             YouTube Shorts</strong>. Negative values reflect losses or reported corrections.
+          </li>
+          <li>
+            The table shows the current quarter (<strong>Q3 2026</strong>); use the
+            <strong>Q2 2026</strong> tab above the table to view the archived prior quarter. The charts
+            reflect Q3 2026.
           </li>
           <li>
             Channels may see 0 or negative views when older videos are deleted or unpublished.
           </li>
           <li>
             The charts are color-coded by lean: the <strong>bubble chart</strong> plots every channel
-            sized by total subscribers, and the two <strong>row charts</strong> rank the top 50 by Q2
-            subscriber growth and Q2 views (about 25 visible; scroll within a chart for the rest). Hover any mark for detail; click to open the channel.
+            sized by total subscribers, and the two <strong>row charts</strong> rank the top 50 by Q3
+            subscriber growth and Q3 views (about 25 visible; scroll within a chart for the rest). Hover any mark for detail; click to open the channel.
           </li>
           <li>
             <strong>Lean</strong> is a <em>subjective editorial judgment</em> by Chaotic Era, not a
@@ -185,8 +195,8 @@
       </p>
     </footer>
 
-    <script src="app.js?v=a174e617"></script>
+    <script src="app.js?v=00d680f3"></script>
     <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
-    <script src="chart.js?v=7b43396b"></script>
+    <script src="chart.js?v=d8fa34fb"></script>
   </body>
 </html>

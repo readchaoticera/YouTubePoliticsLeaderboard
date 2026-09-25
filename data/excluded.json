@@ -1,0 +1,20 @@
+{
+  "_comment": "Channels intentionally excluded from the leaderboard (all quarters), even if they clear the 100K-subscriber minimum. These were removed as off-topic or not primarily political. Matched case-insensitively (curly quotes / dashes / whitespace normalized). Remove a name here to let a channel back in.",
+  "excluded": [
+    "Joe Budden TV",
+    "ALL THE SMOKE",
+    "Politicon",
+    "CRUX",
+    "Dr. Josh Axe",
+    "The Iced Coffee Hour",
+    "The Iced Coffee Hour Clips",
+    "Julian Dorey",
+    "Christophe",
+    "Anthony Scaramucci",
+    "Cyrus Janssen",
+    "Crain & Cone",
+    "KNIGHT TALK",
+    "vlogbrothers",
+    "Brilliant Idiots"
+  ]
+}

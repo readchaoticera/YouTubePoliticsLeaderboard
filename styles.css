@@ -377,6 +377,37 @@ main {
 }
 
 /* ---------- Table ---------- */
+/* ---------- Table quarter tabs ---------- */
+.table-tabs {
+  display: inline-flex;
+  gap: 4px;
+  background: var(--accent-soft);
+  padding: 4px;
+  border-radius: 999px;
+  margin-bottom: 14px;
+}
+.ttab {
+  border: 0;
+  background: transparent;
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  padding: 7px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.ttab:hover { color: var(--ink); }
+.ttab.is-active { background: var(--accent); color: #fff; }
+.ttab-tag {
+  font-size: 0.66rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  opacity: 0.72;
+}
+
 .table-wrap {
   background: var(--paper-card);
   border: 1px solid var(--line);

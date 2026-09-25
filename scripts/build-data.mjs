@@ -1,19 +1,31 @@
 #!/usr/bin/env node
 /**
- * Build data/channels.json from scripts/source.md (a pipe-delimited table of
- * YouTube channel stats) merged with real channel URLs from data/handles.json.
+ * Build the per-quarter channel data the front-end reads:
+ *   scripts/source-q2.md -> data/channels-q2.json   (archived)
+ *   scripts/source-q3.md -> data/channels-q3.json   (current)
  *
- * Re-run after editing scripts/source.md or data/handles.json:
- *   npm run build      (or: node scripts/build-data.mjs)
+ * Each source is a pipe-delimited table:
+ *   Channel | Total Subscribers | <Quarter> Subscriber Growth | <Quarter> Video Views
+ * Numbers may use K / M / B suffixes (e.g. 7.3M, 510K, 3.4B); "--" -> 0; negatives allowed.
  *
- * Numbers may use K / M / B suffixes (e.g. 7.3M, 510K, 3.4B). "--" means the
- * value is unavailable (rendered as N/A). Negative values are allowed.
+ * Channel URLs come from data/handles.json; partisan lean is applied at render
+ * time from data/lean.json. Channels in data/excluded.json are dropped from all
+ * quarters, and only channels with >= 100,000 subscribers are included.
+ *
+ * Re-run after editing any source / handles / excluded file:
+ *   npm run build
  */
 import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
+const MIN_SUBS = 100000;
+
+const QUARTERS = [
+  { key: "q2", label: "Q2 2026", asOf: "Jul 1, 2026", source: "scripts/source-q2.md", out: "data/channels-q2.json" },
+  { key: "q3", label: "Q3 2026", asOf: "Sep 25, 2026", source: "scripts/source-q3.md", out: "data/channels-q3.json" },
+];
 
 const norm = (s) =>
   String(s || "")
@@ -45,57 +57,60 @@ function handleToUrl(h) {
 }
 
 async function main() {
-  const md = await readFile(resolve(ROOT, "scripts/source.md"), "utf8");
   const handleDoc = JSON.parse(await readFile(resolve(ROOT, "data/handles.json"), "utf8"));
   const handles = {};
   for (const [name, h] of Object.entries(handleDoc.handles || {})) handles[norm(name)] = h;
 
-  const rows = md
-    .split("\n")
-    .map((l) => l.trim())
-    .filter((l) => l.includes("|"))
-    .map((l) => l.split("|").map((c) => c.trim()))
-    .filter((cols) => cols.length >= 4 && cols[0] && norm(cols[0]) !== "channel");
+  let excluded = new Set();
+  try {
+    const exDoc = JSON.parse(await readFile(resolve(ROOT, "data/excluded.json"), "utf8"));
+    excluded = new Set((exDoc.excluded || []).map(norm));
+  } catch {
+    /* no exclusion file -> exclude nothing */
+  }
 
-  let withRealUrl = 0;
-  const MIN_SUBS = 100000; // only publish channels with at least this many subscribers
-  const channels = rows
-    .map((cols) => {
-      const channel = cols[0];
-      const realUrl = handleToUrl(handles[norm(channel)]);
-      return {
-        channel,
-        subscribers: parseNum(cols[1]),
-        // Unavailable ("--") Q2 figures are treated as 0 (shown as 0, not N/A).
-        q2Growth: parseNum(cols[2]) ?? 0,
-        q2Views: parseNum(cols[3]) ?? 0,
-        url: realUrl || `https://www.youtube.com/results?search_query=${encodeURIComponent(channel)}`,
-        hasRealUrl: !!realUrl,
-      };
-    })
-    .filter((c) => c.subscribers >= MIN_SUBS);
-  for (const c of channels) if (c.hasRealUrl) withRealUrl++;
+  for (const q of QUARTERS) {
+    let md;
+    try {
+      md = await readFile(resolve(ROOT, q.source), "utf8");
+    } catch {
+      console.log(`(skip ${q.key}: ${q.source} not found)`);
+      continue;
+    }
+    const rows = md
+      .split("\n")
+      .map((l) => l.trim())
+      .filter((l) => l.includes("|"))
+      .map((l) => l.split("|").map((c) => c.trim()))
+      .filter((cols) => cols.length >= 4 && cols[0] && norm(cols[0]) !== "channel");
 
-  const out = {
-    title: "The Biggest Political YouTube Channels",
-    source: "live",
-    generatedAt: new Date().toISOString(),
-    count: channels.length,
-    notes: {
-      subscribers: "Total channel subscribers.",
-      q2Growth: "Net subscribers gained (or lost) during Q2.",
-      q2Views: "Video views during Q2.",
-      url: "Real channel URL where known (data/handles.json); otherwise a YouTube search link that resolves to the channel.",
-    },
-    channels,
-  };
+    const channels = rows
+      .map((cols) => {
+        const channel = cols[0];
+        const realUrl = handleToUrl(handles[norm(channel)]);
+        return {
+          channel,
+          subscribers: parseNum(cols[1]),
+          growth: parseNum(cols[2]) ?? 0,
+          views: parseNum(cols[3]) ?? 0,
+          url: realUrl || `https://www.youtube.com/results?search_query=${encodeURIComponent(channel)}`,
+          hasRealUrl: !!realUrl,
+        };
+      })
+      .filter((c) => c.subscribers >= MIN_SUBS && !excluded.has(norm(c.channel)));
 
-  await writeFile(resolve(ROOT, "data/channels.json"), JSON.stringify(out, null, 2) + "\n");
-  console.log(
-    `Wrote data/channels.json — ${channels.length} channels (${withRealUrl} with curated URLs, ${
-      channels.length - withRealUrl
-    } via search fallback).`
-  );
+    const withRealUrl = channels.filter((c) => c.hasRealUrl).length;
+    const out = {
+      title: "The Biggest Political YouTube Channels",
+      quarter: q.label,
+      asOf: q.asOf,
+      generatedAt: new Date().toISOString(),
+      count: channels.length,
+      channels,
+    };
+    await writeFile(resolve(ROOT, q.out), JSON.stringify(out, null, 2) + "\n");
+    console.log(`${q.out} — ${channels.length} channels (${withRealUrl} curated URLs, ${channels.length - withRealUrl} search fallback).`);
+  }
 }
 
 main().catch((err) => {

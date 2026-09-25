@@ -1,3164 +1,3159 @@
 {
   "title": "The Biggest Political YouTube Channels",
-  "source": "live",
-  "generatedAt": "2026-07-12T03:08:49.810Z",
+  "quarter": "Q2 2026",
+  "asOf": "Jul 1, 2026",
+  "generatedAt": "2026-09-25T12:55:53.605Z",
   "count": 394,
-  "notes": {
-    "subscribers": "Total channel subscribers.",
-    "q2Growth": "Net subscribers gained (or lost) during Q2.",
-    "q2Views": "Video views during Q2.",
-    "url": "Real channel URL where known (data/handles.json); otherwise a YouTube search link that resolves to the channel."
-  },
   "channels": [
     {
       "channel": "Joe Rogan",
       "subscribers": 21000000,
-      "q2Growth": 200000,
-      "q2Views": 109000000,
+      "growth": 200000,
+      "views": 109000000,
       "url": "https://www.youtube.com/@joerogan",
       "hasRealUrl": true
     },
     {
       "channel": "Fox News",
       "subscribers": 15000000,
-      "q2Growth": 200000,
-      "q2Views": 1100000000,
+      "growth": 200000,
+      "views": 1100000000,
       "url": "https://www.youtube.com/@FoxNews",
       "hasRealUrl": true
     },
     {
       "channel": "The Daily Show",
       "subscribers": 14000000,
-      "q2Growth": 200000,
-      "q2Views": 436000000,
+      "growth": 200000,
+      "views": 436000000,
       "url": "https://www.youtube.com/@thedailyshow",
       "hasRealUrl": true
     },
     {
       "channel": "Vox",
       "subscribers": 13000000,
-      "q2Growth": 0,
-      "q2Views": 29000000,
+      "growth": 0,
+      "views": 29000000,
       "url": "https://www.youtube.com/@Vox",
       "hasRealUrl": true
     },
     {
       "channel": "MS NOW",
       "subscribers": 9900000,
-      "q2Growth": 160000,
-      "q2Views": 759000000,
+      "growth": 160000,
+      "views": 759000000,
       "url": "https://www.youtube.com/results?search_query=MS%20NOW",
       "hasRealUrl": false
     },
     {
       "channel": "VICE News",
       "subscribers": 9300000,
-      "q2Growth": 20000,
-      "q2Views": 22000000,
+      "growth": 20000,
+      "views": 22000000,
       "url": "https://www.youtube.com/@VICENews",
       "hasRealUrl": true
     },
     {
       "channel": "Jordan B Peterson",
       "subscribers": 8900000,
-      "q2Growth": 0,
-      "q2Views": 7400000,
+      "growth": 0,
+      "views": 7400000,
       "url": "https://www.youtube.com/@JordanBPeterson",
       "hasRealUrl": true
     },
     {
       "channel": "NELK",
       "subscribers": 8400000,
-      "q2Growth": 0,
-      "q2Views": 23000000,
+      "growth": 0,
+      "views": 23000000,
       "url": "https://www.youtube.com/results?search_query=NELK",
       "hasRealUrl": false
     },
     {
       "channel": "Johnny Harris",
       "subscribers": 7800000,
-      "q2Growth": 170000,
-      "q2Views": 29000000,
+      "growth": 170000,
+      "views": 29000000,
       "url": "https://www.youtube.com/results?search_query=Johnny%20Harris",
       "hasRealUrl": false
     },
     {
       "channel": "Turning Point USA",
       "subscribers": 7300000,
-      "q2Growth": 500000,
-      "q2Views": 112000000,
+      "growth": 500000,
+      "views": 112000000,
       "url": "https://www.youtube.com/results?search_query=Turning%20Point%20USA",
       "hasRealUrl": false
     },
     {
       "channel": "Valuetainment",
       "subscribers": 7200000,
-      "q2Growth": 20000,
-      "q2Views": 83000000,
+      "growth": 20000,
+      "views": 83000000,
       "url": "https://www.youtube.com/@VALUETAINMENT",
       "hasRealUrl": true
     },
     {
       "channel": "Ben Shapiro",
       "subscribers": 7000000,
-      "q2Growth": -60000,
-      "q2Views": 70000000,
+      "growth": -60000,
+      "views": 70000000,
       "url": "https://www.youtube.com/results?search_query=Ben%20Shapiro",
       "hasRealUrl": false
     },
     {
       "channel": "The Young Turks",
       "subscribers": 6700000,
-      "q2Growth": 130000,
-      "q2Views": 118000000,
+      "growth": 130000,
+      "views": 118000000,
       "url": "https://www.youtube.com/@TheYoungTurks",
       "hasRealUrl": true
     },
     {
       "channel": "Russell Brand",
       "subscribers": 6700000,
-      "q2Growth": -30000,
-      "q2Views": 27000000,
+      "growth": -30000,
+      "views": 27000000,
       "url": "https://www.youtube.com/results?search_query=Russell%20Brand",
       "hasRealUrl": false
     },
     {
       "channel": "Philip DeFranco",
       "subscribers": 6600000,
-      "q2Growth": 30000,
-      "q2Views": 39000000,
+      "growth": 30000,
+      "views": 39000000,
       "url": "https://www.youtube.com/@PhilipDeFranco",
       "hasRealUrl": true
     },
     {
       "channel": "MeidasTouch",
       "subscribers": 6400000,
-      "q2Growth": 190000,
-      "q2Views": 794000000,
+      "growth": 190000,
+      "views": 794000000,
       "url": "https://www.youtube.com/@MeidasTouch",
       "hasRealUrl": true
     },
     {
       "channel": "Shawn Ryan Show",
       "subscribers": 6300000,
-      "q2Growth": 220000,
-      "q2Views": 385000000,
+      "growth": 220000,
+      "views": 385000000,
       "url": "https://www.youtube.com/@ShawnRyanShow",
       "hasRealUrl": true
     },
     {
       "channel": "Benny Johnson",
       "subscribers": 6100000,
-      "q2Growth": -10000,
-      "q2Views": 206000000,
+      "growth": -10000,
+      "views": 206000000,
       "url": "https://www.youtube.com/results?search_query=Benny%20Johnson",
       "hasRealUrl": false
     },
     {
       "channel": "Breakfast Club Power 105.1 FM",
       "subscribers": 6000000,
-      "q2Growth": 0,
-      "q2Views": 30000000,
+      "growth": 0,
+      "views": 30000000,
       "url": "https://www.youtube.com/results?search_query=Breakfast%20Club%20Power%20105.1%20FM",
       "hasRealUrl": false
     },
     {
       "channel": "Candace Owens",
       "subscribers": 6000000,
-      "q2Growth": 70000,
-      "q2Views": 106000000,
+      "growth": 70000,
+      "views": 106000000,
       "url": "https://www.youtube.com/results?search_query=Candace%20Owens",
       "hasRealUrl": false
     },
     {
       "channel": "StevenCrowder",
       "subscribers": 5900000,
-      "q2Growth": 20000,
-      "q2Views": 25000000,
+      "growth": 20000,
+      "views": 25000000,
       "url": "https://www.youtube.com/@StevenCrowder",
       "hasRealUrl": true
     },
     {
       "channel": "Charlie Kirk",
       "subscribers": 5800000,
-      "q2Growth": 90000,
-      "q2Views": 15000000,
+      "growth": 90000,
+      "views": 15000000,
       "url": "https://www.youtube.com/results?search_query=Charlie%20Kirk",
       "hasRealUrl": false
     },
     {
       "channel": "Tucker Carlson",
       "subscribers": 5700000,
-      "q2Growth": 170000,
-      "q2Views": 215000000,
+      "growth": 170000,
+      "views": 215000000,
       "url": "https://www.youtube.com/@TuckerCarlson",
       "hasRealUrl": true
     },
     {
       "channel": "Brian Tyler Cohen",
       "subscribers": 5200000,
-      "q2Growth": 30000,
-      "q2Views": 206000000,
+      "growth": 30000,
+      "views": 206000000,
       "url": "https://www.youtube.com/@briantylercohen",
       "hasRealUrl": true
     },
     {
       "channel": "NowThis Impact",
       "subscribers": 5100000,
-      "q2Growth": 140000,
-      "q2Views": 328000000,
+      "growth": 140000,
+      "views": 328000000,
       "url": "https://www.youtube.com/results?search_query=NowThis%20Impact",
       "hasRealUrl": false
     },
     {
       "channel": "Lex Fridman",
       "subscribers": 5000000,
-      "q2Growth": 50000,
-      "q2Views": 10000000,
+      "growth": 50000,
+      "views": 10000000,
       "url": "https://www.youtube.com/results?search_query=Lex%20Fridman",
       "hasRealUrl": false
     },
     {
       "channel": "Trevor Noah",
       "subscribers": 4700000,
-      "q2Growth": 160000,
-      "q2Views": 103000000,
+      "growth": 160000,
+      "views": 103000000,
       "url": "https://www.youtube.com/results?search_query=Trevor%20Noah",
       "hasRealUrl": false
     },
     {
       "channel": "Theo Von",
       "subscribers": 4700000,
-      "q2Growth": 150000,
-      "q2Views": 56000000,
+      "growth": 150000,
+      "views": 56000000,
       "url": "https://www.youtube.com/@TheoVon",
       "hasRealUrl": true
     },
     {
       "channel": "Asmongold TV",
       "subscribers": 4600000,
-      "q2Growth": 140000,
-      "q2Views": 352000000,
+      "growth": 140000,
+      "views": 352000000,
       "url": "https://www.youtube.com/results?search_query=Asmongold%20TV",
       "hasRealUrl": false
     },
     {
       "channel": "Piers Morgan Uncensored",
       "subscribers": 4400000,
-      "q2Growth": 40000,
-      "q2Views": 50000000,
+      "growth": 40000,
+      "views": 50000000,
       "url": "https://www.youtube.com/results?search_query=Piers%20Morgan%20Uncensored",
       "hasRealUrl": false
     },
     {
       "channel": "Megyn Kelly",
       "subscribers": 4100000,
-      "q2Growth": -50000,
-      "q2Views": 127000000,
+      "growth": -50000,
+      "views": 127000000,
       "url": "https://www.youtube.com/results?search_query=Megyn%20Kelly",
       "hasRealUrl": false
     },
     {
       "channel": "Donald J Trump",
       "subscribers": 4000000,
-      "q2Growth": 0,
-      "q2Views": 1300000,
+      "growth": 0,
+      "views": 1300000,
       "url": "https://www.youtube.com/results?search_query=Donald%20J%20Trump",
       "hasRealUrl": false
     },
     {
       "channel": "The Officer Tatum",
       "subscribers": 3800000,
-      "q2Growth": 70000,
-      "q2Views": 138000000,
+      "growth": 70000,
+      "views": 138000000,
       "url": "https://www.youtube.com/@TheOfficerTatum",
       "hasRealUrl": true
     },
     {
       "channel": "David Pakman Show",
       "subscribers": 3600000,
-      "q2Growth": 100000,
-      "q2Views": 149000000,
+      "growth": 100000,
+      "views": 149000000,
       "url": "https://www.youtube.com/@thedavidpakmanshow",
       "hasRealUrl": true
     },
     {
       "channel": "The Comments Section",
       "subscribers": 3600000,
-      "q2Growth": -30000,
-      "q2Views": -3400000000,
+      "growth": -30000,
+      "views": -3400000000,
       "url": "https://www.youtube.com/results?search_query=The%20Comments%20Section",
       "hasRealUrl": false
     },
     {
       "channel": "More Perfect Union",
       "subscribers": 3600000,
-      "q2Growth": 400000,
-      "q2Views": 116000000,
+      "growth": 400000,
+      "views": 116000000,
       "url": "https://www.youtube.com/results?search_query=More%20Perfect%20Union",
       "hasRealUrl": false
     },
     {
       "channel": "Channel 5 with Andrew Callaghan",
       "subscribers": 3600000,
-      "q2Growth": 80000,
-      "q2Views": 44000000,
+      "growth": 80000,
+      "views": 44000000,
       "url": "https://www.youtube.com/results?search_query=Channel%205%20with%20Andrew%20Callaghan",
       "hasRealUrl": false
     },
     {
       "channel": "PragerU",
       "subscribers": 3500000,
-      "q2Growth": 0,
-      "q2Views": 63000000,
+      "growth": 0,
+      "views": 63000000,
       "url": "https://www.youtube.com/@prageru",
       "hasRealUrl": true
     },
     {
       "channel": "Matt Walsh",
       "subscribers": 3400000,
-      "q2Growth": 80000,
-      "q2Views": 72000000,
+      "growth": 80000,
+      "views": 72000000,
       "url": "https://www.youtube.com/@MattWalsh",
       "hasRealUrl": true
     },
     {
       "channel": "Democracy Now!",
       "subscribers": 3300000,
-      "q2Growth": 60000,
-      "q2Views": 51000000,
+      "growth": 60000,
+      "views": 51000000,
       "url": "https://www.youtube.com/@democracynow",
       "hasRealUrl": true
     },
     {
       "channel": "Colion Noir",
       "subscribers": 3300000,
-      "q2Growth": 60000,
-      "q2Views": 43000000,
+      "growth": 60000,
+      "views": 43000000,
       "url": "https://www.youtube.com/results?search_query=Colion%20Noir",
       "hasRealUrl": false
     },
     {
       "channel": "The Daily Wire",
       "subscribers": 3200000,
-      "q2Growth": -30000,
-      "q2Views": -28000000,
+      "growth": -30000,
+      "views": -28000000,
       "url": "https://www.youtube.com/results?search_query=The%20Daily%20Wire",
       "hasRealUrl": false
     },
     {
       "channel": "The Rubin Report",
       "subscribers": 3200000,
-      "q2Growth": 20000,
-      "q2Views": 110000000,
+      "growth": 20000,
+      "views": 110000000,
       "url": "https://www.youtube.com/@RubinReport",
       "hasRealUrl": true
     },
     {
       "channel": "Hank Green",
       "subscribers": 3200000,
-      "q2Growth": 150000,
-      "q2Views": 76000000,
+      "growth": 150000,
+      "views": 76000000,
       "url": "https://www.youtube.com/@hankgreen",
       "hasRealUrl": true
     },
     {
       "channel": "The White House",
       "subscribers": 3100000,
-      "q2Growth": 60000,
-      "q2Views": 27000000,
+      "growth": 60000,
+      "views": 27000000,
       "url": "https://www.youtube.com/results?search_query=The%20White%20House",
       "hasRealUrl": false
     },
     {
       "channel": "AwakenWithJP",
       "subscribers": 3000000,
-      "q2Growth": -10000,
-      "q2Views": 5600000,
+      "growth": -10000,
+      "views": 5600000,
       "url": "https://www.youtube.com/results?search_query=AwakenWithJP",
       "hasRealUrl": false
     },
     {
       "channel": "Conservative Twins",
       "subscribers": 3000000,
-      "q2Growth": 20000,
-      "q2Views": 34000000,
+      "growth": 20000,
+      "views": 34000000,
       "url": "https://www.youtube.com/results?search_query=Conservative%20Twins",
       "hasRealUrl": false
     },
     {
       "channel": "Real Time with Bill Maher",
       "subscribers": 3000000,
-      "q2Growth": 10000,
-      "q2Views": 23000000,
+      "growth": 10000,
+      "views": 23000000,
       "url": "https://www.youtube.com/@RealTime",
       "hasRealUrl": true
     },
     {
       "channel": "PBD Podcast",
       "subscribers": 2900000,
-      "q2Growth": 30000,
-      "q2Views": 54000000,
+      "growth": 30000,
+      "views": 54000000,
       "url": "https://www.youtube.com/@PBDPodcast",
       "hasRealUrl": true
     },
     {
       "channel": "Candace Owens Podcast",
       "subscribers": 2900000,
-      "q2Growth": -20000,
-      "q2Views": 19000,
+      "growth": -20000,
+      "views": 19000,
       "url": "https://www.youtube.com/results?search_query=Candace%20Owens%20Podcast",
       "hasRealUrl": false
     },
     {
       "channel": "Redacted",
       "subscribers": 2900000,
-      "q2Growth": 0,
-      "q2Views": 24000000,
+      "growth": 0,
+      "views": 24000000,
       "url": "https://www.youtube.com/results?search_query=Redacted",
       "hasRealUrl": false
     },
     {
       "channel": "CBN News",
       "subscribers": 2800000,
-      "q2Growth": 50000,
-      "q2Views": 49000000,
+      "growth": 50000,
+      "views": 49000000,
       "url": "https://www.youtube.com/results?search_query=CBN%20News",
       "hasRealUrl": false
     },
     {
       "channel": "Timcast IRL",
       "subscribers": 2700000,
-      "q2Growth": 20000,
-      "q2Views": 30000000,
+      "growth": 20000,
+      "views": 30000000,
       "url": "https://www.youtube.com/@TimcastIRL",
       "hasRealUrl": true
     },
     {
       "channel": "Daily Dose Of Masculinity",
       "subscribers": 2700000,
-      "q2Growth": 0,
-      "q2Views": -321000000,
+      "growth": 0,
+      "views": -321000000,
       "url": "https://www.youtube.com/results?search_query=Daily%20Dose%20Of%20Masculinity",
       "hasRealUrl": false
     },
     {
       "channel": "Michael Knowles",
       "subscribers": 2600000,
-      "q2Growth": 10000,
-      "q2Views": 29000000,
+      "growth": 10000,
+      "views": 29000000,
       "url": "https://www.youtube.com/@MichaelKnowles",
       "hasRealUrl": true
     },
     {
       "channel": "Newsmax",
       "subscribers": 2600000,
-      "q2Growth": 20000,
-      "q2Views": 36000000,
+      "growth": 20000,
+      "views": 36000000,
       "url": "https://www.youtube.com/results?search_query=Newsmax",
       "hasRealUrl": false
     },
     {
       "channel": "Josh Johnson",
       "subscribers": 2500000,
-      "q2Growth": 130000,
-      "q2Views": 72000000,
+      "growth": 130000,
+      "views": 72000000,
       "url": "https://www.youtube.com/results?search_query=Josh%20Johnson",
       "hasRealUrl": false
     },
     {
       "channel": "New York Post",
       "subscribers": 2500000,
-      "q2Growth": 70000,
-      "q2Views": 138000000,
+      "growth": 70000,
+      "views": 138000000,
       "url": "https://www.youtube.com/@nypost",
       "hasRealUrl": true
     },
     {
       "channel": "Amala Ekpunobi",
       "subscribers": 2500000,
-      "q2Growth": 20000,
-      "q2Views": 31000000,
+      "growth": 20000,
+      "views": 31000000,
       "url": "https://www.youtube.com/results?search_query=Amala%20Ekpunobi",
       "hasRealUrl": false
     },
     {
       "channel": "Shoe0nHead",
       "subscribers": 2500000,
-      "q2Growth": 60000,
-      "q2Views": 10000000,
+      "growth": 60000,
+      "views": 10000000,
       "url": "https://www.youtube.com/results?search_query=Shoe0nHead",
       "hasRealUrl": false
     },
     {
       "channel": "Secular Talk",
       "subscribers": 2300000,
-      "q2Growth": 60000,
-      "q2Views": 102000000,
+      "growth": 60000,
+      "views": 102000000,
       "url": "https://www.youtube.com/@SecularTalk",
       "hasRealUrl": true
     },
     {
       "channel": "The Next News Network",
       "subscribers": 2300000,
-      "q2Growth": -10000,
-      "q2Views": 11000000,
+      "growth": -10000,
+      "views": 11000000,
       "url": "https://www.youtube.com/results?search_query=The%20Next%20News%20Network",
       "hasRealUrl": false
     },
     {
       "channel": "NowThis",
       "subscribers": 2200000,
-      "q2Growth": 0,
-      "q2Views": 3300000,
+      "growth": 0,
+      "views": 3300000,
       "url": "https://www.youtube.com/results?search_query=NowThis",
       "hasRealUrl": false
     },
     {
       "channel": "BlazeTV",
       "subscribers": 2200000,
-      "q2Growth": 10000,
-      "q2Views": 10000000,
+      "growth": 10000,
+      "views": 10000000,
       "url": "https://www.youtube.com/@BlazeTV",
       "hasRealUrl": true
     },
     {
       "channel": "FULL SEND PODCAST",
       "subscribers": 2200000,
-      "q2Growth": -10000,
-      "q2Views": 2700000,
+      "growth": -10000,
+      "views": 2700000,
       "url": "https://www.youtube.com/results?search_query=FULL%20SEND%20PODCAST",
       "hasRealUrl": false
     },
     {
       "channel": "Adam Mockler",
       "subscribers": 2200000,
-      "q2Growth": 210000,
-      "q2Views": 299000000,
+      "growth": 210000,
+      "views": 299000000,
       "url": "https://www.youtube.com/results?search_query=Adam%20Mockler",
       "hasRealUrl": false
     },
     {
       "channel": "Stephen Gardner",
       "subscribers": 2100000,
-      "q2Growth": 20000,
-      "q2Views": 27000000,
+      "growth": 20000,
+      "views": 27000000,
       "url": "https://www.youtube.com/results?search_query=Stephen%20Gardner",
       "hasRealUrl": false
     },
     {
       "channel": "TheQuartering",
       "subscribers": 2100000,
-      "q2Growth": 80000,
-      "q2Views": 70000000,
+      "growth": 80000,
+      "views": 70000000,
       "url": "https://www.youtube.com/results?search_query=TheQuartering",
       "hasRealUrl": false
     },
     {
       "channel": "Paul Joseph Watson",
       "subscribers": 2100000,
-      "q2Growth": 10000,
-      "q2Views": 13000000,
+      "growth": 10000,
+      "views": 13000000,
       "url": "https://www.youtube.com/results?search_query=Paul%20Joseph%20Watson",
       "hasRealUrl": false
     },
     {
       "channel": "Zeteo",
       "subscribers": 2100000,
-      "q2Growth": 230000,
-      "q2Views": 103000000,
+      "growth": 230000,
+      "views": 103000000,
       "url": "https://www.youtube.com/results?search_query=Zeteo",
       "hasRealUrl": false
     },
     {
       "channel": "The Majority Report w/ Sam Seder",
       "subscribers": 2100000,
-      "q2Growth": 30000,
-      "q2Views": 68000000,
+      "growth": 30000,
+      "views": 68000000,
       "url": "https://www.youtube.com/@TheMajorityReport",
       "hasRealUrl": true
     },
     {
       "channel": "Right Side Broadcasting Network",
       "subscribers": 2100000,
-      "q2Growth": 10000,
-      "q2Views": 14000000,
+      "growth": 10000,
+      "views": 14000000,
       "url": "https://www.youtube.com/results?search_query=Right%20Side%20Broadcasting%20Network",
       "hasRealUrl": false
     },
     {
       "channel": "Timcast",
       "subscribers": 2100000,
-      "q2Growth": 50000,
-      "q2Views": 28000000,
+      "growth": 50000,
+      "views": 28000000,
       "url": "https://www.youtube.com/@Timcast",
       "hasRealUrl": true
     },
     {
       "channel": "Breaking Points",
       "subscribers": 2100000,
-      "q2Growth": 80000,
-      "q2Views": 109000000,
+      "growth": 80000,
+      "views": 109000000,
       "url": "https://www.youtube.com/results?search_query=Breaking%20Points",
       "hasRealUrl": false
     },
     {
       "channel": "Pearl",
       "subscribers": 2100000,
-      "q2Growth": 0,
-      "q2Views": 22000000,
+      "growth": 0,
+      "views": 22000000,
       "url": "https://www.youtube.com/results?search_query=Pearl",
       "hasRealUrl": false
     },
     {
       "channel": "JustKiddingNews",
       "subscribers": 2100000,
-      "q2Growth": 0,
-      "q2Views": 7600000,
+      "growth": 0,
+      "views": 7600000,
       "url": "https://www.youtube.com/results?search_query=JustKiddingNews",
       "hasRealUrl": false
     },
     {
       "channel": "Young America's Foundation",
       "subscribers": 2000000,
-      "q2Growth": 30000,
-      "q2Views": 11000000,
+      "growth": 30000,
+      "views": 11000000,
       "url": "https://www.youtube.com/results?search_query=Young%20America's%20Foundation",
       "hasRealUrl": false
     },
     {
       "channel": "FLAGRANT",
       "subscribers": 2000000,
-      "q2Growth": -10000,
-      "q2Views": 10000000,
+      "growth": -10000,
+      "views": 10000000,
       "url": "https://www.youtube.com/results?search_query=FLAGRANT",
       "hasRealUrl": false
     },
     {
       "channel": "Tucker Carlson Network",
       "subscribers": 2000000,
-      "q2Growth": 160000,
-      "q2Views": 106000000,
+      "growth": 160000,
+      "views": 106000000,
       "url": "https://www.youtube.com/results?search_query=Tucker%20Carlson%20Network",
       "hasRealUrl": false
     },
     {
       "channel": "Barstool Sports",
       "subscribers": 2000000,
-      "q2Growth": 10000,
-      "q2Views": 33000000,
+      "growth": 10000,
+      "views": 33000000,
       "url": "https://www.youtube.com/results?search_query=Barstool%20Sports",
       "hasRealUrl": false
     },
     {
       "channel": "Roland S. Martin",
       "subscribers": 1900000,
-      "q2Growth": 10000,
-      "q2Views": 27000000,
+      "growth": 10000,
+      "views": 27000000,
       "url": "https://www.youtube.com/@rolandsmartin",
       "hasRealUrl": true
     },
     {
       "channel": "Nick Shirley",
       "subscribers": 1900000,
-      "q2Growth": 140000,
-      "q2Views": 34000000,
+      "growth": 140000,
+      "views": 34000000,
       "url": "https://www.youtube.com/results?search_query=Nick%20Shirley",
       "hasRealUrl": false
     },
     {
       "channel": "Second Thought",
       "subscribers": 1900000,
-      "q2Growth": 10000,
-      "q2Views": 2900000,
+      "growth": 10000,
+      "views": 2900000,
       "url": "https://www.youtube.com/results?search_query=Second%20Thought",
       "hasRealUrl": false
     },
     {
       "channel": "ContraPoints",
       "subscribers": 1900000,
-      "q2Growth": 0,
-      "q2Views": 1400000,
+      "growth": 0,
+      "views": 1400000,
       "url": "https://www.youtube.com/results?search_query=ContraPoints",
       "hasRealUrl": false
     },
     {
       "channel": "HasanAbi",
       "subscribers": 1900000,
-      "q2Growth": 50000,
-      "q2Views": 93000000,
+      "growth": 50000,
+      "views": 93000000,
       "url": "https://www.youtube.com/@hasanabi",
       "hasRealUrl": true
     },
     {
       "channel": "Mark Dice",
       "subscribers": 1900000,
-      "q2Growth": -10000,
-      "q2Views": 6000000,
+      "growth": -10000,
+      "views": 6000000,
       "url": "https://www.youtube.com/results?search_query=Mark%20Dice",
       "hasRealUrl": false
     },
     {
       "channel": "The Babylon Bee",
       "subscribers": 1900000,
-      "q2Growth": 10000,
-      "q2Views": 18000000,
+      "growth": 10000,
+      "views": 18000000,
       "url": "https://www.youtube.com/results?search_query=The%20Babylon%20Bee",
       "hasRealUrl": false
     },
     {
       "channel": "The Jimmy Dore Show",
       "subscribers": 1900000,
-      "q2Growth": 50000,
-      "q2Views": 59000000,
+      "growth": 50000,
+      "views": 59000000,
       "url": "https://www.youtube.com/@jimmydoreshow",
       "hasRealUrl": true
     },
     {
       "channel": "Occupy Democrats",
       "subscribers": 1900000,
-      "q2Growth": 50000,
-      "q2Views": 119000000,
+      "growth": 50000,
+      "views": 119000000,
       "url": "https://www.youtube.com/results?search_query=Occupy%20Democrats",
       "hasRealUrl": false
     },
     {
       "channel": "Triggernometry",
       "subscribers": 1800000,
-      "q2Growth": 50000,
-      "q2Views": 32000000,
+      "growth": 50000,
+      "views": 32000000,
       "url": "https://www.youtube.com/results?search_query=Triggernometry",
       "hasRealUrl": false
     },
     {
       "channel": "Asmongold Clips",
       "subscribers": 1800000,
-      "q2Growth": 80000,
-      "q2Views": 234000000,
+      "growth": 80000,
+      "views": 234000000,
       "url": "https://www.youtube.com/results?search_query=Asmongold%20Clips",
       "hasRealUrl": false
     },
     {
       "channel": "Glenn Beck",
       "subscribers": 1800000,
-      "q2Growth": 50000,
-      "q2Views": 52000000,
+      "growth": 50000,
+      "views": 52000000,
       "url": "https://www.youtube.com/@glennbeck",
       "hasRealUrl": true
     },
     {
       "channel": "Liberal Hivemind",
       "subscribers": 1700000,
-      "q2Growth": 0,
-      "q2Views": 63000000,
+      "growth": 0,
+      "views": 63000000,
       "url": "https://www.youtube.com/results?search_query=Liberal%20Hivemind",
       "hasRealUrl": false
     },
     {
       "channel": "OutKick",
       "subscribers": 1700000,
-      "q2Growth": -10000,
-      "q2Views": 2800000,
+      "growth": -10000,
+      "views": 2800000,
       "url": "https://www.youtube.com/results?search_query=OutKick",
       "hasRealUrl": false
     },
     {
       "channel": "The Bulwark",
       "subscribers": 1700000,
-      "q2Growth": 60000,
-      "q2Views": 119000000,
+      "growth": 60000,
+      "views": 119000000,
       "url": "https://www.youtube.com/@TheBulwark",
       "hasRealUrl": true
     },
     {
       "channel": "I've Had It",
       "subscribers": 1700000,
-      "q2Growth": 110000,
-      "q2Views": 105000000,
+      "growth": 110000,
+      "views": 105000000,
       "url": "https://www.youtube.com/results?search_query=I've%20Had%20It",
       "hasRealUrl": false
     },
     {
       "channel": "Brett Cooper",
       "subscribers": 1700000,
-      "q2Growth": 0,
-      "q2Views": 20000000,
+      "growth": 0,
+      "views": 20000000,
       "url": "https://www.youtube.com/results?search_query=Brett%20Cooper",
       "hasRealUrl": false
     },
     {
       "channel": "Philosophy Tube",
       "subscribers": 1700000,
-      "q2Growth": 10000,
-      "q2Views": 1900000,
+      "growth": 10000,
+      "views": 1900000,
       "url": "https://www.youtube.com/@PhilosophyTube",
       "hasRealUrl": true
     },
     {
       "channel": "The Trump Report",
       "subscribers": 1700000,
-      "q2Growth": 0,
-      "q2Views": 20000000,
+      "growth": 0,
+      "views": 20000000,
       "url": "https://www.youtube.com/results?search_query=The%20Trump%20Report",
       "hasRealUrl": false
     },
     {
       "channel": "Dr. Steve Turley",
       "subscribers": 1600000,
-      "q2Growth": 70000,
-      "q2Views": 54000000,
+      "growth": 70000,
+      "views": 54000000,
       "url": "https://www.youtube.com/results?search_query=Dr.%20Steve%20Turley",
       "hasRealUrl": false
     },
     {
       "channel": "Lex Clips",
       "subscribers": 1600000,
-      "q2Growth": 20000,
-      "q2Views": 10000000,
+      "growth": 20000,
+      "views": 10000000,
       "url": "https://www.youtube.com/results?search_query=Lex%20Clips",
       "hasRealUrl": false
     },
     {
       "channel": "TheDC Shorts",
       "subscribers": 1600000,
-      "q2Growth": 10000,
-      "q2Views": 64000000,
+      "growth": 10000,
+      "views": 64000000,
       "url": "https://www.youtube.com/results?search_query=TheDC%20Shorts",
       "hasRealUrl": false
     },
     {
       "channel": "The Lincoln Project",
       "subscribers": 1600000,
-      "q2Growth": 20000,
-      "q2Views": 13000000,
+      "growth": 20000,
+      "views": 13000000,
       "url": "https://www.youtube.com/results?search_query=The%20Lincoln%20Project",
       "hasRealUrl": false
     },
     {
       "channel": "Jack Cocchiarella",
       "subscribers": 1600000,
-      "q2Growth": 70000,
-      "q2Views": 163000000,
+      "growth": 70000,
+      "views": 163000000,
       "url": "https://www.youtube.com/results?search_query=Jack%20Cocchiarella",
       "hasRealUrl": false
     },
     {
       "channel": "Luke Beasley",
       "subscribers": 1600000,
-      "q2Growth": 40000,
-      "q2Views": 61000000,
+      "growth": 40000,
+      "views": 61000000,
       "url": "https://www.youtube.com/results?search_query=Luke%20Beasley",
       "hasRealUrl": false
     },
     {
       "channel": "Robert Reich",
       "subscribers": 1600000,
-      "q2Growth": 50000,
-      "q2Views": 33000000,
+      "growth": 50000,
+      "views": 33000000,
       "url": "https://www.youtube.com/@RBReich",
       "hasRealUrl": true
     },
     {
       "channel": "Blaire White",
       "subscribers": 1600000,
-      "q2Growth": 10000,
-      "q2Views": 16000000,
+      "growth": 10000,
+      "views": 16000000,
       "url": "https://www.youtube.com/results?search_query=Blaire%20White",
       "hasRealUrl": false
     },
     {
       "channel": "Nick Freitas",
       "subscribers": 1500000,
-      "q2Growth": 50000,
-      "q2Views": 76000000,
+      "growth": 50000,
+      "views": 76000000,
       "url": "https://www.youtube.com/results?search_query=Nick%20Freitas",
       "hasRealUrl": false
     },
     {
       "channel": "Rebel HQ",
       "subscribers": 1500000,
-      "q2Growth": 10000,
-      "q2Views": 28000000,
+      "growth": 10000,
+      "views": 28000000,
       "url": "https://www.youtube.com/results?search_query=Rebel%20HQ",
       "hasRealUrl": false
     },
     {
       "channel": "Tim Pool",
       "subscribers": 1500000,
-      "q2Growth": 0,
-      "q2Views": 8000000,
+      "growth": 0,
+      "views": 8000000,
       "url": "https://www.youtube.com/results?search_query=Tim%20Pool",
       "hasRealUrl": false
     },
     {
       "channel": "WatchlistTYT",
       "subscribers": 1500000,
-      "q2Growth": 0,
-      "q2Views": 5900000,
+      "growth": 0,
+      "views": 5900000,
       "url": "https://www.youtube.com/results?search_query=WatchlistTYT",
       "hasRealUrl": false
     },
     {
       "channel": "Anton Daniels",
       "subscribers": 1400000,
-      "q2Growth": 110000,
-      "q2Views": 122000000,
+      "growth": 110000,
+      "views": 122000000,
       "url": "https://www.youtube.com/results?search_query=Anton%20Daniels",
       "hasRealUrl": false
     },
     {
       "channel": "Gianmarco Soresi",
       "subscribers": 1400000,
-      "q2Growth": 70000,
-      "q2Views": 139000000,
+      "growth": 70000,
+      "views": 139000000,
       "url": "https://www.youtube.com/results?search_query=Gianmarco%20Soresi",
       "hasRealUrl": false
     },
     {
       "channel": "One America News Network",
       "subscribers": 1400000,
-      "q2Growth": 0,
-      "q2Views": 4100000,
+      "growth": 0,
+      "views": 4100000,
       "url": "https://www.youtube.com/results?search_query=One%20America%20News%20Network",
       "hasRealUrl": false
     },
     {
       "channel": "Indisputable with Dr. Rashad Richey",
       "subscribers": 1400000,
-      "q2Growth": 20000,
-      "q2Views": 44000000,
+      "growth": 20000,
+      "views": 44000000,
       "url": "https://www.youtube.com/results?search_query=Indisputable%20with%20Dr.%20Rashad%20Richey",
       "hasRealUrl": false
     },
     {
       "channel": "ReasonTV",
       "subscribers": 1400000,
-      "q2Growth": 40000,
-      "q2Views": 22000000,
+      "growth": 40000,
+      "views": 22000000,
       "url": "https://www.youtube.com/@ReasonTV",
       "hasRealUrl": true
     },
     {
       "channel": "Mikhaila Peterson",
       "subscribers": 1400000,
-      "q2Growth": 20000,
-      "q2Views": 6000000,
+      "growth": 20000,
+      "views": 6000000,
       "url": "https://www.youtube.com/results?search_query=Mikhaila%20Peterson",
       "hasRealUrl": false
     },
     {
       "channel": "Bernie Sanders",
       "subscribers": 1400000,
-      "q2Growth": 70000,
-      "q2Views": 13000000,
+      "growth": 70000,
+      "views": 13000000,
       "url": "https://www.youtube.com/results?search_query=Bernie%20Sanders",
       "hasRealUrl": false
     },
     {
       "channel": "The Damage Report",
       "subscribers": 1400000,
-      "q2Growth": 20000,
-      "q2Views": 50000000,
+      "growth": 20000,
+      "views": 50000000,
       "url": "https://www.youtube.com/results?search_query=The%20Damage%20Report",
       "hasRealUrl": false
     },
     {
       "channel": "The Ring of Fire",
       "subscribers": 1400000,
-      "q2Growth": 10000,
-      "q2Views": 24000000,
+      "growth": 10000,
+      "views": 24000000,
       "url": "https://www.youtube.com/results?search_query=The%20Ring%20of%20Fire",
       "hasRealUrl": false
     },
     {
       "channel": "Don Lemon",
       "subscribers": 1300000,
-      "q2Growth": 70000,
-      "q2Views": 66000000,
+      "growth": 70000,
+      "views": 66000000,
       "url": "https://www.youtube.com/results?search_query=Don%20Lemon",
       "hasRealUrl": false
     },
     {
       "channel": "TheHodgetwins",
       "subscribers": 1300000,
-      "q2Growth": 0,
-      "q2Views": 72000,
+      "growth": 0,
+      "views": 72000,
       "url": "https://www.youtube.com/results?search_query=TheHodgetwins",
       "hasRealUrl": false
     },
     {
       "channel": "Mike Rowe",
       "subscribers": 1300000,
-      "q2Growth": 50000,
-      "q2Views": 10000000,
+      "growth": 50000,
+      "views": 10000000,
       "url": "https://www.youtube.com/results?search_query=Mike%20Rowe",
       "hasRealUrl": false
     },
     {
       "channel": "SNEAKO",
       "subscribers": 1300000,
-      "q2Growth": 10000,
-      "q2Views": 938000,
+      "growth": 10000,
+      "views": 938000,
       "url": "https://www.youtube.com/results?search_query=SNEAKO",
       "hasRealUrl": false
     },
     {
       "channel": "Senator Bernie Sanders",
       "subscribers": 1300000,
-      "q2Growth": 20000,
-      "q2Views": 9600000,
+      "growth": 20000,
+      "views": 9600000,
       "url": "https://www.youtube.com/results?search_query=Senator%20Bernie%20Sanders",
       "hasRealUrl": false
     },
     {
       "channel": "Trish Regan",
       "subscribers": 1300000,
-      "q2Growth": 60000,
-      "q2Views": 219000000,
+      "growth": 60000,
+      "views": 219000000,
       "url": "https://www.youtube.com/results?search_query=Trish%20Regan",
       "hasRealUrl": false
     },
     {
       "channel": "Keith Edwards",
       "subscribers": 1300000,
-      "q2Growth": 80000,
-      "q2Views": 95000000,
+      "growth": 80000,
+      "views": 95000000,
       "url": "https://www.youtube.com/results?search_query=Keith%20Edwards",
       "hasRealUrl": false
     },
     {
       "channel": "Jesse Dollemore",
       "subscribers": 1300000,
-      "q2Growth": 20000,
-      "q2Views": 40000000,
+      "growth": 20000,
+      "views": 40000000,
       "url": "https://www.youtube.com/results?search_query=Jesse%20Dollemore",
       "hasRealUrl": false
     },
     {
       "channel": "Project Veritas",
       "subscribers": 1300000,
-      "q2Growth": -10000,
-      "q2Views": 33000,
+      "growth": -10000,
+      "views": 33000,
       "url": "https://www.youtube.com/results?search_query=Project%20Veritas",
       "hasRealUrl": false
     },
     {
       "channel": "Pod Save America",
       "subscribers": 1300000,
-      "q2Growth": 40000,
-      "q2Views": 27000000,
+      "growth": 40000,
+      "views": 27000000,
       "url": "https://www.youtube.com/results?search_query=Pod%20Save%20America",
       "hasRealUrl": false
     },
     {
       "channel": "Digital Social Hour Podcast by Sean Kelly",
       "subscribers": 1300000,
-      "q2Growth": 10000,
-      "q2Views": 8500000,
+      "growth": 10000,
+      "views": 8500000,
       "url": "https://www.youtube.com/results?search_query=Digital%20Social%20Hour%20Podcast%20by%20Sean%20Kelly",
       "hasRealUrl": false
     },
     {
       "channel": "Glenn Kirschner",
       "subscribers": 1200000,
-      "q2Growth": 30000,
-      "q2Views": 14000000,
+      "growth": 30000,
+      "views": 14000000,
       "url": "https://www.youtube.com/results?search_query=Glenn%20Kirschner",
       "hasRealUrl": false
     },
     {
       "channel": "Benn Jordan",
       "subscribers": 1200000,
-      "q2Growth": 130000,
-      "q2Views": 9400000,
+      "growth": 130000,
+      "views": 9400000,
       "url": "https://www.youtube.com/results?search_query=Benn%20Jordan",
       "hasRealUrl": false
     },
     {
       "channel": "The Tim Dillon Show",
       "subscribers": 1200000,
-      "q2Growth": 110000,
-      "q2Views": 21000000,
+      "growth": 110000,
+      "views": 21000000,
       "url": "https://www.youtube.com/results?search_query=The%20Tim%20Dillon%20Show",
       "hasRealUrl": false
     },
     {
       "channel": "F.D Signifier",
       "subscribers": 1200000,
-      "q2Growth": 30000,
-      "q2Views": 2300000,
+      "growth": 30000,
+      "views": 2300000,
       "url": "https://www.youtube.com/results?search_query=F.D%20Signifier",
       "hasRealUrl": false
     },
     {
       "channel": "Really American",
       "subscribers": 1200000,
-      "q2Growth": 120000,
-      "q2Views": 94000000,
+      "growth": 120000,
+      "views": 94000000,
       "url": "https://www.youtube.com/results?search_query=Really%20American",
       "hasRealUrl": false
     },
     {
       "channel": "Tulsi Gabbard",
       "subscribers": 1200000,
-      "q2Growth": 10000,
-      "q2Views": 4100000,
+      "growth": 10000,
+      "views": 4100000,
       "url": "https://www.youtube.com/results?search_query=Tulsi%20Gabbard",
       "hasRealUrl": false
     },
     {
       "channel": "Jammidodger",
       "subscribers": 1200000,
-      "q2Growth": 0,
-      "q2Views": 5100000,
+      "growth": 0,
+      "views": 5100000,
       "url": "https://www.youtube.com/results?search_query=Jammidodger",
       "hasRealUrl": false
     },
     {
       "channel": "John Stossel",
       "subscribers": 1200000,
-      "q2Growth": 10000,
-      "q2Views": 5800000,
+      "growth": 10000,
+      "views": 5800000,
       "url": "https://www.youtube.com/results?search_query=John%20Stossel",
       "hasRealUrl": false
     },
     {
       "channel": "Legal AF",
       "subscribers": 1200000,
-      "q2Growth": 70000,
-      "q2Views": 125000000,
+      "growth": 70000,
+      "views": 125000000,
       "url": "https://www.youtube.com/results?search_query=Legal%20AF",
       "hasRealUrl": false
     },
     {
       "channel": "DeVory Darkins",
       "subscribers": 1100000,
-      "q2Growth": 10000,
-      "q2Views": 20000000,
+      "growth": 10000,
+      "views": 20000000,
       "url": "https://www.youtube.com/results?search_query=DeVory%20Darkins",
       "hasRealUrl": false
     },
     {
       "channel": "The Daily Signal",
       "subscribers": 1100000,
-      "q2Growth": 80000,
-      "q2Views": 59000000,
+      "growth": 80000,
+      "views": 59000000,
       "url": "https://www.youtube.com/@DailySignal",
       "hasRealUrl": true
     },
     {
       "channel": "Bill O'Reilly",
       "subscribers": 1100000,
-      "q2Growth": 20000,
-      "q2Views": 32000000,
+      "growth": 20000,
+      "views": 32000000,
       "url": "https://www.youtube.com/results?search_query=Bill%20O'Reilly",
       "hasRealUrl": false
     },
     {
       "channel": "The Real News Network",
       "subscribers": 1100000,
-      "q2Growth": 0,
-      "q2Views": 1100000,
+      "growth": 0,
+      "views": 1100000,
       "url": "https://www.youtube.com/results?search_query=The%20Real%20News%20Network",
       "hasRealUrl": false
     },
     {
       "channel": "All-In Podcast",
       "subscribers": 1100000,
-      "q2Growth": 50000,
-      "q2Views": 15000000,
+      "growth": 50000,
+      "views": 15000000,
       "url": "https://www.youtube.com/results?search_query=All-In%20Podcast",
       "hasRealUrl": false
     },
     {
       "channel": "Farron Balanced",
       "subscribers": 1100000,
-      "q2Growth": 40000,
-      "q2Views": 78000000,
+      "growth": 40000,
+      "views": 78000000,
       "url": "https://www.youtube.com/results?search_query=Farron%20Balanced",
       "hasRealUrl": false
     },
     {
       "channel": "Anthony Brian Logan",
       "subscribers": 1100000,
-      "q2Growth": -10000,
-      "q2Views": 4700000,
+      "growth": -10000,
+      "views": 4700000,
       "url": "https://www.youtube.com/results?search_query=Anthony%20Brian%20Logan",
       "hasRealUrl": false
     },
     {
       "channel": "decoy",
       "subscribers": 1100000,
-      "q2Growth": 10000,
-      "q2Views": 12000000,
+      "growth": 10000,
+      "views": 12000000,
       "url": "https://www.youtube.com/results?search_query=decoy",
       "hasRealUrl": false
     },
     {
       "channel": "Lakepointe Church",
       "subscribers": 1100000,
-      "q2Growth": 246000,
-      "q2Views": 87000000,
+      "growth": 246000,
+      "views": 87000000,
       "url": "https://www.youtube.com/results?search_query=Lakepointe%20Church",
       "hasRealUrl": false
     },
     {
       "channel": "Heather Cox Richardson",
       "subscribers": 1000000,
-      "q2Growth": 81000,
-      "q2Views": 68000000,
+      "growth": 81000,
+      "views": 68000000,
       "url": "https://www.youtube.com/results?search_query=Heather%20Cox%20Richardson",
       "hasRealUrl": false
     },
     {
       "channel": "Steve Hofstetter",
       "subscribers": 1000000,
-      "q2Growth": 30000,
-      "q2Views": 16000000,
+      "growth": 30000,
+      "views": 16000000,
       "url": "https://www.youtube.com/results?search_query=Steve%20Hofstetter",
       "hasRealUrl": false
     },
     {
       "channel": "Black Conservative Perspective",
       "subscribers": 1000000,
-      "q2Growth": 9000,
-      "q2Views": 61000000,
+      "growth": 9000,
+      "views": 61000000,
       "url": "https://www.youtube.com/results?search_query=Black%20Conservative%20Perspective",
       "hasRealUrl": false
     },
     {
       "channel": "Dan Bongino",
       "subscribers": 997000,
-      "q2Growth": 66000,
-      "q2Views": 43000000,
+      "growth": 66000,
+      "views": 43000000,
       "url": "https://www.youtube.com/results?search_query=Dan%20Bongino",
       "hasRealUrl": false
     },
     {
       "channel": "Samantha Bee",
       "subscribers": 974000,
-      "q2Growth": -1000,
-      "q2Views": 477000,
+      "growth": -1000,
+      "views": 477000,
       "url": "https://www.youtube.com/results?search_query=Samantha%20Bee",
       "hasRealUrl": false
     },
     {
       "channel": "Sargon of Akkad",
       "subscribers": 967000,
-      "q2Growth": 3000,
-      "q2Views": 2300000,
+      "growth": 3000,
+      "views": 2300000,
       "url": "https://www.youtube.com/results?search_query=Sargon%20of%20Akkad",
       "hasRealUrl": false
     },
     {
       "channel": "Search Party",
       "subscribers": 953000,
-      "q2Growth": 42000,
-      "q2Views": 6200000,
+      "growth": 42000,
+      "views": 6200000,
       "url": "https://www.youtube.com/results?search_query=Search%20Party",
       "hasRealUrl": false
     },
     {
       "channel": "Adam Conover",
       "subscribers": 947000,
-      "q2Growth": 25000,
-      "q2Views": 5500000,
+      "growth": 25000,
+      "views": 5500000,
       "url": "https://www.youtube.com/@adamconover",
       "hasRealUrl": true
     },
     {
       "channel": "Some More News",
       "subscribers": 944000,
-      "q2Growth": 1000,
-      "q2Views": 8300000,
+      "growth": 1000,
+      "views": 8300000,
       "url": "https://www.youtube.com/@SomeMoreNews",
       "hasRealUrl": true
     },
     {
       "channel": "Fleccas Talks",
       "subscribers": 913000,
-      "q2Growth": 10000,
-      "q2Views": 66000000,
+      "growth": 10000,
+      "views": 66000000,
       "url": "https://www.youtube.com/results?search_query=Fleccas%20Talks",
       "hasRealUrl": false
     },
     {
       "channel": "Belle of the Ranch",
       "subscribers": 878000,
-      "q2Growth": 1000,
-      "q2Views": 21000000,
+      "growth": 1000,
+      "views": 21000000,
       "url": "https://www.youtube.com/results?search_query=Belle%20of%20the%20Ranch",
       "hasRealUrl": false
     },
     {
       "channel": "Destiny",
       "subscribers": 875000,
-      "q2Growth": 11000,
-      "q2Views": 43000000,
+      "growth": 11000,
+      "views": 43000000,
       "url": "https://www.youtube.com/@destiny",
       "hasRealUrl": true
     },
     {
       "channel": "Sam Harris",
       "subscribers": 859000,
-      "q2Growth": 11000,
-      "q2Views": 6100000,
+      "growth": 11000,
+      "views": 6100000,
       "url": "https://www.youtube.com/results?search_query=Sam%20Harris",
       "hasRealUrl": false
     },
     {
       "channel": "Pondering Politics",
       "subscribers": 839000,
-      "q2Growth": 42000,
-      "q2Views": 52000000,
+      "growth": 42000,
+      "views": 52000000,
       "url": "https://www.youtube.com/results?search_query=Pondering%20Politics",
       "hasRealUrl": false
     },
     {
       "channel": "Hawk's Podcasts / mdg650hawk",
       "subscribers": 823000,
-      "q2Growth": 65000,
-      "q2Views": 264000000,
+      "growth": 65000,
+      "views": 264000000,
       "url": "https://www.youtube.com/results?search_query=Hawk's%20Podcasts%20%2F%20mdg650hawk",
       "hasRealUrl": false
     },
     {
       "channel": "Big Joel",
       "subscribers": 813000,
-      "q2Growth": 14000,
-      "q2Views": 5100000,
+      "growth": 14000,
+      "views": 5100000,
       "url": "https://www.youtube.com/results?search_query=Big%20Joel",
       "hasRealUrl": false
     },
     {
       "channel": "Andrew Klavan",
       "subscribers": 810000,
-      "q2Growth": -2000,
-      "q2Views": 2300000,
+      "growth": -2000,
+      "views": 2300000,
       "url": "https://www.youtube.com/results?search_query=Andrew%20Klavan",
       "hasRealUrl": false
     },
     {
       "channel": "Dinesh D'Souza",
       "subscribers": 808000,
-      "q2Growth": -1000,
-      "q2Views": 1300000,
+      "growth": -1000,
+      "views": 1300000,
       "url": "https://www.youtube.com/results?search_query=Dinesh%20D'Souza",
       "hasRealUrl": false
     },
     {
       "channel": "Fox News Clips",
       "subscribers": 808000,
-      "q2Growth": 75000,
-      "q2Views": 121000000,
+      "growth": 75000,
+      "views": 121000000,
       "url": "https://www.youtube.com/results?search_query=Fox%20News%20Clips",
       "hasRealUrl": false
     },
     {
       "channel": "The National Desk",
       "subscribers": 804000,
-      "q2Growth": 58000,
-      "q2Views": 90000000,
+      "growth": 58000,
+      "views": 90000000,
       "url": "https://www.youtube.com/results?search_query=The%20National%20Desk",
       "hasRealUrl": false
     },
     {
       "channel": "The Prof G Pod – Scott Galloway",
       "subscribers": 800000,
-      "q2Growth": 61000,
-      "q2Views": -42000000,
+      "growth": 61000,
+      "views": -42000000,
       "url": "https://www.youtube.com/results?search_query=The%20Prof%20G%20Pod%20%E2%80%93%20Scott%20Galloway",
       "hasRealUrl": false
     },
     {
       "channel": "Real Alex Clark",
       "subscribers": 793000,
-      "q2Growth": 39000,
-      "q2Views": 25000000,
+      "growth": 39000,
+      "views": 25000000,
       "url": "https://www.youtube.com/results?search_query=Real%20Alex%20Clark",
       "hasRealUrl": false
     },
     {
       "channel": "The Humanist Report",
       "subscribers": 786000,
-      "q2Growth": 12000,
-      "q2Views": 6100000,
+      "growth": 12000,
+      "views": 6100000,
       "url": "https://www.youtube.com/results?search_query=The%20Humanist%20Report",
       "hasRealUrl": false
     },
     {
       "channel": "THE SHADE ROOM",
       "subscribers": 785000,
-      "q2Growth": 13000,
-      "q2Views": 6400000,
+      "growth": 13000,
+      "views": 6400000,
       "url": "https://www.youtube.com/results?search_query=THE%20SHADE%20ROOM",
       "hasRealUrl": false
     },
     {
       "channel": "The Rational National",
       "subscribers": 773000,
-      "q2Growth": 14000,
-      "q2Views": 5400000,
+      "growth": 14000,
+      "views": 5400000,
       "url": "https://www.youtube.com/results?search_query=The%20Rational%20National",
       "hasRealUrl": false
     },
     {
       "channel": "Judge Napolitano - Judging Freedom",
       "subscribers": 772000,
-      "q2Growth": 41000,
-      "q2Views": 36000000,
+      "growth": 41000,
+      "views": 36000000,
       "url": "https://www.youtube.com/results?search_query=Judge%20Napolitano%20-%20Judging%20Freedom",
       "hasRealUrl": false
     },
     {
       "channel": "Allie Beth Stuckey",
       "subscribers": 742000,
-      "q2Growth": 12000,
-      "q2Views": 13000000,
+      "growth": 12000,
+      "views": 13000000,
       "url": "https://www.youtube.com/results?search_query=Allie%20Beth%20Stuckey",
       "hasRealUrl": false
     },
     {
       "channel": "HuffPost",
       "subscribers": 737000,
-      "q2Growth": 0,
-      "q2Views": 872000,
+      "growth": 0,
+      "views": 872000,
       "url": "https://www.youtube.com/results?search_query=HuffPost",
       "hasRealUrl": false
     },
     {
       "channel": "Whatifalthist",
       "subscribers": 736000,
-      "q2Growth": 0,
-      "q2Views": 1300000,
+      "growth": 0,
+      "views": 1300000,
       "url": "https://www.youtube.com/results?search_query=Whatifalthist",
       "hasRealUrl": false
     },
     {
       "channel": "Status Coup News",
       "subscribers": 731000,
-      "q2Growth": 19000,
-      "q2Views": 7900000,
+      "growth": 19000,
+      "views": 7900000,
       "url": "https://www.youtube.com/results?search_query=Status%20Coup%20News",
       "hasRealUrl": false
     },
     {
       "channel": "Aaron Parnas",
       "subscribers": 730000,
-      "q2Growth": 89000,
-      "q2Views": 213000000,
+      "growth": 89000,
+      "views": 213000000,
       "url": "https://www.youtube.com/results?search_query=Aaron%20Parnas",
       "hasRealUrl": false
     },
     {
       "channel": "Democracy Docket",
       "subscribers": 727000,
-      "q2Growth": 47000,
-      "q2Views": 5300000,
+      "growth": 47000,
+      "views": 5300000,
       "url": "https://www.youtube.com/results?search_query=Democracy%20Docket",
       "hasRealUrl": false
     },
     {
       "channel": "TYT Investigates",
       "subscribers": 721000,
-      "q2Growth": 10000,
-      "q2Views": 22000000,
+      "growth": 10000,
+      "views": 22000000,
       "url": "https://www.youtube.com/results?search_query=TYT%20Investigates",
       "hasRealUrl": false
     },
     {
       "channel": "Leeja Miller",
       "subscribers": 710000,
-      "q2Growth": 7000,
-      "q2Views": 3300000,
+      "growth": 7000,
+      "views": 3300000,
       "url": "https://www.youtube.com/results?search_query=Leeja%20Miller",
       "hasRealUrl": false
     },
     {
       "channel": "Jillian Michaels",
       "subscribers": 708000,
-      "q2Growth": 80000,
-      "q2Views": 19000000,
+      "growth": 80000,
+      "views": 19000000,
       "url": "https://www.youtube.com/results?search_query=Jillian%20Michaels",
       "hasRealUrl": false
     },
     {
       "channel": "LARRY with Larry O'Connor",
       "subscribers": 701000,
-      "q2Growth": 13000,
-      "q2Views": 17000000,
+      "growth": 13000,
+      "views": 17000000,
       "url": "https://www.youtube.com/results?search_query=LARRY%20with%20Larry%20O'Connor",
       "hasRealUrl": false
     },
     {
       "channel": "Andy Frisella",
       "subscribers": 696000,
-      "q2Growth": 0,
-      "q2Views": 1600000,
+      "growth": 0,
+      "views": 1600000,
       "url": "https://www.youtube.com/results?search_query=Andy%20Frisella",
       "hasRealUrl": false
     },
     {
       "channel": "Michelle Obama",
       "subscribers": 695000,
-      "q2Growth": 73000,
-      "q2Views": 16000000,
+      "growth": 73000,
+      "views": 16000000,
       "url": "https://www.youtube.com/results?search_query=Michelle%20Obama",
       "hasRealUrl": false
     },
     {
       "channel": "Anti-Trump Network",
       "subscribers": 675000,
-      "q2Growth": 4000,
-      "q2Views": 16000000,
+      "growth": 4000,
+      "views": 16000000,
       "url": "https://www.youtube.com/results?search_query=Anti-Trump%20Network",
       "hasRealUrl": false
     },
     {
       "channel": "Adam Carolla",
       "subscribers": 663000,
-      "q2Growth": 51000,
-      "q2Views": 39000000,
+      "growth": 51000,
+      "views": 39000000,
       "url": "https://www.youtube.com/results?search_query=Adam%20Carolla",
       "hasRealUrl": false
     },
     {
       "channel": "Viva Frei",
       "subscribers": 657000,
-      "q2Growth": -1000,
-      "q2Views": 2700000,
+      "growth": -1000,
+      "views": 2700000,
       "url": "https://www.youtube.com/results?search_query=Viva%20Frei",
       "hasRealUrl": false
     },
     {
       "channel": "Kat Blaque",
       "subscribers": 637000,
-      "q2Growth": 5000,
-      "q2Views": 3800000,
+      "growth": 5000,
+      "views": 3800000,
       "url": "https://www.youtube.com/results?search_query=Kat%20Blaque",
       "hasRealUrl": false
     },
     {
       "channel": "James Klug",
       "subscribers": 636000,
-      "q2Growth": 2000,
-      "q2Views": 4300000,
+      "growth": 2000,
+      "views": 4300000,
       "url": "https://www.youtube.com/results?search_query=James%20Klug",
       "hasRealUrl": false
     },
     {
       "channel": "Sen. Adam Schiff",
       "subscribers": 636000,
-      "q2Growth": 20000,
-      "q2Views": 26000000,
+      "growth": 20000,
+      "views": 26000000,
       "url": "https://www.youtube.com/results?search_query=Sen.%20Adam%20Schiff",
       "hasRealUrl": false
     },
     {
       "channel": "Trae Crowder (Liberal Redneck)",
       "subscribers": 630000,
-      "q2Growth": 1000,
-      "q2Views": 1600000,
+      "growth": 1000,
+      "views": 1600000,
       "url": "https://www.youtube.com/results?search_query=Trae%20Crowder%20(Liberal%20Redneck)",
       "hasRealUrl": false
     },
     {
       "channel": "Katie Phang",
       "subscribers": 628000,
-      "q2Growth": 74000,
-      "q2Views": 16000000,
+      "growth": 74000,
+      "views": 16000000,
       "url": "https://www.youtube.com/results?search_query=Katie%20Phang",
       "hasRealUrl": false
     },
     {
       "channel": "Lamont Tyson",
       "subscribers": 621000,
-      "q2Growth": 202000,
-      "q2Views": 272000000,
+      "growth": 202000,
+      "views": 272000000,
       "url": "https://www.youtube.com/results?search_query=Lamont%20Tyson",
       "hasRealUrl": false
     },
     {
       "channel": "Roseanne Barr",
       "subscribers": 619000,
-      "q2Growth": 1000,
-      "q2Views": 954000,
+      "growth": 1000,
+      "views": 954000,
       "url": "https://www.youtube.com/results?search_query=Roseanne%20Barr",
       "hasRealUrl": false
     },
     {
       "channel": "Judicial Watch",
       "subscribers": 613000,
-      "q2Growth": 2000,
-      "q2Views": 3900000,
+      "growth": 2000,
+      "views": 3900000,
       "url": "https://www.youtube.com/results?search_query=Judicial%20Watch",
       "hasRealUrl": false
     },
     {
       "channel": "Vaush",
       "subscribers": 599000,
-      "q2Growth": 3000,
-      "q2Views": 21000000,
+      "growth": 3000,
+      "views": 21000000,
       "url": "https://www.youtube.com/@Vaush",
       "hasRealUrl": true
     },
     {
       "channel": "The Epoch Times",
       "subscribers": 585000,
-      "q2Growth": 2000,
-      "q2Views": 106000,
+      "growth": 2000,
+      "views": 106000,
       "url": "https://www.youtube.com/results?search_query=The%20Epoch%20Times",
       "hasRealUrl": false
     },
     {
       "channel": "Democracy At Work",
       "subscribers": 582000,
-      "q2Growth": 5000,
-      "q2Views": 1600000,
+      "growth": 5000,
+      "views": 1600000,
       "url": "https://www.youtube.com/results?search_query=Democracy%20At%20Work",
       "hasRealUrl": false
     },
     {
       "channel": "Harry Sisson",
       "subscribers": 579000,
-      "q2Growth": 50000,
-      "q2Views": 40000000,
+      "growth": 50000,
+      "views": 40000000,
       "url": "https://www.youtube.com/results?search_query=Harry%20Sisson",
       "hasRealUrl": false
     },
     {
       "channel": "Parkergetajob",
       "subscribers": 578000,
-      "q2Growth": 59000,
-      "q2Views": 89000000,
+      "growth": 59000,
+      "views": 89000000,
       "url": "https://www.youtube.com/results?search_query=Parkergetajob",
       "hasRealUrl": false
     },
     {
       "channel": "OfficialACLJ",
       "subscribers": 574000,
-      "q2Growth": 7000,
-      "q2Views": 10000000,
+      "growth": 7000,
+      "views": 10000000,
       "url": "https://www.youtube.com/results?search_query=OfficialACLJ",
       "hasRealUrl": false
     },
     {
       "channel": "Carlos Eduardo Espina",
       "subscribers": 566000,
-      "q2Growth": 24000,
-      "q2Views": 143000000,
+      "growth": 24000,
+      "views": 143000000,
       "url": "https://www.youtube.com/results?search_query=Carlos%20Eduardo%20Espina",
       "hasRealUrl": false
     },
     {
       "channel": "Vince Dao",
       "subscribers": 564000,
-      "q2Growth": 13000,
-      "q2Views": 9900000,
+      "growth": 13000,
+      "views": 9900000,
       "url": "https://www.youtube.com/results?search_query=Vince%20Dao",
       "hasRealUrl": false
     },
     {
       "channel": "MyronGainesX",
       "subscribers": 562000,
-      "q2Growth": 22000,
-      "q2Views": 37000000,
+      "growth": 22000,
+      "views": 37000000,
       "url": "https://www.youtube.com/results?search_query=MyronGainesX",
       "hasRealUrl": false
     },
     {
       "channel": "The Grayzone",
       "subscribers": 560000,
-      "q2Growth": 15000,
-      "q2Views": 5000000,
+      "growth": 15000,
+      "views": 5000000,
       "url": "https://www.youtube.com/results?search_query=The%20Grayzone",
       "hasRealUrl": false
     },
     {
       "channel": "Hysteria",
       "subscribers": 557000,
-      "q2Growth": 24000,
-      "q2Views": 6500000,
+      "growth": 24000,
+      "views": 6500000,
       "url": "https://www.youtube.com/results?search_query=Hysteria",
       "hasRealUrl": false
     },
     {
       "channel": "Thom Hartmann Program",
       "subscribers": 543000,
-      "q2Growth": 17000,
-      "q2Views": 6700000,
+      "growth": 17000,
+      "views": 6700000,
       "url": "https://www.youtube.com/results?search_query=Thom%20Hartmann%20Program",
       "hasRealUrl": false
     },
     {
       "channel": "SLIGHTLY OFFENSIVE",
       "subscribers": 534000,
-      "q2Growth": -3000,
-      "q2Views": 1200,
+      "growth": -3000,
+      "views": 1200,
       "url": "https://www.youtube.com/results?search_query=SLIGHTLY%20OFFENSIVE",
       "hasRealUrl": false
     },
     {
       "channel": "UnHerd",
       "subscribers": 531000,
-      "q2Growth": 9000,
-      "q2Views": 2500000,
+      "growth": 9000,
+      "views": 2500000,
       "url": "https://www.youtube.com/results?search_query=UnHerd",
       "hasRealUrl": false
     },
     {
       "channel": "Walter Masterson",
       "subscribers": 530000,
-      "q2Growth": 8000,
-      "q2Views": 4800000,
+      "growth": 8000,
+      "views": 4800000,
       "url": "https://www.youtube.com/results?search_query=Walter%20Masterson",
       "hasRealUrl": false
     },
     {
       "channel": "Rep. Jasmine Crockett",
       "subscribers": 527000,
-      "q2Growth": 12000,
-      "q2Views": 3300000,
+      "growth": 12000,
+      "views": 3300000,
       "url": "https://www.youtube.com/results?search_query=Rep.%20Jasmine%20Crockett",
       "hasRealUrl": false
     },
     {
       "channel": "The Ezra Klein Show",
       "subscribers": 523000,
-      "q2Growth": 33000,
-      "q2Views": 11000000,
+      "growth": 33000,
+      "views": 11000000,
       "url": "https://www.youtube.com/results?search_query=The%20Ezra%20Klein%20Show",
       "hasRealUrl": false
     },
     {
       "channel": "Dave Smith",
       "subscribers": 513000,
-      "q2Growth": 18000,
-      "q2Views": 5700000,
+      "growth": 18000,
+      "views": 5700000,
       "url": "https://www.youtube.com/results?search_query=Dave%20Smith",
       "hasRealUrl": false
     },
     {
       "channel": "The Warning with Steve Schmidt",
       "subscribers": 512000,
-      "q2Growth": 25000,
-      "q2Views": 14000000,
+      "growth": 25000,
+      "views": 14000000,
       "url": "https://www.youtube.com/results?search_query=The%20Warning%20with%20Steve%20Schmidt",
       "hasRealUrl": false
     },
     {
       "channel": "TizzyEnt",
       "subscribers": 495000,
-      "q2Growth": 78000,
-      "q2Views": 48000000,
+      "growth": 78000,
+      "views": 48000000,
       "url": "https://www.youtube.com/results?search_query=TizzyEnt",
       "hasRealUrl": false
     },
     {
       "channel": "Chad Prather",
       "subscribers": 495000,
-      "q2Growth": 2000,
-      "q2Views": 6700000,
+      "growth": 2000,
+      "views": 6700000,
       "url": "https://www.youtube.com/results?search_query=Chad%20Prather",
       "hasRealUrl": false
     },
     {
       "channel": "Styxhexenhammer666",
       "subscribers": 489000,
-      "q2Growth": -9000,
-      "q2Views": 979000,
+      "growth": -9000,
+      "views": 979000,
       "url": "https://www.youtube.com/results?search_query=Styxhexenhammer666",
       "hasRealUrl": false
     },
     {
       "channel": "PoliticsGirl",
       "subscribers": 487000,
-      "q2Growth": 27000,
-      "q2Views": 10000000,
+      "growth": 27000,
+      "views": 10000000,
       "url": "https://www.youtube.com/results?search_query=PoliticsGirl",
       "hasRealUrl": false
     },
     {
       "channel": "Parkrose Permaculture",
       "subscribers": 478000,
-      "q2Growth": 20000,
-      "q2Views": 17000000,
+      "growth": 20000,
+      "views": 17000000,
       "url": "https://www.youtube.com/results?search_query=Parkrose%20Permaculture",
       "hasRealUrl": false
     },
     {
       "channel": "The Adam Friedland Show",
       "subscribers": 472000,
-      "q2Growth": 19000,
-      "q2Views": 13000000,
+      "growth": 19000,
+      "views": 13000000,
       "url": "https://www.youtube.com/results?search_query=The%20Adam%20Friedland%20Show",
       "hasRealUrl": false
     },
     {
       "channel": "Glenn Greenwald",
       "subscribers": 472000,
-      "q2Growth": 11000,
-      "q2Views": 5900000,
+      "growth": 11000,
+      "views": 5900000,
       "url": "https://www.youtube.com/results?search_query=Glenn%20Greenwald",
       "hasRealUrl": false
     },
     {
       "channel": "Josh Helfgott",
       "subscribers": 470000,
-      "q2Growth": 17000,
-      "q2Views": 15000000,
+      "growth": 17000,
+      "views": 15000000,
       "url": "https://www.youtube.com/results?search_query=Josh%20Helfgott",
       "hasRealUrl": false
     },
     {
       "channel": "Alice Cappelle",
       "subscribers": 470000,
-      "q2Growth": 6000,
-      "q2Views": 1100000,
+      "growth": 6000,
+      "views": 1100000,
       "url": "https://www.youtube.com/results?search_query=Alice%20Cappelle",
       "hasRealUrl": false
     },
     {
       "channel": "The Joy Reid Show",
       "subscribers": 469000,
-      "q2Growth": 34000,
-      "q2Views": 7300000,
+      "growth": 34000,
+      "views": 7300000,
       "url": "https://www.youtube.com/results?search_query=The%20Joy%20Reid%20Show",
       "hasRealUrl": false
     },
     {
       "channel": "Verdict with Ted Cruz",
       "subscribers": 461000,
-      "q2Growth": -10000,
-      "q2Views": 984000,
+      "growth": -10000,
+      "views": 984000,
       "url": "https://www.youtube.com/results?search_query=Verdict%20with%20Ted%20Cruz",
       "hasRealUrl": false
     },
     {
       "channel": "The Heritage Foundation",
       "subscribers": 461000,
-      "q2Growth": 1000,
-      "q2Views": 761000,
+      "growth": 1000,
+      "views": 761000,
       "url": "https://www.youtube.com/results?search_query=The%20Heritage%20Foundation",
       "hasRealUrl": false
     },
     {
       "channel": "Katie Halper",
       "subscribers": 457000,
-      "q2Growth": 19000,
-      "q2Views": 9600000,
+      "growth": 19000,
+      "views": 9600000,
       "url": "https://www.youtube.com/results?search_query=Katie%20Halper",
       "hasRealUrl": false
     },
     {
       "channel": "O’Keefe Media Group",
       "subscribers": 452000,
-      "q2Growth": 1000,
-      "q2Views": 2500000,
+      "growth": 1000,
+      "views": 2500000,
       "url": "https://www.youtube.com/results?search_query=O%E2%80%99Keefe%20Media%20Group",
       "hasRealUrl": false
     },
     {
       "channel": "Talking Feds with Harry Litman",
       "subscribers": 449000,
-      "q2Growth": 13000,
-      "q2Views": 12000000,
+      "growth": 13000,
+      "views": 12000000,
       "url": "https://www.youtube.com/results?search_query=Talking%20Feds%20with%20Harry%20Litman",
       "hasRealUrl": false
     },
     {
       "channel": "Liz Wheeler",
       "subscribers": 446000,
-      "q2Growth": 11000,
-      "q2Views": 3600000,
+      "growth": 11000,
+      "views": 3600000,
       "url": "https://www.youtube.com/results?search_query=Liz%20Wheeler",
       "hasRealUrl": false
     },
     {
       "channel": "Kite & Key Media",
       "subscribers": 446000,
-      "q2Growth": 52000,
-      "q2Views": 15000000,
+      "growth": 52000,
+      "views": 15000000,
       "url": "https://www.youtube.com/results?search_query=Kite%20%26%20Key%20Media",
       "hasRealUrl": false
     },
     {
       "channel": "Abolitionists Rising",
       "subscribers": 445000,
-      "q2Growth": 73000,
-      "q2Views": 109000000,
+      "growth": 73000,
+      "views": 109000000,
       "url": "https://www.youtube.com/results?search_query=Abolitionists%20Rising",
       "hasRealUrl": false
     },
     {
       "channel": "matt bernstein",
       "subscribers": 426000,
-      "q2Growth": 51000,
-      "q2Views": 16000000,
+      "growth": 51000,
+      "views": 16000000,
       "url": "https://www.youtube.com/results?search_query=matt%20bernstein",
       "hasRealUrl": false
     },
     {
       "channel": "Dialogue Works",
       "subscribers": 426000,
-      "q2Growth": 30000,
-      "q2Views": 28000000,
+      "growth": 30000,
+      "views": 28000000,
       "url": "https://www.youtube.com/results?search_query=Dialogue%20Works",
       "hasRealUrl": false
     },
     {
       "channel": "Fundie Fridays",
       "subscribers": 421000,
-      "q2Growth": 3000,
-      "q2Views": 1200000,
+      "growth": 3000,
+      "views": 1200000,
       "url": "https://www.youtube.com/results?search_query=Fundie%20Fridays",
       "hasRealUrl": false
     },
     {
       "channel": "Breitbart News",
       "subscribers": 412000,
-      "q2Growth": 1000,
-      "q2Views": 4300000,
+      "growth": 1000,
+      "views": 4300000,
       "url": "https://www.youtube.com/results?search_query=Breitbart%20News",
       "hasRealUrl": false
     },
     {
       "channel": "Senator John Kennedy",
       "subscribers": 408000,
-      "q2Growth": 21000,
-      "q2Views": 13000000,
+      "growth": 21000,
+      "views": 13000000,
       "url": "https://www.youtube.com/results?search_query=Senator%20John%20Kennedy",
       "hasRealUrl": false
     },
     {
       "channel": "Stephen Colbert",
       "subscribers": 408000,
-      "q2Growth": 376000,
-      "q2Views": 0,
+      "growth": 376000,
+      "views": 0,
       "url": "https://www.youtube.com/results?search_query=Stephen%20Colbert",
       "hasRealUrl": false
     },
     {
       "channel": "Ohh that's RICH",
       "subscribers": 407000,
-      "q2Growth": 36000,
-      "q2Views": 27000000,
+      "growth": 36000,
+      "views": 27000000,
       "url": "https://www.youtube.com/results?search_query=Ohh%20that's%20RICH",
       "hasRealUrl": false
     },
     {
       "channel": "James Madison Audits",
       "subscribers": 406000,
-      "q2Growth": 2000,
-      "q2Views": 1600000,
+      "growth": 2000,
+      "views": 1600000,
       "url": "https://www.youtube.com/results?search_query=James%20Madison%20Audits",
       "hasRealUrl": false
     },
     {
       "channel": "Dave Jorgenson",
       "subscribers": 403000,
-      "q2Growth": 77000,
-      "q2Views": 72000000,
+      "growth": 77000,
+      "views": 72000000,
       "url": "https://www.youtube.com/results?search_query=Dave%20Jorgenson",
       "hasRealUrl": false
     },
     {
       "channel": "Sabby Sabs",
       "subscribers": 402000,
-      "q2Growth": 26000,
-      "q2Views": 13000000,
+      "growth": 26000,
+      "views": 13000000,
       "url": "https://www.youtube.com/results?search_query=Sabby%20Sabs",
       "hasRealUrl": false
     },
     {
       "channel": "Prime Time with Alex Stein",
       "subscribers": 397000,
-      "q2Growth": -2000,
-      "q2Views": 470000,
+      "growth": -2000,
+      "views": 470000,
       "url": "https://www.youtube.com/results?search_query=Prime%20Time%20with%20Alex%20Stein",
       "hasRealUrl": false
     },
     {
       "channel": "The Speech Prof",
       "subscribers": 389000,
-      "q2Growth": 2000,
-      "q2Views": 3000000,
+      "growth": 2000,
+      "views": 3000000,
       "url": "https://www.youtube.com/results?search_query=The%20Speech%20Prof",
       "hasRealUrl": false
     },
     {
       "channel": "Angry Patriot 1776",
       "subscribers": 388000,
-      "q2Growth": 3000,
-      "q2Views": 12000000,
+      "growth": 3000,
+      "views": 12000000,
       "url": "https://www.youtube.com/results?search_query=Angry%20Patriot%201776",
       "hasRealUrl": false
     },
     {
       "channel": "The Good Liars",
       "subscribers": 384000,
-      "q2Growth": 27000,
-      "q2Views": 7700000,
+      "growth": 27000,
+      "views": 7700000,
       "url": "https://www.youtube.com/results?search_query=The%20Good%20Liars",
       "hasRealUrl": false
     },
     {
       "channel": "The Rageaholic",
       "subscribers": 384000,
-      "q2Growth": -1000,
-      "q2Views": 1400000,
+      "growth": -1000,
+      "views": 1400000,
       "url": "https://www.youtube.com/results?search_query=The%20Rageaholic",
       "hasRealUrl": false
     },
     {
       "channel": "Fear&",
       "subscribers": 381000,
-      "q2Growth": 9000,
-      "q2Views": 4800000,
+      "growth": 9000,
+      "views": 4800000,
       "url": "https://www.youtube.com/results?search_query=Fear%26",
       "hasRealUrl": false
     },
     {
       "channel": "Texas Paul",
       "subscribers": 378000,
-      "q2Growth": 23000,
-      "q2Views": 16000000,
+      "growth": 23000,
+      "views": 16000000,
       "url": "https://www.youtube.com/results?search_query=Texas%20Paul",
       "hasRealUrl": false
     },
     {
       "channel": "JayDee Milo",
       "subscribers": 374000,
-      "q2Growth": 26000,
-      "q2Views": 46000000,
+      "growth": 26000,
+      "views": 46000000,
       "url": "https://www.youtube.com/results?search_query=JayDee%20Milo",
       "hasRealUrl": false
     },
     {
       "channel": "John Doyle",
       "subscribers": 365000,
-      "q2Growth": 4000,
-      "q2Views": 1300000,
+      "growth": 4000,
+      "views": 1300000,
       "url": "https://www.youtube.com/results?search_query=John%20Doyle",
       "hasRealUrl": false
     },
     {
       "channel": "Alexandria Ocasio-Cortez",
       "subscribers": 359000,
-      "q2Growth": 24000,
-      "q2Views": 2000000,
+      "growth": 24000,
+      "views": 2000000,
       "url": "https://www.youtube.com/results?search_query=Alexandria%20Ocasio-Cortez",
       "hasRealUrl": false
     },
     {
       "channel": "Barry Cunningham",
       "subscribers": 358000,
-      "q2Growth": 0,
-      "q2Views": 5300000,
+      "growth": 0,
+      "views": 5300000,
       "url": "https://www.youtube.com/results?search_query=Barry%20Cunningham",
       "hasRealUrl": false
     },
     {
       "channel": "Mother Jones",
       "subscribers": 356000,
-      "q2Growth": 35000,
-      "q2Views": 10000000,
+      "growth": 35000,
+      "views": 10000000,
       "url": "https://www.youtube.com/@MotherJones",
       "hasRealUrl": true
     },
     {
       "channel": "Lawyer Oyer",
       "subscribers": 340000,
-      "q2Growth": 54000,
-      "q2Views": 31000000,
+      "growth": 54000,
+      "views": 31000000,
       "url": "https://www.youtube.com/results?search_query=Lawyer%20Oyer",
       "hasRealUrl": false
     },
     {
       "channel": "GenericArtDad",
       "subscribers": 339000,
-      "q2Growth": 4000,
-      "q2Views": 5000000,
+      "growth": 4000,
+      "views": 5000000,
       "url": "https://www.youtube.com/results?search_query=GenericArtDad",
       "hasRealUrl": false
     },
     {
       "channel": "Senator Josh Hawley",
       "subscribers": 335000,
-      "q2Growth": 3000,
-      "q2Views": 3900000,
+      "growth": 3000,
+      "views": 3900000,
       "url": "https://www.youtube.com/results?search_query=Senator%20Josh%20Hawley",
       "hasRealUrl": false
     },
     {
       "channel": "The Nerve with Maureen Callahan",
       "subscribers": 335000,
-      "q2Growth": 19000,
-      "q2Views": 30000000,
+      "growth": 19000,
+      "views": 30000000,
       "url": "https://www.youtube.com/results?search_query=The%20Nerve%20with%20Maureen%20Callahan",
       "hasRealUrl": false
     },
     {
       "channel": "HasanAbi Archive",
       "subscribers": 318000,
-      "q2Growth": 0,
-      "q2Views": 259000,
+      "growth": 0,
+      "views": 259000,
       "url": "https://www.youtube.com/results?search_query=HasanAbi%20Archive",
       "hasRealUrl": false
     },
     {
       "channel": "Real America's Voice",
       "subscribers": 316000,
-      "q2Growth": 16000,
-      "q2Views": 14000000,
+      "growth": 16000,
+      "views": 14000000,
       "url": "https://www.youtube.com/results?search_query=Real%20America's%20Voice",
       "hasRealUrl": false
     },
     {
       "channel": "Political Voices Network",
       "subscribers": 314000,
-      "q2Growth": 5000,
-      "q2Views": 4500000,
+      "growth": 5000,
+      "views": 4500000,
       "url": "https://www.youtube.com/results?search_query=Political%20Voices%20Network",
       "hasRealUrl": false
     },
     {
       "channel": "Terrence K Williams",
       "subscribers": 310000,
-      "q2Growth": 5000,
-      "q2Views": 837000,
+      "growth": 5000,
+      "views": 837000,
       "url": "https://www.youtube.com/results?search_query=Terrence%20K%20Williams",
       "hasRealUrl": false
     },
     {
       "channel": "David Feldman",
       "subscribers": 310000,
-      "q2Growth": 5000,
-      "q2Views": 4300000,
+      "growth": 5000,
+      "views": 4300000,
       "url": "https://www.youtube.com/results?search_query=David%20Feldman",
       "hasRealUrl": false
     },
     {
       "channel": "DL Hughley",
       "subscribers": 306000,
-      "q2Growth": 21000,
-      "q2Views": 4900000,
+      "growth": 21000,
+      "views": 4900000,
       "url": "https://www.youtube.com/results?search_query=DL%20Hughley",
       "hasRealUrl": false
     },
     {
       "channel": "The Intercept",
       "subscribers": 305000,
-      "q2Growth": 2000,
-      "q2Views": 324000,
+      "growth": 2000,
+      "views": 324000,
       "url": "https://www.youtube.com/@theintercept",
       "hasRealUrl": true
     },
     {
       "channel": "Jim Acosta",
       "subscribers": 298000,
-      "q2Growth": 46000,
-      "q2Views": 10000000,
+      "growth": 46000,
+      "views": 10000000,
       "url": "https://www.youtube.com/results?search_query=Jim%20Acosta",
       "hasRealUrl": false
     },
     {
       "channel": "Kali Fontanilla",
       "subscribers": 291000,
-      "q2Growth": 0,
-      "q2Views": 3300000,
+      "growth": 0,
+      "views": 3300000,
       "url": "https://www.youtube.com/results?search_query=Kali%20Fontanilla",
       "hasRealUrl": false
     },
     {
       "channel": "Senator Sheldon Whitehouse",
       "subscribers": 285000,
-      "q2Growth": 36000,
-      "q2Views": 28000000,
+      "growth": 36000,
+      "views": 28000000,
       "url": "https://www.youtube.com/results?search_query=Senator%20Sheldon%20Whitehouse",
       "hasRealUrl": false
     },
     {
       "channel": "The Bitchuation Room (with Francesca Fiorentini)",
       "subscribers": 284000,
-      "q2Growth": 8000,
-      "q2Views": 2600000,
+      "growth": 8000,
+      "views": 2600000,
       "url": "https://www.youtube.com/results?search_query=The%20Bitchuation%20Room%20(with%20Francesca%20Fiorentini)",
       "hasRealUrl": false
     },
     {
       "channel": "Raging Moderates",
       "subscribers": 283000,
-      "q2Growth": 26000,
-      "q2Views": 15000000,
+      "growth": 26000,
+      "views": 15000000,
       "url": "https://www.youtube.com/results?search_query=Raging%20Moderates",
       "hasRealUrl": false
     },
     {
       "channel": "EMILY SAVES AMERICA",
       "subscribers": 281000,
-      "q2Growth": 0,
-      "q2Views": 2000000,
+      "growth": 0,
+      "views": 2000000,
       "url": "https://www.youtube.com/results?search_query=EMILY%20SAVES%20AMERICA",
       "hasRealUrl": false
     },
     {
       "channel": "Monte Mader",
       "subscribers": 278000,
-      "q2Growth": 120000,
-      "q2Views": 30000000,
+      "growth": 120000,
+      "views": 30000000,
       "url": "https://www.youtube.com/results?search_query=Monte%20Mader",
       "hasRealUrl": false
     },
     {
       "channel": "Taylor Lorenz",
       "subscribers": 277000,
-      "q2Growth": 9000,
-      "q2Views": 2900000,
+      "growth": 9000,
+      "views": 2900000,
       "url": "https://www.youtube.com/results?search_query=Taylor%20Lorenz",
       "hasRealUrl": false
     },
     {
       "channel": "Raw News And Politics",
       "subscribers": 274000,
-      "q2Growth": 4000,
-      "q2Views": 3100000,
+      "growth": 4000,
+      "views": 3100000,
       "url": "https://www.youtube.com/results?search_query=Raw%20News%20And%20Politics",
       "hasRealUrl": false
     },
     {
       "channel": "The Logical Leftist",
       "subscribers": 273000,
-      "q2Growth": 11000,
-      "q2Views": 3800000,
+      "growth": 11000,
+      "views": 3800000,
       "url": "https://www.youtube.com/results?search_query=The%20Logical%20Leftist",
       "hasRealUrl": false
     },
     {
       "channel": "Brian Tyler Cohen News",
       "subscribers": 271000,
-      "q2Growth": 14000,
-      "q2Views": 6900000,
+      "growth": 14000,
+      "views": 6900000,
       "url": "https://www.youtube.com/results?search_query=Brian%20Tyler%20Cohen%20News",
       "hasRealUrl": false
     },
     {
       "channel": "Dana Loesch",
       "subscribers": 270000,
-      "q2Growth": 28000,
-      "q2Views": 11000000,
+      "growth": 28000,
+      "views": 11000000,
       "url": "https://www.youtube.com/results?search_query=Dana%20Loesch",
       "hasRealUrl": false
     },
     {
       "channel": "Chris Mowrey",
       "subscribers": 270000,
-      "q2Growth": 54000,
-      "q2Views": 4900000,
+      "growth": 54000,
+      "views": 4900000,
       "url": "https://www.youtube.com/results?search_query=Chris%20Mowrey",
       "hasRealUrl": false
     },
     {
       "channel": "In Good Faith with Philip DeFranco",
       "subscribers": 268000,
-      "q2Growth": -1000,
-      "q2Views": -384000,
+      "growth": -1000,
+      "views": -384000,
       "url": "https://www.youtube.com/results?search_query=In%20Good%20Faith%20with%20Philip%20DeFranco",
       "hasRealUrl": false
     },
     {
       "channel": "Isaiah Martin",
       "subscribers": 268000,
-      "q2Growth": 126000,
-      "q2Views": 93000000,
+      "growth": 126000,
+      "views": 93000000,
       "url": "https://www.youtube.com/results?search_query=Isaiah%20Martin",
       "hasRealUrl": false
     },
     {
       "channel": "CerosTV",
       "subscribers": 259000,
-      "q2Growth": 19000,
-      "q2Views": 5800000,
+      "growth": 19000,
+      "views": 5800000,
       "url": "https://www.youtube.com/results?search_query=CerosTV",
       "hasRealUrl": false
     },
     {
       "channel": "This is Gavin Newsom",
       "subscribers": 258000,
-      "q2Growth": 9000,
-      "q2Views": 1200000,
+      "growth": 9000,
+      "views": 1200000,
       "url": "https://www.youtube.com/results?search_query=This%20is%20Gavin%20Newsom",
       "hasRealUrl": false
     },
     {
       "channel": "Senator Elizabeth Warren",
       "subscribers": 254000,
-      "q2Growth": 20000,
-      "q2Views": 6300000,
+      "growth": 20000,
+      "views": 6300000,
       "url": "https://www.youtube.com/results?search_query=Senator%20Elizabeth%20Warren",
       "hasRealUrl": false
     },
     {
       "channel": "MoveOn",
       "subscribers": 253000,
-      "q2Growth": 13000,
-      "q2Views": 19000000,
+      "growth": 13000,
+      "views": 19000000,
       "url": "https://www.youtube.com/results?search_query=MoveOn",
       "hasRealUrl": false
     },
     {
       "channel": "Republican Accountability",
       "subscribers": 251000,
-      "q2Growth": -1000,
-      "q2Views": 149000,
+      "growth": -1000,
+      "views": 149000,
       "url": "https://www.youtube.com/results?search_query=Republican%20Accountability",
       "hasRealUrl": false
     },
     {
       "channel": "Lemonade Stand",
       "subscribers": 251000,
-      "q2Growth": 12000,
-      "q2Views": 12000000,
+      "growth": 12000,
+      "views": 12000000,
       "url": "https://www.youtube.com/results?search_query=Lemonade%20Stand",
       "hasRealUrl": false
     },
     {
       "channel": "The Washington Examiner",
       "subscribers": 250000,
-      "q2Growth": 9000,
-      "q2Views": 24000000,
+      "growth": 9000,
+      "views": 24000000,
       "url": "https://www.youtube.com/results?search_query=The%20Washington%20Examiner",
       "hasRealUrl": false
     },
     {
       "channel": "Sean Spicer",
       "subscribers": 249000,
-      "q2Growth": 20000,
-      "q2Views": 5700000,
+      "growth": 20000,
+      "views": 5700000,
       "url": "https://www.youtube.com/results?search_query=Sean%20Spicer",
       "hasRealUrl": false
     },
     {
       "channel": "Matt Christiansen",
       "subscribers": 249000,
-      "q2Growth": -1000,
-      "q2Views": 700000,
+      "growth": -1000,
+      "views": 700000,
       "url": "https://www.youtube.com/results?search_query=Matt%20Christiansen",
       "hasRealUrl": false
     },
     {
       "channel": "Let's Talk Elections",
       "subscribers": 249000,
-      "q2Growth": 6000,
-      "q2Views": 6000000,
+      "growth": 6000,
+      "views": 6000000,
       "url": "https://www.youtube.com/results?search_query=Let's%20Talk%20Elections",
       "hasRealUrl": false
     },
     {
       "channel": "Under The Desk News",
       "subscribers": 246000,
-      "q2Growth": 11000,
-      "q2Views": 4100000,
+      "growth": 11000,
+      "views": 4100000,
       "url": "https://www.youtube.com/results?search_query=Under%20The%20Desk%20News",
       "hasRealUrl": false
     },
     {
       "channel": "Pod Save the World",
       "subscribers": 245000,
-      "q2Growth": 16000,
-      "q2Views": 3100000,
+      "growth": 16000,
+      "views": 3100000,
       "url": "https://www.youtube.com/results?search_query=Pod%20Save%20the%20World",
       "hasRealUrl": false
     },
     {
       "channel": "Brad Polumbo",
       "subscribers": 241000,
-      "q2Growth": 2000,
-      "q2Views": 1800000,
+      "growth": 2000,
+      "views": 1800000,
       "url": "https://www.youtube.com/results?search_query=Brad%20Polumbo",
       "hasRealUrl": false
     },
     {
       "channel": "Joe Pags",
       "subscribers": 241000,
-      "q2Growth": 10000,
-      "q2Views": 2200000,
+      "growth": 10000,
+      "views": 2200000,
       "url": "https://www.youtube.com/results?search_query=Joe%20Pags",
       "hasRealUrl": false
     },
     {
       "channel": "The Kavernacle",
       "subscribers": 234000,
-      "q2Growth": 15000,
-      "q2Views": 3900000,
+      "growth": 15000,
+      "views": 3900000,
       "url": "https://www.youtube.com/results?search_query=The%20Kavernacle",
       "hasRealUrl": false
     },
     {
       "channel": "Spot On with Link Lauren",
       "subscribers": 232000,
-      "q2Growth": 14000,
-      "q2Views": 14000000,
+      "growth": 14000,
+      "views": 14000000,
       "url": "https://www.youtube.com/results?search_query=Spot%20On%20with%20Link%20Lauren",
       "hasRealUrl": false
     },
     {
       "channel": "allie_202_",
       "subscribers": 231000,
-      "q2Growth": 4000,
-      "q2Views": 5400000,
+      "growth": 4000,
+      "views": 5400000,
       "url": "https://www.youtube.com/results?search_query=allie_202_",
       "hasRealUrl": false
     },
     {
       "channel": "Pop & Politics",
       "subscribers": 229000,
-      "q2Growth": 13000,
-      "q2Views": 3800000,
+      "growth": 13000,
+      "views": 3800000,
       "url": "https://www.youtube.com/results?search_query=Pop%20%26%20Politics",
       "hasRealUrl": false
     },
     {
       "channel": "The Sage Steele Show",
       "subscribers": 218000,
-      "q2Growth": 16000,
-      "q2Views": 3500000,
+      "growth": 16000,
+      "views": 3500000,
       "url": "https://www.youtube.com/results?search_query=The%20Sage%20Steele%20Show",
       "hasRealUrl": false
     },
     {
       "channel": "PolitiBrawl",
       "subscribers": 216000,
-      "q2Growth": 9000,
-      "q2Views": 6900000,
+      "growth": 9000,
+      "views": 6900000,
       "url": "https://www.youtube.com/results?search_query=PolitiBrawl",
       "hasRealUrl": false
     },
     {
       "channel": "FIVE MINUTE NEWS",
       "subscribers": 213000,
-      "q2Growth": 1000,
-      "q2Views": 728000,
+      "growth": 1000,
+      "views": 728000,
       "url": "https://www.youtube.com/results?search_query=FIVE%20MINUTE%20NEWS",
       "hasRealUrl": false
     },
     {
       "channel": "Jessica Denson",
       "subscribers": 208000,
-      "q2Growth": 1000,
-      "q2Views": 501000,
+      "growth": 1000,
+      "views": 501000,
       "url": "https://www.youtube.com/results?search_query=Jessica%20Denson",
       "hasRealUrl": false
     },
     {
       "channel": "Senator Chris Murphy",
       "subscribers": 202000,
-      "q2Growth": 15000,
-      "q2Views": 3100000,
+      "growth": 15000,
+      "views": 3100000,
       "url": "https://www.youtube.com/results?search_query=Senator%20Chris%20Murphy",
       "hasRealUrl": false
     },
     {
       "channel": "Scott MacFarlane Reports",
       "subscribers": 202000,
-      "q2Growth": 59000,
-      "q2Views": 11000000,
+      "growth": 59000,
+      "views": 11000000,
       "url": "https://www.youtube.com/results?search_query=Scott%20MacFarlane%20Reports",
       "hasRealUrl": false
     },
     {
       "channel": "Jemele Hill",
       "subscribers": 200000,
-      "q2Growth": 26000,
-      "q2Views": 5600000,
+      "growth": 26000,
+      "views": 5600000,
       "url": "https://www.youtube.com/results?search_query=Jemele%20Hill",
       "hasRealUrl": false
     },
     {
       "channel": "Senator Ted Cruz",
       "subscribers": 197000,
-      "q2Growth": 0,
-      "q2Views": 377000,
+      "growth": 0,
+      "views": 377000,
       "url": "https://www.youtube.com/results?search_query=Senator%20Ted%20Cruz",
       "hasRealUrl": false
     },
     {
       "channel": "Drop Site News",
       "subscribers": 197000,
-      "q2Growth": 43000,
-      "q2Views": 5500000,
+      "growth": 43000,
+      "views": 5500000,
       "url": "https://www.youtube.com/results?search_query=Drop%20Site%20News",
       "hasRealUrl": false
     },
     {
       "channel": "The Dangerous Ones",
       "subscribers": 196000,
-      "q2Growth": 74000,
-      "q2Views": 40000000,
+      "growth": 74000,
+      "views": 40000000,
       "url": "https://www.youtube.com/results?search_query=The%20Dangerous%20Ones",
       "hasRealUrl": false
     },
     {
       "channel": "Andra Berghoff",
       "subscribers": 194000,
-      "q2Growth": 82000,
-      "q2Views": 72000000,
+      "growth": 82000,
+      "views": 72000000,
       "url": "https://www.youtube.com/results?search_query=Andra%20Berghoff",
       "hasRealUrl": false
     },
     {
       "channel": "Ruthless Podcast",
       "subscribers": 192000,
-      "q2Growth": 7000,
-      "q2Views": 3100000,
+      "growth": 7000,
+      "views": 3100000,
       "url": "https://www.youtube.com/results?search_query=Ruthless%20Podcast",
       "hasRealUrl": false
     },
     {
       "channel": "Mike Nellis",
       "subscribers": 190000,
-      "q2Growth": 120000,
-      "q2Views": 12000000,
+      "growth": 120000,
+      "views": 12000000,
       "url": "https://www.youtube.com/results?search_query=Mike%20Nellis",
       "hasRealUrl": false
     },
     {
       "channel": "Lincoln Square",
       "subscribers": 187000,
-      "q2Growth": 27000,
-      "q2Views": 16000000,
+      "growth": 27000,
+      "views": 16000000,
       "url": "https://www.youtube.com/results?search_query=Lincoln%20Square",
       "hasRealUrl": false
     },
     {
       "channel": "bodittle",
       "subscribers": 186000,
-      "q2Growth": 0,
-      "q2Views": 121000,
+      "growth": 0,
+      "views": 121000,
       "url": "https://www.youtube.com/results?search_query=bodittle",
       "hasRealUrl": false
     },
     {
       "channel": "Chicks on the Right",
       "subscribers": 186000,
-      "q2Growth": 6000,
-      "q2Views": 5500000,
+      "growth": 6000,
+      "views": 5500000,
       "url": "https://www.youtube.com/results?search_query=Chicks%20on%20the%20Right",
       "hasRealUrl": false
     },
     {
       "channel": "unDivided with Brandi Kruse",
       "subscribers": 185000,
-      "q2Growth": 11000,
-      "q2Views": 6900000,
+      "growth": 11000,
+      "views": 6900000,
       "url": "https://www.youtube.com/results?search_query=unDivided%20with%20Brandi%20Kruse",
       "hasRealUrl": false
     },
     {
       "channel": "The Mark Thompson Show",
       "subscribers": 184000,
-      "q2Growth": 10000,
-      "q2Views": 5000000,
+      "growth": 10000,
+      "views": 5000000,
       "url": "https://www.youtube.com/results?search_query=The%20Mark%20Thompson%20Show",
       "hasRealUrl": false
     },
     {
       "channel": "Bad Faith",
       "subscribers": 182000,
-      "q2Growth": 4000,
-      "q2Views": 792000,
+      "growth": 4000,
+      "views": 792000,
       "url": "https://www.youtube.com/results?search_query=Bad%20Faith",
       "hasRealUrl": false
     },
     {
       "channel": "Marianne Williamson",
       "subscribers": 182000,
-      "q2Growth": 2000,
-      "q2Views": 292000,
+      "growth": 2000,
+      "views": 292000,
       "url": "https://www.youtube.com/results?search_query=Marianne%20Williamson",
       "hasRealUrl": false
     },
     {
       "channel": "Sen. Elissa Slotkin",
       "subscribers": 181000,
-      "q2Growth": 10000,
-      "q2Views": 8000000,
+      "growth": 10000,
+      "views": 8000000,
       "url": "https://www.youtube.com/results?search_query=Sen.%20Elissa%20Slotkin",
       "hasRealUrl": false
     },
     {
       "channel": "Daily Wire News",
       "subscribers": 180000,
-      "q2Growth": 16000,
-      "q2Views": 11000000,
+      "growth": 16000,
+      "views": 11000000,
       "url": "https://www.youtube.com/results?search_query=Daily%20Wire%20News",
       "hasRealUrl": false
     },
     {
       "channel": "The Benjamin Dixon Show",
       "subscribers": 179000,
-      "q2Growth": -1000,
-      "q2Views": 71000,
+      "growth": -1000,
+      "views": 71000,
       "url": "https://www.youtube.com/results?search_query=The%20Benjamin%20Dixon%20Show",
       "hasRealUrl": false
     },
     {
       "channel": "Isabel Brown",
       "subscribers": 177000,
-      "q2Growth": 24000,
-      "q2Views": 5900000,
+      "growth": 24000,
+      "views": 5900000,
       "url": "https://www.youtube.com/results?search_query=Isabel%20Brown",
       "hasRealUrl": false
     },
     {
       "channel": "Senator Cory Booker",
       "subscribers": 175000,
-      "q2Growth": 3000,
-      "q2Views": 2000000,
+      "growth": 3000,
+      "views": 2000000,
       "url": "https://www.youtube.com/results?search_query=Senator%20Cory%20Booker",
       "hasRealUrl": false
     },
     {
       "channel": "Kat Abughazaleh",
       "subscribers": 171000,
-      "q2Growth": 3000,
-      "q2Views": 1100000,
+      "growth": 3000,
+      "views": 1100000,
       "url": "https://www.youtube.com/results?search_query=Kat%20Abughazaleh",
       "hasRealUrl": false
     },
     {
       "channel": "NonCompete",
       "subscribers": 156000,
-      "q2Growth": 5000,
-      "q2Views": 523000,
+      "growth": 5000,
+      "views": 523000,
       "url": "https://www.youtube.com/results?search_query=NonCompete",
       "hasRealUrl": false
     },
     {
       "channel": "Chapo Trap House",
       "subscribers": 154000,
-      "q2Growth": 2000,
-      "q2Views": 2300000,
+      "growth": 2000,
+      "views": 2300000,
       "url": "https://www.youtube.com/results?search_query=Chapo%20Trap%20House",
       "hasRealUrl": false
     },
     {
       "channel": "Jacobin",
       "subscribers": 152000,
-      "q2Growth": 3000,
-      "q2Views": 508000,
+      "growth": 3000,
+      "views": 508000,
       "url": "https://www.youtube.com/results?search_query=Jacobin",
       "hasRealUrl": false
     },
     {
       "channel": "Destiny Clips",
       "subscribers": 151000,
-      "q2Growth": 16000,
-      "q2Views": 81000000,
+      "growth": 16000,
+      "views": 81000000,
       "url": "https://www.youtube.com/results?search_query=Destiny%20Clips",
       "hasRealUrl": false
     },
     {
       "channel": "Native Land Pod",
       "subscribers": 149000,
-      "q2Growth": 3000,
-      "q2Views": 1100000,
+      "growth": 3000,
+      "views": 1100000,
       "url": "https://www.youtube.com/results?search_query=Native%20Land%20Pod",
       "hasRealUrl": false
     },
     {
       "channel": "The Recount",
       "subscribers": 144000,
-      "q2Growth": 12000,
-      "q2Views": 4600000,
+      "growth": 12000,
+      "views": 4600000,
       "url": "https://www.youtube.com/results?search_query=The%20Recount",
       "hasRealUrl": false
     },
     {
       "channel": "GOP War Room",
       "subscribers": 143000,
-      "q2Growth": -1000,
-      "q2Views": 52000,
+      "growth": -1000,
+      "views": 52000,
       "url": "https://www.youtube.com/results?search_query=GOP%20War%20Room",
       "hasRealUrl": false
     },
     {
       "channel": "Caitlin Speaks",
       "subscribers": 143000,
-      "q2Growth": 16000,
-      "q2Views": 10000000,
+      "growth": 16000,
+      "views": 10000000,
       "url": "https://www.youtube.com/results?search_query=Caitlin%20Speaks",
       "hasRealUrl": false
     },
     {
       "channel": "Hot Mics with Billy Bush",
       "subscribers": 142000,
-      "q2Growth": 26000,
-      "q2Views": 11000000,
+      "growth": 26000,
+      "views": 11000000,
       "url": "https://www.youtube.com/results?search_query=Hot%20Mics%20with%20Billy%20Bush",
       "hasRealUrl": false
     },
     {
       "channel": "Representative Pramila Jayapal",
       "subscribers": 140000,
-      "q2Growth": 16000,
-      "q2Views": 8400000,
+      "growth": 16000,
+      "views": 8400000,
       "url": "https://www.youtube.com/results?search_query=Representative%20Pramila%20Jayapal",
       "hasRealUrl": false
     },
     {
       "channel": "Lovett or Leave It",
       "subscribers": 140000,
-      "q2Growth": 6000,
-      "q2Views": 2900000,
+      "growth": 6000,
+      "views": 2900000,
       "url": "https://www.youtube.com/results?search_query=Lovett%20or%20Leave%20It",
       "hasRealUrl": false
     },
     {
       "channel": "Joshua Citarella",
       "subscribers": 139000,
-      "q2Growth": 11000,
-      "q2Views": 1900000,
+      "growth": 11000,
+      "views": 1900000,
       "url": "https://www.youtube.com/results?search_query=Joshua%20Citarella",
       "hasRealUrl": false
     },
     {
       "channel": "Bernadine Bluntly",
       "subscribers": 139000,
-      "q2Growth": 3000,
-      "q2Views": 5600000,
+      "growth": 3000,
+      "views": 5600000,
       "url": "https://www.youtube.com/results?search_query=Bernadine%20Bluntly",
       "hasRealUrl": false
     },
     {
       "channel": "SenatorRandPaul",
       "subscribers": 139000,
-      "q2Growth": 0,
-      "q2Views": 6900,
+      "growth": 0,
+      "views": 6900,
       "url": "https://www.youtube.com/results?search_query=SenatorRandPaul",
       "hasRealUrl": false
     },
     {
       "channel": "MMR STUDIOS",
       "subscribers": 138000,
-      "q2Growth": 0,
-      "q2Views": 107000,
+      "growth": 0,
+      "views": 107000,
       "url": "https://www.youtube.com/results?search_query=MMR%20STUDIOS",
       "hasRealUrl": false
     },
     {
       "channel": "The Conscious Lee",
       "subscribers": 137000,
-      "q2Growth": 5000,
-      "q2Views": 734000,
+      "growth": 5000,
+      "views": 734000,
       "url": "https://www.youtube.com/results?search_query=The%20Conscious%20Lee",
       "hasRealUrl": false
     },
     {
       "channel": "After Party with Emily Jashinsky",
       "subscribers": 134000,
-      "q2Growth": 8000,
-      "q2Views": 4400000,
+      "growth": 8000,
+      "views": 4400000,
       "url": "https://www.youtube.com/results?search_query=After%20Party%20with%20Emily%20Jashinsky",
       "hasRealUrl": false
     },
     {
       "channel": "The Democrats",
       "subscribers": 134000,
-      "q2Growth": 37000,
-      "q2Views": 35000000,
+      "growth": 37000,
+      "views": 35000000,
       "url": "https://www.youtube.com/results?search_query=The%20Democrats",
       "hasRealUrl": false
     },
     {
       "channel": "Speaker Mike Johnson",
       "subscribers": 122000,
-      "q2Growth": 2000,
-      "q2Views": 969000,
+      "growth": 2000,
+      "views": 969000,
       "url": "https://www.youtube.com/results?search_query=Speaker%20Mike%20Johnson",
       "hasRealUrl": false
     },
     {
       "channel": "Sarah Westall",
       "subscribers": 121000,
-      "q2Growth": 0,
-      "q2Views": 164000,
+      "growth": 0,
+      "views": 164000,
       "url": "https://www.youtube.com/results?search_query=Sarah%20Westall",
       "hasRealUrl": false
     },
     {
       "channel": "National Review",
       "subscribers": 114000,
-      "q2Growth": 8000,
-      "q2Views": 2500000,
+      "growth": 8000,
+      "views": 2500000,
       "url": "https://www.youtube.com/@NationalReview",
       "hasRealUrl": true
     },
     {
       "channel": "The Serf Times",
       "subscribers": 114000,
-      "q2Growth": 3000,
-      "q2Views": 1300000,
+      "growth": 3000,
+      "views": 1300000,
       "url": "https://www.youtube.com/results?search_query=The%20Serf%20Times",
       "hasRealUrl": false
     },
     {
       "channel": "Andrew Kolvet",
       "subscribers": 114000,
-      "q2Growth": 0,
-      "q2Views": -9000,
+      "growth": 0,
+      "views": -9000,
       "url": "https://www.youtube.com/results?search_query=Andrew%20Kolvet",
       "hasRealUrl": false
     },
     {
       "channel": "The Loren Piretra Show",
       "subscribers": 113000,
-      "q2Growth": 46000,
-      "q2Views": 10000000,
+      "growth": 46000,
+      "views": 10000000,
       "url": "https://www.youtube.com/results?search_query=The%20Loren%20Piretra%20Show",
       "hasRealUrl": false
     },
     {
       "channel": "Rep. Jeffries",
       "subscribers": 109000,
-      "q2Growth": 0,
-      "q2Views": 1100000,
+      "growth": 0,
+      "views": 1100000,
       "url": "https://www.youtube.com/results?search_query=Rep.%20Jeffries",
       "hasRealUrl": false
     },
     {
       "channel": "Happy Pancake",
       "subscribers": 108000,
-      "q2Growth": 13000,
-      "q2Views": 1500000,
+      "growth": 13000,
+      "views": 1500000,
       "url": "https://www.youtube.com/results?search_query=Happy%20Pancake",
       "hasRealUrl": false
     },
     {
       "channel": "Amanda's Mild Takes",
       "subscribers": 108000,
-      "q2Growth": 16000,
-      "q2Views": 14000000,
+      "growth": 16000,
+      "views": 14000000,
       "url": "https://www.youtube.com/results?search_query=Amanda's%20Mild%20Takes",
       "hasRealUrl": false
     },
     {
       "channel": "Good Politic Guy",
       "subscribers": 107000,
-      "q2Growth": 25000,
-      "q2Views": 663000,
+      "growth": 25000,
+      "views": 663000,
       "url": "https://www.youtube.com/results?search_query=Good%20Politic%20Guy",
       "hasRealUrl": false
     },
     {
       "channel": "Lara Trump",
       "subscribers": 106000,
-      "q2Growth": 12000,
-      "q2Views": 1900000,
+      "growth": 12000,
+      "views": 1900000,
       "url": "https://www.youtube.com/results?search_query=Lara%20Trump",
       "hasRealUrl": false
     },
     {
       "channel": "Wajahat Ali",
       "subscribers": 106000,
-      "q2Growth": 23000,
-      "q2Views": 3000000,
+      "growth": 23000,
+      "views": 3000000,
       "url": "https://www.youtube.com/results?search_query=Wajahat%20Ali",
       "hasRealUrl": false
     },
     {
       "channel": "Lisandra Vazquez",
       "subscribers": 105000,
-      "q2Growth": 12000,
-      "q2Views": 8800000,
+      "growth": 12000,
+      "views": 8800000,
       "url": "https://www.youtube.com/results?search_query=Lisandra%20Vazquez",
       "hasRealUrl": false
     },
     {
       "channel": "Find Out Media",
       "subscribers": 104000,
-      "q2Growth": 35000,
-      "q2Views": 733000,
+      "growth": 35000,
+      "views": 733000,
       "url": "https://www.youtube.com/results?search_query=Find%20Out%20Media",
       "hasRealUrl": false
     },
     {
       "channel": "The Mark Levin Show",
       "subscribers": 100000,
-      "q2Growth": 5300,
-      "q2Views": 783000,
+      "growth": 5300,
+      "views": 783000,
       "url": "https://www.youtube.com/results?search_query=The%20Mark%20Levin%20Show",
       "hasRealUrl": false
     },
     {
       "channel": "Next Up with Mark Halperin",
       "subscribers": 100000,
-      "q2Growth": 2400,
-      "q2Views": 2300000,
+      "growth": 2400,
+      "views": 2300000,
       "url": "https://www.youtube.com/results?search_query=Next%20Up%20with%20Mark%20Halperin",
       "hasRealUrl": false
     },
     {
       "channel": "Walter Hudson's 'Closing Argument'",
       "subscribers": 158000,
-      "q2Growth": 0,
-      "q2Views": 438000,
+      "growth": 0,
+      "views": 438000,
       "url": "https://www.youtube.com/results?search_query=Walter%20Hudson's%20'Closing%20Argument'",
       "hasRealUrl": false
     },
     {
       "channel": "TrueLife News",
       "subscribers": 258000,
-      "q2Growth": 5000,
-      "q2Views": 5300000,
+      "growth": 5000,
+      "views": 5300000,
       "url": "https://www.youtube.com/results?search_query=TrueLife%20News",
       "hasRealUrl": false
     },
     {
       "channel": "Jeff Square",
       "subscribers": 238000,
-      "q2Growth": 55000,
-      "q2Views": 175000000,
+      "growth": 55000,
+      "views": 175000000,
       "url": "https://www.youtube.com/results?search_query=Jeff%20Square",
       "hasRealUrl": false
     },
     {
       "channel": "Brandon Lehman",
       "subscribers": 688000,
-      "q2Growth": 40000,
-      "q2Views": 16000000,
+      "growth": 40000,
+      "views": 16000000,
       "url": "https://www.youtube.com/results?search_query=Brandon%20Lehman",
       "hasRealUrl": false
     },
     {
       "channel": "Resist the Mainstream",
       "subscribers": 358000,
-      "q2Growth": 18000,
-      "q2Views": 8200000,
+      "growth": 18000,
+      "views": 8200000,
       "url": "https://www.youtube.com/results?search_query=Resist%20the%20Mainstream",
       "hasRealUrl": false
     },
     {
       "channel": "TYSON DELACRUZ",
       "subscribers": 141000,
-      "q2Growth": 2000,
-      "q2Views": 1500000,
+      "growth": 2000,
+      "views": 1500000,
       "url": "https://www.youtube.com/results?search_query=TYSON%20DELACRUZ",
       "hasRealUrl": false
     },
     {
       "channel": "Devin Gibson",
       "subscribers": 1500000,
-      "q2Growth": 0,
-      "q2Views": 6900000,
+      "growth": 0,
+      "views": 6900000,
       "url": "https://www.youtube.com/results?search_query=Devin%20Gibson",
       "hasRealUrl": false
     },
     {
       "channel": "The Vince Everett Ellison Show",
       "subscribers": 119000,
-      "q2Growth": 5000,
-      "q2Views": 1200000,
+      "growth": 5000,
+      "views": 1200000,
       "url": "https://www.youtube.com/results?search_query=The%20Vince%20Everett%20Ellison%20Show",
       "hasRealUrl": false
     },
     {
       "channel": "Hannibal Is Hungry",
       "subscribers": 186000,
-      "q2Growth": 10000,
-      "q2Views": 5900000,
+      "growth": 10000,
+      "views": 5900000,
       "url": "https://www.youtube.com/results?search_query=Hannibal%20Is%20Hungry",
       "hasRealUrl": false
     },
     {
       "channel": "Carl DeMaio / Reform California",
       "subscribers": 236000,
-      "q2Growth": 7000,
-      "q2Views": 5200000,
+      "growth": 7000,
+      "views": 5200000,
       "url": "https://www.youtube.com/results?search_query=Carl%20DeMaio%20%2F%20Reform%20California",
       "hasRealUrl": false
     },
     {
       "channel": "Robert Gouveia Esq.",
       "subscribers": 596000,
-      "q2Growth": 19000,
-      "q2Views": 23000000,
+      "growth": 19000,
+      "views": 23000000,
       "url": "https://www.youtube.com/results?search_query=Robert%20Gouveia%20Esq.",
       "hasRealUrl": false
     },
     {
       "channel": "Respectfully, Xaviaer",
       "subscribers": 192000,
-      "q2Growth": 30000,
-      "q2Views": 21000000,
+      "growth": 30000,
+      "views": 21000000,
       "url": "https://www.youtube.com/results?search_query=Respectfully%2C%20Xaviaer",
       "hasRealUrl": false
     },
     {
       "channel": "Victor Davis Hanson",
       "subscribers": 361000,
-      "q2Growth": 57000,
-      "q2Views": 5100000,
+      "growth": 57000,
+      "views": 5100000,
       "url": "https://www.youtube.com/results?search_query=Victor%20Davis%20Hanson",
       "hasRealUrl": false
     },
     {
       "channel": "BlackConservative24",
       "subscribers": 1700000,
-      "q2Growth": 10000,
-      "q2Views": 42000000,
+      "growth": 10000,
+      "views": 42000000,
       "url": "https://www.youtube.com/results?search_query=BlackConservative24",
       "hasRealUrl": false
     },
     {
       "channel": "Nate The Lawyer",
       "subscribers": 754000,
-      "q2Growth": 15000,
-      "q2Views": 15000000,
+      "growth": 15000,
+      "views": 15000000,
       "url": "https://www.youtube.com/results?search_query=Nate%20The%20Lawyer",
       "hasRealUrl": false
     },
     {
       "channel": "Pod Force One with Miranda Devine",
       "subscribers": 110000,
-      "q2Growth": 16000,
-      "q2Views": 2300000,
+      "growth": 16000,
+      "views": 2300000,
       "url": "https://www.youtube.com/results?search_query=Pod%20Force%20One%20with%20Miranda%20Devine",
       "hasRealUrl": false
     },
     {
       "channel": "Brian Maxwell - Real Politics Podcast",
       "subscribers": 350000,
-      "q2Growth": 15000,
-      "q2Views": 5400000,
+      "growth": 15000,
+      "views": 5400000,
       "url": "https://www.youtube.com/results?search_query=Brian%20Maxwell%20-%20Real%20Politics%20Podcast",
       "hasRealUrl": false
     },
     {
       "channel": "The Free Press",
       "subscribers": 462000,
-      "q2Growth": 16000,
-      "q2Views": 4200000,
+      "growth": 16000,
+      "views": 4200000,
       "url": "https://www.youtube.com/results?search_query=The%20Free%20Press",
       "hasRealUrl": false
     },
     {
       "channel": "Jay Reed",
       "subscribers": 288000,
-      "q2Growth": 40000,
-      "q2Views": 26000000,
+      "growth": 40000,
+      "views": 26000000,
       "url": "https://www.youtube.com/results?search_query=Jay%20Reed",
       "hasRealUrl": false
     },
     {
       "channel": "April Chapman",
       "subscribers": 185000,
-      "q2Growth": 14000,
-      "q2Views": 3200000,
+      "growth": 14000,
+      "views": 3200000,
       "url": "https://www.youtube.com/results?search_query=April%20Chapman",
       "hasRealUrl": false
     },
     {
       "channel": "Edwards Economics",
       "subscribers": 357000,
-      "q2Growth": 11000,
-      "q2Views": 2900000,
+      "growth": 11000,
+      "views": 2900000,
       "url": "https://www.youtube.com/results?search_query=Edwards%20Economics",
       "hasRealUrl": false
     },
     {
       "channel": "Hook Global",
       "subscribers": 1000000,
-      "q2Growth": 109000,
-      "q2Views": 98000000,
+      "growth": 109000,
+      "views": 98000000,
       "url": "https://www.youtube.com/results?search_query=Hook%20Global",
       "hasRealUrl": false
     },
     {
       "channel": "Michael Burns",
       "subscribers": 209000,
-      "q2Growth": 11000,
-      "q2Views": 1400000,
+      "growth": 11000,
+      "views": 1400000,
       "url": "https://www.youtube.com/results?search_query=Michael%20Burns",
       "hasRealUrl": false
     },
     {
       "channel": "Touré",
       "subscribers": 123000,
-      "q2Growth": 47000,
-      "q2Views": 4200000,
+      "growth": 47000,
+      "views": 4200000,
       "url": "https://www.youtube.com/results?search_query=Tour%C3%A9",
       "hasRealUrl": false
     },
     {
       "channel": "Explain America",
       "subscribers": 595000,
-      "q2Growth": 12000,
-      "q2Views": 31000000,
+      "growth": 12000,
+      "views": 31000000,
       "url": "https://www.youtube.com/results?search_query=Explain%20America",
       "hasRealUrl": false
     },
     {
       "channel": "America Uncovered",
       "subscribers": 547000,
-      "q2Growth": -1000,
-      "q2Views": 1300000,
+      "growth": -1000,
+      "views": 1300000,
       "url": "https://www.youtube.com/results?search_query=America%20Uncovered",
       "hasRealUrl": false
     },
     {
       "channel": "Dr Russell Razzaque",
       "subscribers": 183000,
-      "q2Growth": -1000,
-      "q2Views": 205000,
+      "growth": -1000,
+      "views": 205000,
       "url": "https://www.youtube.com/results?search_query=Dr%20Russell%20Razzaque",
       "hasRealUrl": false
     },
     {
       "channel": "Daniel Schonbuch",
       "subscribers": 134000,
-      "q2Growth": 0,
-      "q2Views": 5000000,
+      "growth": 0,
+      "views": 5000000,
       "url": "https://www.youtube.com/results?search_query=Daniel%20Schonbuch",
       "hasRealUrl": false
     },
     {
       "channel": "Jason Whitlock",
       "subscribers": 585000,
-      "q2Growth": 4000,
-      "q2Views": -101000000,
+      "growth": 4000,
+      "views": -101000000,
       "url": "https://www.youtube.com/results?search_query=Jason%20Whitlock",
       "hasRealUrl": false
     },
     {
       "channel": "Sara Gonzales Unfiltered",
       "subscribers": 218000,
-      "q2Growth": 25000,
-      "q2Views": 2400000,
+      "growth": 25000,
+      "views": 2400000,
       "url": "https://www.youtube.com/results?search_query=Sara%20Gonzales%20Unfiltered",
       "hasRealUrl": false
     },
     {
       "channel": "Dr. Drew",
       "subscribers": 216000,
-      "q2Growth": 9000,
-      "q2Views": 945000,
+      "growth": 9000,
+      "views": 945000,
       "url": "https://www.youtube.com/results?search_query=Dr.%20Drew",
       "hasRealUrl": false
     },
     {
       "channel": "Hasan Minhaj",
       "subscribers": 2200000,
-      "q2Growth": 40000,
-      "q2Views": 20000000,
+      "growth": 40000,
+      "views": 20000000,
       "url": "https://www.youtube.com/results?search_query=Hasan%20Minhaj",
       "hasRealUrl": false
     },
     {
       "channel": "Impaulsive",
       "subscribers": 4800000,
-      "q2Growth": 0,
-      "q2Views": 29000000,
+      "growth": 0,
+      "views": 29000000,
       "url": "https://www.youtube.com/results?search_query=Impaulsive",
       "hasRealUrl": false
     }

@@ -1,8 +1,8 @@
-/* Chaotic Era — political-YouTube charts.
-   Three lean-colored, interactive charts driven by data/channels.json + data/lean.json:
-     1. Total subscribers  -> packed-bubble chart (D3 force layout)
-     2. Q2 subscriber growth -> horizontal row chart (top N)
-     3. Q2 video views       -> horizontal row chart (top N)
+/* Chaotic Era — political-YouTube charts (current quarter: Q3 2026).
+   Three lean-colored, interactive charts driven by data/channels-q3.json + data/lean.json:
+     1. Total subscribers    -> packed-bubble chart (D3 force layout)
+     2. Q3 subscriber growth -> horizontal row chart (top N)
+     3. Q3 video views       -> horizontal row chart (top N)
    Color encodes partisan lean (blue = Left … red = Right). */
 (() => {
   "use strict";
@@ -59,7 +59,7 @@
   }
 
   async function build() {
-    const [doc, leanDoc] = await Promise.all([getJSON("data/channels.json"), getJSON("data/lean.json")]);
+    const [doc, leanDoc] = await Promise.all([getJSON("data/channels-q3.json"), getJSON("data/lean.json")]);
     if (!doc || !Array.isArray(doc.channels)) return;
 
     const leans = {};
@@ -70,16 +70,16 @@
       name: String(c.channel || "").trim(),
       url: c.url,
       subscribers: c.subscribers,
-      q2Growth: c.q2Growth,
-      q2Views: c.q2Views,
+      growth: c.growth,
+      views: c.views,
       lean: leans[nameKey(c.channel)] || "unrated",
     }));
 
     updateLegendCounts(items);
     buildBubble(document.getElementById("bubble-chart"), items);
     buildSubsSplit(document.getElementById("subs-split"), items);
-    buildRows(document.getElementById("growth-chart"), items, "q2Growth");
-    buildRows(document.getElementById("views-chart"), items, "q2Views");
+    buildRows(document.getElementById("growth-chart"), items, "growth");
+    buildRows(document.getElementById("views-chart"), items, "views");
   }
 
   // Fill the legend labels with the number of channels in each lean bucket.
@@ -97,13 +97,13 @@
 
   function aggregateByLean(items) {
     const agg = {};
-    for (const k of LEAN_STACK_ORDER) agg[k] = { n: 0, subscribers: 0, q2Growth: 0, q2Views: 0 };
+    for (const k of LEAN_STACK_ORDER) agg[k] = { n: 0, subscribers: 0, growth: 0, views: 0 };
     for (const d of items) {
       const k = agg[d.lean] ? d.lean : "unrated";
       agg[k].n += 1;
       agg[k].subscribers += d.subscribers || 0;
-      agg[k].q2Growth += d.q2Growth || 0;
-      agg[k].q2Views += d.q2Views || 0;
+      agg[k].growth += d.growth || 0;
+      agg[k].views += d.views || 0;
     }
     return agg;
   }
