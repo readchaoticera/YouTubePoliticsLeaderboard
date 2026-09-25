@@ -145,7 +145,7 @@
     });
   }
 
-  /* ---------- Chart 1: packed bubbles (subscribers) ---------- */
+  /* ---------- Chart 1: packed bubbles (subscribers), split Left | Right ---------- */
   function buildBubble(el, allItems) {
     if (!el || typeof d3 === "undefined") return;
     const items = allItems
@@ -157,21 +157,20 @@
     const maxT = d3.max(items, (d) => d.total) || 1;
     // Zero-anchored sqrt scale => bubble AREA is strictly proportional to subscribers.
     const r = d3.scaleSqrt().domain([0, maxT]).range([0, 52]);
-    items.forEach((d, i) => {
+    items.forEach((d) => {
       d.r = r(d.total);
-      const a = (i / items.length) * 2 * Math.PI;
-      d.x = Math.cos(a) * 90;
-      d.y = Math.sin(a) * 140;
+      d.side = d.lean === "left" || d.lean === "left-adjacent" ? "L" : "R";
     });
 
-    const sim = d3
-      .forceSimulation(items)
-      .force("x", d3.forceX(0).strength(0.025))
-      .force("y", d3.forceY(0).strength(0.18))
-      .force("collide", d3.forceCollide((d) => d.r + PAD).iterations(6).strength(1))
-      .stop();
-    for (let i = 0; i < 400; i++) sim.tick();
-    resolveOverlaps(items, PAD, 400);
+    // Pack each lean-side as its own cluster, then set them side by side (blue left, red/pink right).
+    const left = items.filter((d) => d.side === "L");
+    const right = items.filter((d) => d.side === "R");
+    layoutCluster(left, PAD);
+    layoutCluster(right, PAD);
+
+    const GAP = 30; // gap between the two clusters
+    if (left.length) { const b = bbox(left); const s = -GAP / 2 - b.maxX; for (const d of left) d.x += s; }
+    if (right.length) { const b = bbox(right); const s = GAP / 2 - b.minX; for (const d of right) d.x += s; }
 
     let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
     for (const d of items) {
@@ -187,7 +186,7 @@
       .attr("viewBox", `${minX - m} ${minY - m} ${maxX - minX + 2 * m} ${maxY - minY + 2 * m}`)
       .attr("class", "bubbles-svg")
       .attr("role", "img")
-      .attr("aria-label", "Packed bubbles of political YouTube channels, sized by subscribers and colored by partisan lean");
+      .attr("aria-label", "Packed bubbles of political YouTube channels, sized by subscribers and split by partisan lean — left-leaning on the left, right-leaning on the right");
 
     const tip = d3.select(el).append("div").attr("class", "bubble-tip").style("opacity", 0);
 
@@ -213,6 +212,35 @@
       })
       .on("mouseleave", () => tip.style("opacity", 0))
       .on("click", (event, d) => d.url && window.open(d.url, "_blank", "noopener"));
+  }
+
+  // Pack one set of bubbles into a compact, roughly-round cluster centered on the origin.
+  function layoutCluster(items, PAD) {
+    if (!items.length) return;
+    items.forEach((d, i) => {
+      const a = (i / items.length) * 2 * Math.PI;
+      d.x = Math.cos(a) * 80;
+      d.y = Math.sin(a) * 80;
+    });
+    const sim = d3
+      .forceSimulation(items)
+      .force("x", d3.forceX(0).strength(0.06))
+      .force("y", d3.forceY(0).strength(0.06))
+      .force("collide", d3.forceCollide((d) => d.r + PAD).iterations(6).strength(1))
+      .stop();
+    for (let i = 0; i < 400; i++) sim.tick();
+    resolveOverlaps(items, PAD, 400);
+  }
+
+  function bbox(items) {
+    let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+    for (const d of items) {
+      minX = Math.min(minX, d.x - d.r);
+      maxX = Math.max(maxX, d.x + d.r);
+      minY = Math.min(minY, d.y - d.r);
+      maxY = Math.max(maxY, d.y + d.r);
+    }
+    return { minX, minY, maxX, maxY };
   }
 
   function resolveOverlaps(items, pad, maxPasses) {
