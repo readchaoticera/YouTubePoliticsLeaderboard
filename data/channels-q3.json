@@ -2,8 +2,8 @@
   "title": "The Biggest Political YouTube Channels",
   "quarter": "Q3 2026",
   "asOf": "Sep 25, 2026",
-  "generatedAt": "2026-09-25T13:10:11.388Z",
-  "count": 422,
+  "generatedAt": "2026-09-25T13:12:00.133Z",
+  "count": 420,
   "channels": [
     {
       "channel": "Turning Point USA",
@@ -670,14 +670,6 @@
       "hasRealUrl": false
     },
     {
-      "channel": "The Jay Martin Show",
-      "subscribers": 323000,
-      "growth": 42000,
-      "views": 3800000,
-      "url": "https://www.youtube.com/results?search_query=The%20Jay%20Martin%20Show",
-      "hasRealUrl": false
-    },
-    {
       "channel": "Hawk's Podcasts / mdg650hawk",
       "subscribers": 862000,
       "growth": 40000,
@@ -891,14 +883,6 @@
       "growth": 32000,
       "views": 38000000,
       "url": "https://www.youtube.com/results?search_query=The%20Nerve%20with%20Maureen%20Callahan",
-      "hasRealUrl": false
-    },
-    {
-      "channel": "GEN",
-      "subscribers": 810000,
-      "growth": 32000,
-      "views": -40000000,
-      "url": "https://www.youtube.com/results?search_query=GEN",
       "hasRealUrl": false
     },
     {
