@@ -2,8 +2,8 @@
   "title": "The Biggest Political YouTube Channels",
   "quarter": "Q3 2026",
   "asOf": "Sep 25, 2026",
-  "generatedAt": "2026-09-25T13:36:06.608Z",
-  "count": 419,
+  "generatedAt": "2026-09-25T13:41:44.931Z",
+  "count": 420,
   "channels": [
     {
       "channel": "Turning Point USA",
@@ -3355,6 +3355,14 @@
       "growth": -50000,
       "views": 71000000,
       "url": "https://www.youtube.com/results?search_query=Ben%20Shapiro",
+      "hasRealUrl": false
+    },
+    {
+      "channel": "Magno News",
+      "subscribers": 719000,
+      "growth": 27000,
+      "views": 16000000,
+      "url": "https://www.youtube.com/results?search_query=Magno%20News",
       "hasRealUrl": false
     }
   ]

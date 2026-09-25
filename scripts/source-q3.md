@@ -474,3 +474,4 @@ The Comments Section | 3.6M | -20K | 303K
 Candace Owens Podcast | 2.9M | -20K | 19K
 Russell Brand | 6.6M | -40K | 523K
 Ben Shapiro | 7M | -50K | 71M
+Magno News | 719K | 27K | 16M
