@@ -2,8 +2,8 @@
   "title": "The Biggest Political YouTube Channels",
   "quarter": "Q3 2026",
   "asOf": "Sep 25, 2026",
-  "generatedAt": "2026-09-27T16:21:36.610Z",
-  "count": 420,
+  "generatedAt": "2026-09-27T16:26:07.077Z",
+  "count": 421,
   "channels": [
     {
       "channel": "Turning Point USA",
@@ -3363,6 +3363,14 @@
       "growth": -50000,
       "views": 73000000,
       "url": "https://www.youtube.com/results?search_query=Ben%20Shapiro",
+      "hasRealUrl": false
+    },
+    {
+      "channel": "James Talarico",
+      "subscribers": 470000,
+      "growth": 206000,
+      "views": 135000000,
+      "url": "https://www.youtube.com/results?search_query=James%20Talarico",
       "hasRealUrl": false
     }
   ]

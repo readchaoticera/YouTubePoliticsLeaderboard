@@ -475,3 +475,4 @@ The Comments Section | 3.6M | -20K | 301K
 Candace Owens Podcast | 2.9M | -20K | 19K
 Russell Brand | 6.6M | -40K | 440K
 Ben Shapiro | 7M | -50K | 73M
+James Talarico | 470K | 206K | 135M
