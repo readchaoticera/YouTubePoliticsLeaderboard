@@ -270,7 +270,7 @@
     if (!el) return;
     const items = allItems
       .filter((d) => typeof d[key] === "number")
-      .sort((a, b) => b[key] - a[key])
+      .sort((a, b) => b[key] - a[key] || a.name.localeCompare(b.name))
       .slice(0, ROW_LIMIT);
     if (!items.length) return;
 
