@@ -476,3 +476,8 @@ Candace Owens Podcast | 2.9M | -20K | 19K
 Russell Brand | 6.6M | -40K | 440K
 Ben Shapiro | 7M | -50K | 73M
 James Talarico | 470K | 206K | 135M
+Jon Ossoff | 192K | 51K | 15M
+The JAAM | 151K | 12K | 2.6M
+Benaminute | 193K | 22K | 3.9M
+Dave Neal | 283K | 105K | 27M
+Nellie Miranda | 133K | -- | 1.1M

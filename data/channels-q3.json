@@ -2,8 +2,8 @@
   "title": "The Biggest Political YouTube Channels",
   "quarter": "Q3 2026",
   "asOf": "Sep 25, 2026",
-  "generatedAt": "2026-09-27T16:26:07.077Z",
-  "count": 421,
+  "generatedAt": "2026-09-27T17:55:51.924Z",
+  "count": 426,
   "channels": [
     {
       "channel": "Turning Point USA",
@@ -3371,6 +3371,46 @@
       "growth": 206000,
       "views": 135000000,
       "url": "https://www.youtube.com/results?search_query=James%20Talarico",
+      "hasRealUrl": false
+    },
+    {
+      "channel": "Jon Ossoff",
+      "subscribers": 192000,
+      "growth": 51000,
+      "views": 15000000,
+      "url": "https://www.youtube.com/results?search_query=Jon%20Ossoff",
+      "hasRealUrl": false
+    },
+    {
+      "channel": "The JAAM",
+      "subscribers": 151000,
+      "growth": 12000,
+      "views": 2600000,
+      "url": "https://www.youtube.com/results?search_query=The%20JAAM",
+      "hasRealUrl": false
+    },
+    {
+      "channel": "Benaminute",
+      "subscribers": 193000,
+      "growth": 22000,
+      "views": 3900000,
+      "url": "https://www.youtube.com/results?search_query=Benaminute",
+      "hasRealUrl": false
+    },
+    {
+      "channel": "Dave Neal",
+      "subscribers": 283000,
+      "growth": 105000,
+      "views": 27000000,
+      "url": "https://www.youtube.com/results?search_query=Dave%20Neal",
+      "hasRealUrl": false
+    },
+    {
+      "channel": "Nellie Miranda",
+      "subscribers": 133000,
+      "growth": 0,
+      "views": 1100000,
+      "url": "https://www.youtube.com/results?search_query=Nellie%20Miranda",
       "hasRealUrl": false
     }
   ]
