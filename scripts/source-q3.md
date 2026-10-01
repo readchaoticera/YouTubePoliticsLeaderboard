@@ -478,3 +478,4 @@ Valuetainment | 7.2M | -20K | 64M
 The Comments Section | 3.6M | -20K | 301K
 Ben Shapiro | 7M | -40K | 73M
 Russell Brand | 6.6M | -40K | 704K
+Max Fisher | 535K | 250K | 20M
