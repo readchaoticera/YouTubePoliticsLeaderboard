@@ -7,7 +7,7 @@
   const LEAN_URL = "data/lean.json";
   // Quarters, newest first. `short` labels the columns; `label` labels the tab.
   const QUARTERS = {
-    q3: { url: "data/channels-q3.json", short: "Q3", label: "Q3 2026", asOf: "Sep 25, 2026" },
+    q3: { url: "data/channels-q3.json", short: "Q3", label: "Q3 2026", asOf: "September 30th, 2026" },
     q2: { url: "data/channels-q2.json", short: "Q2", label: "Q2 2026", asOf: "Jul 1, 2026" },
   };
 

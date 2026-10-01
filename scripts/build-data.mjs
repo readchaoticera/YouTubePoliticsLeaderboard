@@ -24,7 +24,7 @@ const MIN_SUBS = 100000;
 
 const QUARTERS = [
   { key: "q2", label: "Q2 2026", asOf: "Jul 1, 2026", source: "scripts/source-q2.md", out: "data/channels-q2.json" },
-  { key: "q3", label: "Q3 2026", asOf: "Sep 25, 2026", source: "scripts/source-q3.md", out: "data/channels-q3.json" },
+  { key: "q3", label: "Q3 2026", asOf: "September 30th, 2026", source: "scripts/source-q3.md", out: "data/channels-q3.json" },
 ];
 
 const norm = (s) =>
