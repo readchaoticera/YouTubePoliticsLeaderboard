@@ -2,8 +2,8 @@
   "title": "The Biggest Political YouTube Channels",
   "quarter": "Q3 2026",
   "asOf": "September 30th, 2026",
-  "generatedAt": "2026-10-01T21:36:21.083Z",
-  "count": 426,
+  "generatedAt": "2026-10-01T21:46:31.973Z",
+  "count": 427,
   "channels": [
     {
       "channel": "Turning Point USA",
@@ -763,6 +763,14 @@
       "growth": 40000,
       "views": 60000000,
       "url": "https://www.youtube.com/results?search_query=Andra%20Berghoff",
+      "hasRealUrl": false
+    },
+    {
+      "channel": "Sam Ellis",
+      "subscribers": 993000,
+      "growth": 40000,
+      "views": 9900000,
+      "url": "https://www.youtube.com/results?search_query=Sam%20Ellis",
       "hasRealUrl": false
     },
     {
