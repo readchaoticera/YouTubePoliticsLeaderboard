@@ -23,6 +23,7 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const MIN_SUBS = 100000;
 
 const QUARTERS = [
+  { key: "q1", label: "Q1 2026", asOf: "Apr 1, 2026", source: "scripts/source-q1.md", out: "data/channels-q1.json" },
   { key: "q2", label: "Q2 2026", asOf: "Jul 1, 2026", source: "scripts/source-q2.md", out: "data/channels-q2.json" },
   { key: "q3", label: "Q3 2026", asOf: "September 30th, 2026", source: "scripts/source-q3.md", out: "data/channels-q3.json" },
 ];

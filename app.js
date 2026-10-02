@@ -9,6 +9,7 @@
   const QUARTERS = {
     q3: { url: "data/channels-q3.json", short: "Q3", label: "Q3 2026", asOf: "September 30th, 2026" },
     q2: { url: "data/channels-q2.json", short: "Q2", label: "Q2 2026", asOf: "Jul 1, 2026" },
+    q1: { url: "data/channels-q1.json", short: "Q1", label: "Q1 2026", asOf: "Apr 1, 2026" },
   };
 
   // Subjective partisan-lean buckets (data/lean.json maps channel name -> key).
